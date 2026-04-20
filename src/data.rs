@@ -35,5 +35,55 @@ impl std::error::Error for DataError {}
 
 pub fn load_dataset_from_str(raw: &str) -> Result<Dataset, DataError> {
     let ds: Dataset = serde_json::from_str(raw).map_err(DataError::Parse)?;
+    validate(&ds)?;
     Ok(ds)
+}
+
+fn validate(ds: &Dataset) -> Result<(), DataError> {
+    use std::collections::HashSet;
+
+    let mut company_ids = HashSet::new();
+    for c in &ds.companies {
+        if !company_ids.insert(c.id.clone()) {
+            return Err(DataError::DuplicateId {
+                collection: "companies",
+                id: c.id.clone(),
+            });
+        }
+    }
+
+    let mut location_ids = HashSet::new();
+    for l in &ds.locations {
+        if !location_ids.insert(l.id.clone()) {
+            return Err(DataError::DuplicateId {
+                collection: "locations",
+                id: l.id.clone(),
+            });
+        }
+        if !company_ids.contains(&l.company_id) {
+            return Err(DataError::OrphanLocation {
+                location_id: l.id.clone(),
+                company_id: l.company_id.clone(),
+            });
+        }
+        if !(-90.0..=90.0).contains(&l.lat) || !(-180.0..=180.0).contains(&l.lng) {
+            return Err(DataError::OutOfRangeCoord {
+                location_id: l.id.clone(),
+                lat: l.lat,
+                lng: l.lng,
+            });
+        }
+    }
+
+    let companies_with_location: HashSet<&String> =
+        ds.locations.iter().map(|l| &l.company_id).collect();
+    for c in &ds.companies {
+        if !companies_with_location.contains(&c.id) {
+            return Err(DataError::CompanyWithoutLocations {
+                company_id: c.id.clone(),
+            });
+        }
+    }
+
+    Ok(())
 }
