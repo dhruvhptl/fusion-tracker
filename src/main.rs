@@ -1,9 +1,11 @@
-use axum::{routing::get, Router};
+use fusion_tracker::{data, routes};
 use std::net::SocketAddr;
+use std::sync::Arc;
 
 #[tokio::main]
 async fn main() {
-    let app = Router::new().route("/", get(|| async { "fusion tracker boot ok" }));
+    let dataset = data::load_dataset_from_path("data/companies.json");
+    let app = routes::app(Arc::new(dataset));
 
     let port: u16 = std::env::var("PORT")
         .ok()

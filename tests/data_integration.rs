@@ -111,3 +111,30 @@ fn rejects_malformed_json() {
     let err = load_dataset_from_str("not json").unwrap_err();
     assert!(matches!(err, fusion_tracker::data::DataError::Parse(_)));
 }
+
+use axum::body::Body;
+use axum::http::{Request, StatusCode};
+use http_body_util::BodyExt;
+use std::sync::Arc;
+use tower::ServiceExt;
+
+#[tokio::test]
+async fn api_companies_returns_dataset() {
+    let ds = load_dataset_from_str(VALID_JSON).unwrap();
+    let app = fusion_tracker::routes::app(Arc::new(ds));
+
+    let response = app
+        .oneshot(
+            Request::builder()
+                .uri("/api/companies")
+                .body(Body::empty())
+                .unwrap(),
+        )
+        .await
+        .unwrap();
+
+    assert_eq!(response.status(), StatusCode::OK);
+    let bytes = response.into_body().collect().await.unwrap().to_bytes();
+    let body: serde_json::Value = serde_json::from_slice(&bytes).unwrap();
+    assert_eq!(body["companies"][0]["id"], "acme");
+}
