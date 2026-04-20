@@ -62,15 +62,42 @@ function handleMarkerClick(location) {
     console.warn("click on unknown company_id", location.company_id);
     return;
   }
+  const previousId = state.selectedCompanyId;
   state.selectedCompanyId = company.id;
+
   state.globe.pointColor((d) =>
     state.selectedCompanyId === d.company_id ? AMBER : TEAL
   );
 
+  const baseRadius = 0.4;
+  const pulseRadius = 0.75;
+  state.globe.pointRadius((d) =>
+    state.selectedCompanyId === d.company_id ? pulseRadius : baseRadius
+  );
+  setTimeout(() => {
+    state.globe.pointRadius(() => baseRadius);
+  }, 400);
+
   centerOnLocation(location);
-  populateSidebar(company, location);
-  openSidebar();
+  const sidebarOpen = !document.getElementById("sidebar").hidden;
+  if (sidebarOpen && previousId !== company.id) {
+    crossfadeSidebar(() => {
+      populateSidebar(company, location);
+    });
+  } else {
+    populateSidebar(company, location);
+    openSidebar();
+  }
   pauseAutoRotate({ resume: false });
+}
+
+function crossfadeSidebar(updateFn) {
+  const sidebar = document.getElementById("sidebar");
+  sidebar.classList.add("fading");
+  setTimeout(() => {
+    updateFn();
+    sidebar.classList.remove("fading");
+  }, 150);
 }
 
 function centerOnLocation(location) {

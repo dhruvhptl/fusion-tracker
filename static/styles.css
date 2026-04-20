@@ -117,6 +117,15 @@ main {
   z-index: 20;
 }
 
+#sidebar > :not(#sidebar-close) {
+  opacity: 1;
+  transition: opacity 150ms ease;
+}
+#sidebar.fading > :not(#sidebar-close) {
+  opacity: 0;
+  transition: opacity 150ms ease;
+}
+
 /* Mobile: bottom sheet */
 @media (max-width: 768px) {
   #sidebar {
