@@ -1,0 +1,33 @@
+<h2>How should HQs and facilities look different?</h2>
+<p class="subtitle">15 companies with ~8 extra facility markers means ~23 dots on the globe. The user needs to tell HQ apart from facility at a glance without hovering.</p>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Size — HQ bigger, facility smaller</h3>
+      <p>Same color (teal/cyan), HQ dot ~1.5× larger. Simple, readable, reinforces the "company has one HQ and several sites" hierarchy.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Shape — HQ solid dot, facility hollow ring</h3>
+      <p>Same size, same color. Visually distinct without a hierarchy. Works well when HQ and facility are colocated.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Altitude — HQ on surface, facility slightly raised</h3>
+      <p>Both dots, but facility floats a bit above the globe surface (tiny 3D offset). Subtle but reads clearly on a rotating globe.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="d" onclick="toggleSelect(this)">
+    <div class="letter">D</div>
+    <div class="content">
+      <h3>Don't differentiate — handle it in the sidebar</h3>
+      <p>All markers identical on the globe. The sidebar tells you HQ vs. facility. Cleanest look, but loses info density.</p>
+    </div>
+  </div>
+</div>

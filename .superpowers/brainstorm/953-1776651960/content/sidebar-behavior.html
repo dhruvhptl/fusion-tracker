@@ -1,0 +1,26 @@
+<h2>When the sidebar opens, what does the globe do?</h2>
+<p class="subtitle">The drawer slides in from the right. The clicked marker's company has 1-3 highlighted locations. We need to decide how much the globe reacts.</p>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Globe stays put, auto-rotate pauses</h3>
+      <p>No camera movement. Only change: all markers for that company warm up to the "selected" color. User can still drag to explore. Minimal, respects user's current view.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Globe gently rotates to center the clicked marker</h3>
+      <p>Smooth ~800ms rotation so the clicked dot sits left-of-center (drawer takes the right third). Other company markers glow wherever they are. Feels responsive.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Globe zooms + centers on the company's markers collectively</h3>
+      <p>Camera frames all of the company's dots (e.g., CFS's HQ + Virginia plant). Most cinematic, but can feel jerky for globally spread companies.</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<h2>How do you want to run and deploy this?</h2>
+<p class="subtitle">The PRD picks Axum (Rust) as the backend. Before I design file structure, I need to know what "done" looks like for v1.</p>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Just runs locally for now</h3>
+      <p><code>cargo run</code>, open localhost. No deployment config, no Docker, no CI. Fastest path to a working demo you can show someone over your shoulder.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Local + ready-to-deploy to Railway</h3>
+      <p>Local dev works, plus a Dockerfile and railway.json so you can push it live whenever. Small amount of extra config, gives you a shareable URL when you want one.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Full-stack: deploy, domain, CI tests</h3>
+      <p>Railway config + GitHub Actions running <code>cargo test</code> on push. More scaffolding up front. Worth it if you plan to iterate on this seriously.</p>
+    </div>
+  </div>
+</div>
