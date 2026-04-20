@@ -87,3 +87,15 @@ fn validate(ds: &Dataset) -> Result<(), DataError> {
 
     Ok(())
 }
+
+use std::path::Path;
+
+pub fn load_dataset_from_path<P: AsRef<Path>>(path: P) -> Dataset {
+    let path_ref = path.as_ref();
+    let raw = std::fs::read_to_string(path_ref)
+        .unwrap_or_else(|e| panic!("failed to read {}: {e}", path_ref.display()));
+    match load_dataset_from_str(&raw) {
+        Ok(ds) => ds,
+        Err(e) => panic!("invalid dataset at {}: {e}", path_ref.display()),
+    }
+}
