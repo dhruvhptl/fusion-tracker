@@ -1,0 +1,194 @@
+{
+  "companies": [
+    {
+      "id": "cfs",
+      "name": "Commonwealth Fusion Systems",
+      "description": "Tokamak with high-temperature superconducting magnets; has raised about a third of all private fusion capital.",
+      "reactor_type": "Tokamak (HTS magnets)",
+      "funding_raised_usd": 3000000000,
+      "funding_display": "~$3B",
+      "current_milestone": "Expects Sparc operational late 2026 or early 2027.",
+      "source_url": "https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m/"
+    },
+    {
+      "id": "tae",
+      "name": "TAE Technologies",
+      "description": "Field-reversed configuration with particle beam bombardment; founded 1998 as a UC Irvine spinout.",
+      "reactor_type": "Field-reversed configuration",
+      "funding_raised_usd": 1790000000,
+      "funding_display": "$1.79B",
+      "current_milestone": "Announced merger with Trump Media & Technology Group (Dec 2025) at a $6B combined valuation.",
+      "source_url": "https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m/"
+    },
+    {
+      "id": "helion",
+      "name": "Helion",
+      "description": "Field-reversed configuration with direct electricity harvesting; has the most aggressive commercialization timeline.",
+      "reactor_type": "Field-reversed configuration",
+      "funding_raised_usd": 1030000000,
+      "funding_display": "$1.03B",
+      "current_milestone": "Plans to produce electricity by 2028 for Microsoft; raised $425M in Jan 2025.",
+      "source_url": "https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m/"
+    },
+    {
+      "id": "pacific-fusion",
+      "name": "Pacific Fusion",
+      "description": "Inertial confinement using 156 coordinated Marx generators; led by Eric Lander and Will Regan.",
+      "reactor_type": "Inertial confinement (pulsed power)",
+      "funding_raised_usd": 900000000,
+      "funding_display": "$900M Series A",
+      "current_milestone": "Funding structured in milestone-gated tranches.",
+      "source_url": "https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m/"
+    },
+    {
+      "id": "shine",
+      "name": "Shine Technologies",
+      "description": "Pragmatic path generating near-term revenue via neutron testing, medical isotopes, and waste recycling.",
+      "reactor_type": "Neutron source / fusion precursor",
+      "funding_raised_usd": 1000000000,
+      "funding_display": "$1B",
+      "current_milestone": "Raised $240M in Feb 2026.",
+      "source_url": "https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m/"
+    },
+    {
+      "id": "general-fusion",
+      "name": "General Fusion",
+      "description": "Magnetized target fusion with liquid metal compression; founded 2002 by physicist Michel Laberge.",
+      "reactor_type": "Magnetized target fusion",
+      "funding_raised_usd": 612000000,
+      "funding_display": "$612M",
+      "current_milestone": "Planning IPO via reverse merger, potentially raising an additional $335M.",
+      "source_url": "https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m/"
+    },
+    {
+      "id": "inertia",
+      "name": "Inertia Enterprises",
+      "description": "Laser-based inertial confinement with silicon nanostructure targets; founders include Annie Kritcher, Mike Dunne, and Jeff Lawson.",
+      "reactor_type": "Laser inertial confinement",
+      "funding_raised_usd": 450000000,
+      "funding_display": "$450M Series A",
+      "current_milestone": "Emerged from stealth Feb 2026; demonstration facility with CSU targeted for 2027.",
+      "source_url": "https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m/"
+    },
+    {
+      "id": "tokamak-energy",
+      "name": "Tokamak Energy",
+      "description": "Compact spherical tokamak with HTS magnets; squeezed design reduces magnet requirements.",
+      "reactor_type": "Spherical tokamak (HTS)",
+      "funding_raised_usd": 336000000,
+      "funding_display": "$336M",
+      "current_milestone": "Raised $125M in Nov 2024; Demo 4 under construction.",
+      "source_url": "https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m/"
+    },
+    {
+      "id": "zap-energy",
+      "name": "Zap Energy",
+      "description": "Electrostatic confinement generating its own magnetic field; compresses plasma to ~1 mm for ignition.",
+      "reactor_type": "Sheared-flow Z-pinch",
+      "funding_raised_usd": 327000000,
+      "funding_display": "$327M",
+      "current_milestone": "Backed by Breakthrough Energy Ventures.",
+      "source_url": "https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m/"
+    },
+    {
+      "id": "type-one",
+      "name": "Type One Energy",
+      "description": "Stellarator magnetic confinement; plans to license technology for TVA coal plant site conversion.",
+      "reactor_type": "Stellarator",
+      "funding_raised_usd": 269000000,
+      "funding_display": "$269M",
+      "current_milestone": "Raised $87M equity round ahead of a $250M Series B in progress.",
+      "source_url": "https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m/"
+    },
+    {
+      "id": "proxima",
+      "name": "Proxima Fusion",
+      "description": "Stellarator with twisted, bulging magnetic confinement; bucking the tokamak trend.",
+      "reactor_type": "Stellarator",
+      "funding_raised_usd": 200000000,
+      "funding_display": "€185M",
+      "current_milestone": "Raised €130M Series A in Jun 2025.",
+      "source_url": "https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m/"
+    },
+    {
+      "id": "kyoto-fusioneering",
+      "name": "Kyoto Fusioneering",
+      "description": "Balance-of-plant components and integration systems including gyrotrons and heat extraction.",
+      "reactor_type": "Supporting technology",
+      "funding_raised_usd": 191000000,
+      "funding_display": "$191M",
+      "current_milestone": "Positioning as a supplier for whichever fusion technology succeeds.",
+      "source_url": "https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m/"
+    },
+    {
+      "id": "marvel",
+      "name": "Marvel Fusion",
+      "description": "Laser-based inertial confinement using semiconductor-manufactured silicon nanostructure targets.",
+      "reactor_type": "Laser inertial confinement",
+      "funding_raised_usd": 162000000,
+      "funding_display": "$162M",
+      "current_milestone": "Raised $70M in 2024; CSU demonstration facility targeted for 2027.",
+      "source_url": "https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m/"
+    },
+    {
+      "id": "first-light",
+      "name": "First Light Fusion",
+      "description": "Projectile-based inertial confinement via two-stage gun using gunpowder and hydraulic compression.",
+      "reactor_type": "Projectile inertial confinement",
+      "funding_raised_usd": 108000000,
+      "funding_display": "$108M",
+      "current_milestone": "Pivoted to licensing technology rather than building power plants (Mar 2025).",
+      "source_url": "https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m/"
+    },
+    {
+      "id": "xcimer",
+      "name": "Xcimer",
+      "description": "Laser-based inertial confinement with molten salt walls; aims for a 10-megajoule laser (5× NIF).",
+      "reactor_type": "Laser inertial confinement",
+      "funding_raised_usd": 100000000,
+      "funding_display": "$100M",
+      "current_milestone": "Reached the $100M funding threshold; founded January 2022.",
+      "source_url": "https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m/"
+    }
+  ],
+  "locations": [
+    {"id": "cfs-hq",    "company_id": "cfs",              "name": "CFS Headquarters",           "location_type": "hq",       "city": "Devens",       "country": "USA",     "lat": 42.5359, "lng": -71.6070, "status": "active"},
+    {"id": "cfs-sparc", "company_id": "cfs",              "name": "Sparc Reactor",              "location_type": "facility", "city": "Devens",       "country": "USA",     "lat": 42.5359, "lng": -71.6070, "status": "active"},
+    {"id": "cfs-arc",   "company_id": "cfs",              "name": "Arc Commercial Plant",       "location_type": "facility", "city": "near Richmond","country": "USA",     "lat": 37.5407, "lng": -77.4360, "status": "planned"},
+
+    {"id": "tae-hq",    "company_id": "tae",              "name": "TAE Headquarters",           "location_type": "hq",       "city": "Foothill Ranch","country": "USA",    "lat": 33.6856, "lng": -117.6653, "status": "active"},
+
+    {"id": "helion-hq",      "company_id": "helion",      "name": "Helion Headquarters",        "location_type": "hq",       "city": "Everett",      "country": "USA",     "lat": 47.9790, "lng": -122.2021, "status": "active"},
+    {"id": "helion-polaris", "company_id": "helion",      "name": "Polaris Prototype",          "location_type": "facility", "city": "Everett",      "country": "USA",     "lat": 47.9790, "lng": -122.2021, "status": "active"},
+
+    {"id": "pacific-hq", "company_id": "pacific-fusion",  "name": "Pacific Fusion HQ",          "location_type": "hq",       "city": "Fremont",      "country": "USA",     "lat": 37.5485, "lng": -121.9886, "status": "active"},
+
+    {"id": "shine-hq",  "company_id": "shine",            "name": "Shine Headquarters",         "location_type": "hq",       "city": "Janesville",   "country": "USA",     "lat": 42.6828, "lng": -89.0187, "status": "active"},
+
+    {"id": "gf-hq",     "company_id": "general-fusion",   "name": "General Fusion HQ",          "location_type": "hq",       "city": "Richmond, BC", "country": "Canada",  "lat": 49.1666, "lng": -123.1336, "status": "active"},
+    {"id": "gf-lm26",   "company_id": "general-fusion",   "name": "LM26 Device",                "location_type": "facility", "city": "Richmond, BC", "country": "Canada",  "lat": 49.1666, "lng": -123.1336, "status": "active"},
+
+    {"id": "inertia-hq",  "company_id": "inertia",        "name": "Inertia Enterprises HQ",     "location_type": "hq",       "city": "Livermore",    "country": "USA",     "lat": 37.6819, "lng": -121.7680, "status": "active"},
+    {"id": "inertia-csu", "company_id": "inertia",        "name": "CSU Demonstration Facility", "location_type": "facility", "city": "Fort Collins", "country": "USA",     "lat": 40.5853, "lng": -105.0844, "status": "planned"},
+
+    {"id": "te-hq",      "company_id": "tokamak-energy", "name": "Tokamak Energy HQ",           "location_type": "hq",       "city": "Abingdon",     "country": "UK",      "lat": 51.6708, "lng":  -1.2880, "status": "active"},
+    {"id": "te-st40",    "company_id": "tokamak-energy", "name": "ST40 Prototype",              "location_type": "facility", "city": "Abingdon",     "country": "UK",      "lat": 51.6708, "lng":  -1.2880, "status": "active"},
+    {"id": "te-demo4",   "company_id": "tokamak-energy", "name": "Demo 4",                      "location_type": "facility", "city": "Abingdon",     "country": "UK",      "lat": 51.6708, "lng":  -1.2880, "status": "planned"},
+
+    {"id": "zap-hq",     "company_id": "zap-energy",      "name": "Zap Energy HQ",              "location_type": "hq",       "city": "Everett",      "country": "USA",     "lat": 47.9790, "lng": -122.2021, "status": "active"},
+
+    {"id": "type1-hq",   "company_id": "type-one",        "name": "Type One Energy HQ",         "location_type": "hq",       "city": "Madison",      "country": "USA",     "lat": 43.0731, "lng": -89.4012, "status": "active"},
+    {"id": "type1-tva",  "company_id": "type-one",        "name": "TVA Bull Run Site",          "location_type": "facility", "city": "Oak Ridge",    "country": "USA",     "lat": 36.0103, "lng": -84.2696, "status": "planned"},
+
+    {"id": "proxima-hq", "company_id": "proxima",         "name": "Proxima Fusion HQ",          "location_type": "hq",       "city": "Munich",       "country": "Germany", "lat": 48.1351, "lng":  11.5820, "status": "active"},
+
+    {"id": "kyoto-hq",   "company_id": "kyoto-fusioneering","name": "Kyoto Fusioneering HQ",    "location_type": "hq",       "city": "Tokyo",        "country": "Japan",   "lat": 35.6762, "lng": 139.6503, "status": "active"},
+
+    {"id": "marvel-hq",  "company_id": "marvel",          "name": "Marvel Fusion HQ",           "location_type": "hq",       "city": "Munich",       "country": "Germany", "lat": 48.1351, "lng":  11.5820, "status": "active"},
+    {"id": "marvel-csu", "company_id": "marvel",          "name": "CSU Demonstration Facility", "location_type": "facility", "city": "Fort Collins", "country": "USA",     "lat": 40.5853, "lng": -105.0844, "status": "planned"},
+
+    {"id": "fl-hq",      "company_id": "first-light",     "name": "First Light Fusion HQ",      "location_type": "hq",       "city": "Yarnton",      "country": "UK",      "lat": 51.8054, "lng":  -1.3093, "status": "active"},
+
+    {"id": "xcimer-hq",  "company_id": "xcimer",          "name": "Xcimer Energy HQ",           "location_type": "hq",       "city": "Denver",       "country": "USA",     "lat": 39.7392, "lng": -104.9903, "status": "active"}
+  ]
+}

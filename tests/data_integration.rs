@@ -138,3 +138,11 @@ async fn api_companies_returns_dataset() {
     let body: serde_json::Value = serde_json::from_slice(&bytes).unwrap();
     assert_eq!(body["companies"][0]["id"], "acme");
 }
+
+#[test]
+fn real_seed_data_is_valid() {
+    let raw = std::fs::read_to_string("data/companies.json").expect("seed data missing");
+    let ds = load_dataset_from_str(&raw).expect("seed data must validate");
+    assert_eq!(ds.companies.len(), 15);
+    assert!(ds.locations.len() >= 15);
+}
