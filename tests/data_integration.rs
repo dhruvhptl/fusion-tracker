@@ -85,7 +85,10 @@ fn rejects_duplicate_company_id() {
     let err = load_dataset_from_str(json).unwrap_err();
     assert!(matches!(
         err,
-        fusion_tracker::data::DataError::DuplicateId { collection: "companies", .. }
+        fusion_tracker::data::DataError::DuplicateId {
+            collection: "companies",
+            ..
+        }
     ));
 }
 
