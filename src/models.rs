@@ -34,8 +34,6 @@ pub struct Project {
     pub source_url: Option<String>,
     pub credibility_bucket: Option<CredibilityBucket>,
     #[serde(default)]
-    pub render_on_main_globe: bool,
-    #[serde(default)]
     pub globe_modes: Vec<String>,
     #[serde(skip_deserializing, default)]
     pub layer: ProjectLayer,

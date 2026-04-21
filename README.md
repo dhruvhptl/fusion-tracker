@@ -1,6 +1,6 @@
 # Fusion Tracker
 
-Dark, globe-first website showing major fusion companies and their reactor/demo facilities around the world. Seed dataset: the 15 companies in TechCrunch's April 2026 roundup of fusion startups that have raised over $100M.
+Dark, globe-first website showing major fusion projects and facilities around the world. Seed dataset covers commercial-race front-runners plus important / unique science prototypes and international roadmaps.
 
 ## Run locally
 
@@ -22,18 +22,19 @@ Railway auto-deploys from `main` via the included `Dockerfile` + `railway.json`.
 
 ## Manual smoke-test checklist
 
-- [ ] Page loads with a dark, rotating globe and visible teal markers.
+- [ ] Page loads with a dark, rotating globe and visible teal/amber markers.
+- [ ] Mode toggle at top shows "Commercial race" (default) and "Important / unique"; flipping it swaps the marker set.
 - [ ] Dragging the globe pauses auto-rotation.
-- [ ] Hovering a marker shows a label.
-- [ ] Clicking a marker turns that company's markers amber, rotates the globe, and opens the right-side drawer.
-- [ ] Drawer shows name, description, viewing badge, HQ, reactor, funding, milestone, source link.
-- [ ] Clicking a different company's marker crossfades the sidebar.
+- [ ] Hovering a marker shows a label with project and operator.
+- [ ] Clicking a marker turns all markers from the same operator amber, rotates the globe, and opens the right-side drawer.
+- [ ] Drawer shows project name, operator, credibility/stage badge, location, reactor, funding, target year, offtaker, utility partner, current milestone, source link.
+- [ ] Clicking a marker for a different operator crossfades the sidebar.
 - [ ] `X`, `Esc`, and clicking empty globe each close the drawer.
 - [ ] Mobile viewport (<768px): drawer appears as a bottom sheet.
 
 ## Layout
 
 - `src/` — Axum app (`main.rs`, `routes.rs`, `data.rs`, `models.rs`).
-- `data/companies.json` — seed dataset, validated at startup.
+- `data/projects.json` — seed dataset, validated at startup.
 - `static/` — `index.html`, `styles.css`, `globe.js`.
 - `tests/` — Rust integration tests.
