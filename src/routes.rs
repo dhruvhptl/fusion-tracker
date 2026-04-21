@@ -8,14 +8,14 @@ use axum::{
 use std::sync::Arc;
 use tower_http::services::ServeDir;
 
-use crate::models::Dataset;
+use crate::models::{Project, ProjectsResponse};
 
-pub type SharedState = Arc<Dataset>;
+pub type SharedState = Arc<Vec<Project>>;
 
 pub fn app(state: SharedState) -> Router {
     Router::new()
         .route("/", get(index))
-        .route("/api/companies", get(companies))
+        .route("/api/projects", get(projects))
         .nest_service("/static", ServeDir::new("static"))
         .with_state(state)
 }
@@ -32,6 +32,8 @@ async fn index() -> impl IntoResponse {
     }
 }
 
-async fn companies(State(ds): State<SharedState>) -> Json<Dataset> {
-    Json((*ds).clone())
+async fn projects(State(projects): State<SharedState>) -> Json<ProjectsResponse> {
+    Json(ProjectsResponse {
+        projects: (*projects).clone(),
+    })
 }

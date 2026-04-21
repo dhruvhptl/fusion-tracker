@@ -1,51 +1,73 @@
 const NIGHT_LIGHTS_URL = "https://unpkg.com/three-globe@2.31.1/example/img/earth-night.jpg";
-const TEAL = "#4dd0e1";
 const AMBER = "#ffb74d";
-const FACILITY_ALTITUDE = 0.015;
-const HQ_ALTITUDE = 0.0;
+const TEAL = "#4dd0e1";
+const MUTED = "#8da1bb";
+const BASE_RADIUS = 0.4;
+const PULSE_RADIUS = 0.75;
+
+const DEFAULT_MODE = "commercial_race";
 
 const state = {
-  dataset: null,
-  selectedCompanyId: null,
+  projects: [],
+  mode: DEFAULT_MODE,
+  selectedCompany: null,
   globe: null,
   autoRotateTimer: null,
   lastMarkerClickAt: 0,
 };
 
+function visibleProjects() {
+  return state.projects.filter((p) => (p.globe_modes || []).includes(state.mode));
+}
+
 async function main() {
   try {
-    const res = await fetch("/api/companies");
+    const res = await fetch("/api/projects");
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    state.dataset = await res.json();
+    const body = await res.json();
+    state.projects = body.projects ?? [];
   } catch (err) {
-    console.error("failed to load /api/companies", err);
-    showToast("Couldn't load companies. Refresh to retry.");
+    console.error("failed to load /api/projects", err);
+    showToast("Couldn't load projects. Refresh to retry.");
     initGlobe([]);
     return;
   }
-  initGlobe(state.dataset.locations);
+  initGlobe(visibleProjects());
   attachSidebarHandlers();
+  attachModeToggle();
 }
 
-function initGlobe(locations) {
+function markerColor(p) {
+  if (state.selectedCompany && p.company_or_operator === state.selectedCompany) {
+    return AMBER;
+  }
+  switch (p.credibility_bucket) {
+    case "front_runner":
+      return AMBER;
+    case "credible":
+      return TEAL;
+    default:
+      return MUTED;
+  }
+}
+
+function initGlobe(projects) {
   const globeEl = document.getElementById("globe");
   const globe = Globe()(globeEl)
     .globeImageUrl(NIGHT_LIGHTS_URL)
     .backgroundColor("#05070d")
     .atmosphereColor("#4dd0e1")
     .atmosphereAltitude(0.15)
-    .pointsData(locations)
-    .pointLat((d) => d.lat)
-    .pointLng((d) => d.lng)
-    .pointAltitude((d) => (d.location_type === "facility" ? FACILITY_ALTITUDE : HQ_ALTITUDE))
-    .pointRadius(0.4)
-    .pointColor((d) =>
-      state.selectedCompanyId === d.company_id ? AMBER : TEAL
+    .pointsData(projects)
+    .pointLat((d) => d.latitude)
+    .pointLng((d) => d.longitude)
+    .pointAltitude(0.01)
+    .pointRadius(BASE_RADIUS)
+    .pointColor(markerColor)
+    .pointLabel(
+      (d) =>
+        `<div class="marker-label">${escapeHtml(d.project_name)} — ${escapeHtml(d.company_or_operator)}</div>`
     )
-    .pointLabel((d) => {
-      const company = findCompany(d.company_id);
-      return `<div class="marker-label">${escapeHtml(d.name)} — ${escapeHtml(company?.name ?? "")}</div>`;
-    })
     .onPointClick((d) => handleMarkerClick(d));
 
   globe.controls().autoRotate = true;
@@ -55,37 +77,26 @@ function initGlobe(locations) {
   state.globe = globe;
 }
 
-function handleMarkerClick(location) {
+function handleMarkerClick(project) {
   state.lastMarkerClickAt = Date.now();
-  const company = findCompany(location.company_id);
-  if (!company) {
-    console.warn("click on unknown company_id", location.company_id);
-    return;
-  }
-  const previousId = state.selectedCompanyId;
-  state.selectedCompanyId = company.id;
+  const previousCompany = state.selectedCompany;
+  state.selectedCompany = project.company_or_operator;
 
-  state.globe.pointColor((d) =>
-    state.selectedCompanyId === d.company_id ? AMBER : TEAL
-  );
+  state.globe.pointColor(markerColor);
 
-  const baseRadius = 0.4;
-  const pulseRadius = 0.75;
   state.globe.pointRadius((d) =>
-    state.selectedCompanyId === d.company_id ? pulseRadius : baseRadius
+    d.company_or_operator === state.selectedCompany ? PULSE_RADIUS : BASE_RADIUS
   );
   setTimeout(() => {
-    state.globe.pointRadius(() => baseRadius);
+    state.globe.pointRadius(() => BASE_RADIUS);
   }, 400);
 
-  centerOnLocation(location);
+  centerOnProject(project);
   const sidebarOpen = !document.getElementById("sidebar").hidden;
-  if (sidebarOpen && previousId !== company.id) {
-    crossfadeSidebar(() => {
-      populateSidebar(company, location);
-    });
+  if (sidebarOpen && previousCompany !== project.company_or_operator) {
+    crossfadeSidebar(() => populateSidebar(project));
   } else {
-    populateSidebar(company, location);
+    populateSidebar(project);
     openSidebar();
   }
   pauseAutoRotate({ resume: false });
@@ -100,41 +111,54 @@ function crossfadeSidebar(updateFn) {
   }, 150);
 }
 
-function centerOnLocation(location) {
+function centerOnProject(project) {
   const lngOffset = window.innerWidth > 768 ? -20 : 0;
   state.globe.pointOfView(
-    { lat: location.lat, lng: location.lng + lngOffset, altitude: 1.8 },
+    { lat: project.latitude, lng: project.longitude + lngOffset, altitude: 1.8 },
     800
   );
 }
 
-function findCompany(id) {
-  return state.dataset?.companies.find((c) => c.id === id);
+function fmtFunding(usd) {
+  if (usd == null) return "—";
+  if (usd >= 1_000_000_000) return `$${(usd / 1_000_000_000).toFixed(usd % 1_000_000_000 === 0 ? 0 : 2)}B`;
+  if (usd >= 1_000_000) return `$${Math.round(usd / 1_000_000)}M`;
+  return `$${usd.toLocaleString()}`;
 }
 
-function findHqLocation(companyId) {
-  return state.dataset?.locations.find(
-    (l) => l.company_id === companyId && l.location_type === "hq"
-  );
+function fmtStage(stage) {
+  if (!stage) return "—";
+  return stage.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
-function populateSidebar(company, location) {
-  const hq = findHqLocation(company.id);
-  document.getElementById("sidebar-company-name").textContent = company.name;
-  document.getElementById("sidebar-description").textContent = company.description;
+function fmtOrDash(v) {
+  return v == null || v === "" ? "—" : v;
+}
 
-  const typeLabel = location.location_type === "hq" ? "HQ" : "Facility";
-  document.getElementById("sidebar-location-badge").textContent =
-    `Viewing: ${location.name} · ${typeLabel} (${location.status})`;
+function populateSidebar(p) {
+  document.getElementById("sidebar-project-name").textContent = p.project_name;
+  document.getElementById("sidebar-company").textContent = p.company_or_operator;
 
-  document.getElementById("sidebar-hq").textContent = hq
-    ? `${hq.city}, ${hq.country}`
-    : "—";
-  document.getElementById("sidebar-reactor").textContent = company.reactor_type;
-  document.getElementById("sidebar-funding").textContent = company.funding_display;
-  document.getElementById("sidebar-milestone").textContent = company.current_milestone;
+  const bucket = p.credibility_bucket ? fmtStage(p.credibility_bucket) : "—";
+  const stage = fmtStage(p.project_stage);
+  document.getElementById("sidebar-badge").textContent = `${bucket} · ${stage}`;
+
+  document.getElementById("sidebar-location").textContent =
+    `${p.city_or_region}, ${p.country}`;
+  document.getElementById("sidebar-reactor").textContent = fmtOrDash(p.reactor_type);
+  document.getElementById("sidebar-funding").textContent = fmtFunding(p.funding_raised_usd);
+  document.getElementById("sidebar-target").textContent = fmtOrDash(p.target_online_year);
+  document.getElementById("sidebar-offtaker").textContent = fmtOrDash(p.offtaker);
+  document.getElementById("sidebar-utility").textContent = fmtOrDash(p.utility_partner);
+  document.getElementById("sidebar-milestone").textContent = fmtOrDash(p.current_milestone);
+
   const src = document.getElementById("sidebar-source");
-  src.href = company.source_url;
+  if (p.source_url) {
+    src.href = p.source_url;
+    src.hidden = false;
+  } else {
+    src.hidden = true;
+  }
 }
 
 function openSidebar() {
@@ -146,11 +170,28 @@ function openSidebar() {
 function closeSidebar() {
   const sidebar = document.getElementById("sidebar");
   sidebar.hidden = true;
-  state.selectedCompanyId = null;
+  state.selectedCompany = null;
   if (state.globe) {
-    state.globe.pointColor(() => TEAL);
+    state.globe.pointColor(markerColor);
   }
   setTimeout(() => resumeAutoRotate(), 500);
+}
+
+function attachModeToggle() {
+  const buttons = document.querySelectorAll("#mode-toggle button");
+  buttons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const mode = btn.dataset.mode;
+      if (mode === state.mode) return;
+      state.mode = mode;
+      buttons.forEach((b) =>
+        b.setAttribute("aria-selected", b.dataset.mode === mode ? "true" : "false")
+      );
+      state.selectedCompany = null;
+      if (!document.getElementById("sidebar").hidden) closeSidebar();
+      if (state.globe) state.globe.pointsData(visibleProjects());
+    });
+  });
 }
 
 function attachSidebarHandlers() {
@@ -158,13 +199,17 @@ function attachSidebarHandlers() {
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") closeSidebar();
   });
-  document.getElementById("globe").addEventListener("click", () => {
-    setTimeout(() => {
-      if (!state.lastMarkerClickAt || Date.now() - state.lastMarkerClickAt > 100) {
-        if (!document.getElementById("sidebar").hidden) closeSidebar();
-      }
-    }, 0);
-  }, true);
+  document.getElementById("globe").addEventListener(
+    "click",
+    () => {
+      setTimeout(() => {
+        if (!state.lastMarkerClickAt || Date.now() - state.lastMarkerClickAt > 100) {
+          if (!document.getElementById("sidebar").hidden) closeSidebar();
+        }
+      }, 0);
+    },
+    true
+  );
 }
 
 function pauseAutoRotate({ resume = true } = {}) {

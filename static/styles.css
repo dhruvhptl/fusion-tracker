@@ -104,6 +104,38 @@ main {
   white-space: nowrap;
 }
 
+/* Mode toggle pill */
+#mode-toggle {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 2px;
+  padding: 4px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  z-index: 15;
+}
+#mode-toggle button {
+  background: transparent;
+  color: var(--muted);
+  border: none;
+  padding: 6px 14px;
+  font-size: 13px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 150ms ease, color 150ms ease;
+}
+#mode-toggle button:hover { color: var(--fg); }
+#mode-toggle button[aria-selected="true"] {
+  background: rgba(77, 208, 225, 0.15);
+  color: var(--accent-teal);
+}
+
 /* Toast for fetch failures */
 #toast {
   position: fixed;

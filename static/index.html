@@ -10,15 +10,23 @@
   <main>
     <div id="globe"></div>
 
-    <aside id="sidebar" hidden role="dialog" aria-labelledby="sidebar-company-name">
-      <button id="sidebar-close" type="button" aria-label="Close company details">×</button>
-      <h2 id="sidebar-company-name"></h2>
-      <p id="sidebar-description"></p>
-      <div id="sidebar-location-badge" class="badge"></div>
+    <div id="mode-toggle" role="tablist" aria-label="Globe view mode">
+      <button type="button" role="tab" data-mode="commercial_race" aria-selected="true">Commercial race</button>
+      <button type="button" role="tab" data-mode="important_unique" aria-selected="false">Important / unique</button>
+    </div>
+
+    <aside id="sidebar" hidden role="dialog" aria-labelledby="sidebar-project-name">
+      <button id="sidebar-close" type="button" aria-label="Close project details">×</button>
+      <h2 id="sidebar-project-name"></h2>
+      <p id="sidebar-company"></p>
+      <div id="sidebar-badge" class="badge"></div>
       <dl class="facts">
-        <dt>Headquarters</dt><dd id="sidebar-hq"></dd>
+        <dt>Location</dt><dd id="sidebar-location"></dd>
         <dt>Reactor</dt><dd id="sidebar-reactor"></dd>
         <dt>Funding raised</dt><dd id="sidebar-funding"></dd>
+        <dt>Target online</dt><dd id="sidebar-target"></dd>
+        <dt>Offtaker</dt><dd id="sidebar-offtaker"></dd>
+        <dt>Utility partner</dt><dd id="sidebar-utility"></dd>
         <dt>Current milestone</dt><dd id="sidebar-milestone"></dd>
       </dl>
       <a id="sidebar-source" href="#" target="_blank" rel="noopener">Read more →</a>

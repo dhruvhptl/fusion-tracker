@@ -1,118 +1,122 @@
-use fusion_tracker::data::load_dataset_from_str;
+use fusion_tracker::data::{load_projects_from_str, DataError};
 
 const VALID_JSON: &str = r#"{
-  "companies": [
+  "primary_projects": [
     {
-      "id": "acme",
-      "name": "Acme Fusion",
-      "description": "Builds fusion.",
-      "reactor_type": "Tokamak",
-      "funding_raised_usd": 100000000,
-      "funding_display": "$100M",
-      "current_milestone": "Test milestone.",
-      "source_url": "https://example.com"
+      "id": "orion",
+      "project_name": "Orion",
+      "company_or_operator": "Helion Energy",
+      "country": "United States",
+      "city_or_region": "Malaga, WA",
+      "latitude": 47.6137,
+      "longitude": -119.9934,
+      "credibility_bucket": "front_runner",
+      "globe_modes": ["commercial_race"]
     }
   ],
-  "locations": [
+  "program_roadmaps": [
     {
-      "id": "acme-hq",
-      "company_id": "acme",
-      "name": "Acme HQ",
-      "location_type": "hq",
-      "city": "Boston",
-      "country": "USA",
-      "lat": 42.36,
-      "lng": -71.05,
-      "status": "active"
+      "id": "iter",
+      "project_name": "ITER",
+      "company_or_operator": "ITER Organization",
+      "country": "France",
+      "city_or_region": "Saint-Paul-lès-Durance",
+      "latitude": 43.7069,
+      "longitude": 5.7641,
+      "credibility_bucket": "credible",
+      "globe_modes": ["important_unique"]
+    },
+    {
+      "id": "eu_demo",
+      "project_name": "EU DEMO",
+      "company_or_operator": "EUROfusion",
+      "country": "EU",
+      "city_or_region": "TBD",
+      "credibility_bucket": "conceptual",
+      "globe_modes": []
     }
   ]
 }"#;
 
 #[test]
-fn loads_valid_dataset() {
-    let ds = load_dataset_from_str(VALID_JSON).expect("should load");
-    assert_eq!(ds.companies.len(), 1);
-    assert_eq!(ds.locations.len(), 1);
-    assert_eq!(ds.companies[0].id, "acme");
+fn loads_visible_projects_only() {
+    let projects = load_projects_from_str(VALID_JSON).expect("should load");
+    assert_eq!(projects.len(), 2);
+    let ids: Vec<&str> = projects.iter().map(|p| p.id.as_str()).collect();
+    assert!(ids.contains(&"orion"));
+    assert!(ids.contains(&"iter"));
+    assert!(!ids.contains(&"eu_demo"));
 }
 
 #[test]
-fn rejects_orphan_location() {
+fn skips_visible_project_without_coords() {
     let json = r#"{
-      "companies": [
-        {"id":"acme","name":"a","description":"d","reactor_type":"t","funding_raised_usd":1,"funding_display":"$1","current_milestone":"m","source_url":"https://x"}
-      ],
-      "locations": [
-        {"id":"ghost-hq","company_id":"ghost","name":"n","location_type":"hq","city":"c","country":"x","lat":0.0,"lng":0.0,"status":"active"}
-      ]
-    }"#;
-    let err = load_dataset_from_str(json).unwrap_err();
-    assert!(matches!(
-        err,
-        fusion_tracker::data::DataError::OrphanLocation { .. }
-    ));
-}
-
-#[test]
-fn rejects_company_without_locations() {
-    let json = r#"{
-      "companies": [
-        {"id":"acme","name":"a","description":"d","reactor_type":"t","funding_raised_usd":1,"funding_display":"$1","current_milestone":"m","source_url":"https://x"},
-        {"id":"lonely","name":"b","description":"d","reactor_type":"t","funding_raised_usd":1,"funding_display":"$1","current_milestone":"m","source_url":"https://x"}
-      ],
-      "locations": [
-        {"id":"acme-hq","company_id":"acme","name":"n","location_type":"hq","city":"c","country":"x","lat":0.0,"lng":0.0,"status":"active"}
-      ]
-    }"#;
-    let err = load_dataset_from_str(json).unwrap_err();
-    assert!(matches!(
-        err,
-        fusion_tracker::data::DataError::CompanyWithoutLocations { .. }
-    ));
-}
-
-#[test]
-fn rejects_duplicate_company_id() {
-    let json = r#"{
-      "companies": [
-        {"id":"dup","name":"a","description":"d","reactor_type":"t","funding_raised_usd":1,"funding_display":"$1","current_milestone":"m","source_url":"https://x"},
-        {"id":"dup","name":"b","description":"d","reactor_type":"t","funding_raised_usd":1,"funding_display":"$1","current_milestone":"m","source_url":"https://x"}
-      ],
-      "locations": [
-        {"id":"dup-hq","company_id":"dup","name":"n","location_type":"hq","city":"c","country":"x","lat":0.0,"lng":0.0,"status":"active"}
-      ]
-    }"#;
-    let err = load_dataset_from_str(json).unwrap_err();
-    assert!(matches!(
-        err,
-        fusion_tracker::data::DataError::DuplicateId {
-            collection: "companies",
-            ..
+      "primary_projects": [
+        {
+          "id": "ok","project_name":"OK","company_or_operator":"C","country":"X","city_or_region":"x",
+          "latitude":1.0,"longitude":2.0,"globe_modes":["commercial_race"]
+        },
+        {
+          "id": "no_coords","project_name":"X","company_or_operator":"X Co","country":"X","city_or_region":"x",
+          "latitude": null, "longitude": null, "globe_modes":["important_unique"]
         }
-    ));
+      ]
+    }"#;
+    let projects = load_projects_from_str(json).expect("should load");
+    assert_eq!(projects.len(), 1);
+    assert_eq!(projects[0].id, "ok");
 }
 
 #[test]
-fn rejects_out_of_range_coord() {
+fn rejects_duplicate_id() {
     let json = r#"{
-      "companies": [
-        {"id":"acme","name":"a","description":"d","reactor_type":"t","funding_raised_usd":1,"funding_display":"$1","current_milestone":"m","source_url":"https://x"}
-      ],
-      "locations": [
-        {"id":"acme-hq","company_id":"acme","name":"n","location_type":"hq","city":"c","country":"x","lat":95.0,"lng":0.0,"status":"active"}
+      "primary_projects": [
+        {
+          "id": "dup","project_name":"A","company_or_operator":"C","country":"X","city_or_region":"x",
+          "latitude":1.0,"longitude":2.0,"globe_modes":["commercial_race"]
+        },
+        {
+          "id": "dup","project_name":"B","company_or_operator":"C","country":"X","city_or_region":"x",
+          "latitude":3.0,"longitude":4.0,"globe_modes":["commercial_race"]
+        }
       ]
     }"#;
-    let err = load_dataset_from_str(json).unwrap_err();
-    assert!(matches!(
-        err,
-        fusion_tracker::data::DataError::OutOfRangeCoord { .. }
-    ));
+    let err = load_projects_from_str(json).unwrap_err();
+    assert!(matches!(err, DataError::DuplicateId { .. }));
+}
+
+#[test]
+fn rejects_out_of_range_coords() {
+    let json = r#"{
+      "primary_projects": [
+        {
+          "id":"x","project_name":"X","company_or_operator":"C","country":"X","city_or_region":"x",
+          "latitude":95.0,"longitude":0.0,"globe_modes":["commercial_race"]
+        }
+      ]
+    }"#;
+    let err = load_projects_from_str(json).unwrap_err();
+    assert!(matches!(err, DataError::OutOfRangeCoord { .. }));
+}
+
+#[test]
+fn rejects_empty_visible_set() {
+    let json = r#"{
+      "primary_projects": [
+        {
+          "id":"x","project_name":"X","company_or_operator":"C","country":"X","city_or_region":"x",
+          "latitude":1.0,"longitude":2.0,"globe_modes":[]
+        }
+      ]
+    }"#;
+    let err = load_projects_from_str(json).unwrap_err();
+    assert!(matches!(err, DataError::NoVisibleProjects));
 }
 
 #[test]
 fn rejects_malformed_json() {
-    let err = load_dataset_from_str("not json").unwrap_err();
-    assert!(matches!(err, fusion_tracker::data::DataError::Parse(_)));
+    let err = load_projects_from_str("not json").unwrap_err();
+    assert!(matches!(err, DataError::Parse(_)));
 }
 
 use axum::body::Body;
@@ -122,14 +126,14 @@ use std::sync::Arc;
 use tower::ServiceExt;
 
 #[tokio::test]
-async fn api_companies_returns_dataset() {
-    let ds = load_dataset_from_str(VALID_JSON).unwrap();
-    let app = fusion_tracker::routes::app(Arc::new(ds));
+async fn api_projects_returns_visible_set() {
+    let projects = load_projects_from_str(VALID_JSON).unwrap();
+    let app = fusion_tracker::routes::app(Arc::new(projects));
 
     let response = app
         .oneshot(
             Request::builder()
-                .uri("/api/companies")
+                .uri("/api/projects")
                 .body(Body::empty())
                 .unwrap(),
         )
@@ -139,13 +143,24 @@ async fn api_companies_returns_dataset() {
     assert_eq!(response.status(), StatusCode::OK);
     let bytes = response.into_body().collect().await.unwrap().to_bytes();
     let body: serde_json::Value = serde_json::from_slice(&bytes).unwrap();
-    assert_eq!(body["companies"][0]["id"], "acme");
+    assert_eq!(body["projects"].as_array().unwrap().len(), 2);
 }
 
 #[test]
 fn real_seed_data_is_valid() {
-    let raw = std::fs::read_to_string("data/companies.json").expect("seed data missing");
-    let ds = load_dataset_from_str(&raw).expect("seed data must validate");
-    assert_eq!(ds.companies.len(), 15);
-    assert!(ds.locations.len() >= 15);
+    let raw = std::fs::read_to_string("data/projects.json").expect("seed data missing");
+    let projects = load_projects_from_str(&raw).expect("seed data must validate");
+    let cr = projects
+        .iter()
+        .filter(|p| p.globe_modes.iter().any(|m| m == "commercial_race"))
+        .count();
+    let iu = projects
+        .iter()
+        .filter(|p| p.globe_modes.iter().any(|m| m == "important_unique"))
+        .count();
+    assert_eq!(cr, 7, "expected 7 commercial_race projects");
+    assert_eq!(
+        iu, 11,
+        "expected 11 important_unique projects (fast_japan skipped for missing coords)"
+    );
 }

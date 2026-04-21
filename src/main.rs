@@ -4,8 +4,8 @@ use std::sync::Arc;
 
 #[tokio::main]
 async fn main() {
-    let dataset = data::load_dataset_from_path("data/companies.json");
-    let app = routes::app(Arc::new(dataset));
+    let projects = data::load_projects_from_path("data/projects.json");
+    let app = routes::app(Arc::new(projects));
 
     let port: u16 = std::env::var("PORT")
         .ok()
