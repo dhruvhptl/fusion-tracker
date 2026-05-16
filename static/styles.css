@@ -133,6 +133,7 @@ main {
   border-radius: 999px;
   cursor: pointer;
   transition: background 150ms ease, color 150ms ease;
+  white-space: nowrap;
   flex-shrink: 0;
 }
 #mode-toggle button:hover { color: var(--fg); }
