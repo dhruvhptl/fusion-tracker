@@ -1,5 +1,5 @@
 # ---- builder ----
-FROM rust:1.82-slim AS builder
+FROM rust:latest AS builder
 WORKDIR /app
 
 # Cache dependencies
