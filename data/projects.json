@@ -11,33 +11,20 @@
       "project_stage": "under_construction",
       "reactor_type": "Magneto-inertial fusion (field-reversed configuration)",
       "facility_type": "commercial_plant",
-      "intended_output_mwe": 50,
+      "intended_output_mwe": 50.0,
       "target_online_year": 2028,
       "offtaker": "Microsoft (PPA signed 2023)",
       "utility_partner": "Constellation Energy (power marketer); Chelan County Public Utility District (land lessor)",
       "served_region": "Pacific Northwest / Washington State grid",
       "site_status": "Active construction — earthwork began July 2025; Conditional Use Permit granted October 2025 for reactor building",
       "funding_raised_usd": 1025000000,
-      "funding_last_verified_date": "2025-01-28",
       "current_milestone": "Groundbreaking July 30 2025; site earthwork underway; Conditional Use Permit for fusion generator building obtained October 2025",
       "next_milestone": "Reactor building construction under new permit; Polaris prototype to demonstrate first fusion electricity (2025) before Orion proceeds",
       "source_url": "https://www.helionenergy.com/articles/starting-to-build-the-worlds-first-fusion-power-plant-in-malaga-wa/",
-      "source_type": "Official company press release + S&P Global + GeekWire",
-      "source_tier": "tier_1",
-      "coverage_status": "well_covered",
-      "confidence": "high",
-      "commercial_readiness_score": 82,
-      "commercial_readiness_reason": "Only fusion project with active physical construction at a named commercial site, signed PPA (Microsoft), named power marketer (Constellation Energy), $1B+ raised. Gated on Polaris prototype.",
-      "included_because": "Active construction, signed PPA (Microsoft), named commercial site, Constellation Energy as power marketer, $1B+ raised.",
-      "excluded_from_primary_reason": null,
-      "notes": "First-ever fusion PPA in history. Series F ($425M) closed Jan 2025 bringing total to ~$1B+; additional $1.7B in milestone-based commitments from 2021 Series E. Valuation ~$5.4B post-Series F. Backed by Sam Altman (executive chairman), SoftBank Vision Fund 2, Lightspeed, Nucor. Polaris (7th-gen, Everett WA) must demonstrate electricity generation before Orion construction proceeds — see precursor record polaris.",
-      "render_on_main_globe": true,
       "credibility_bucket": "front_runner",
       "globe_modes": [
         "commercial_race"
-      ],
-      "default_globe_visible": true,
-      "visibility_tier": "primary"
+      ]
     },
     {
       "id": "arc_chesterfield",
@@ -50,33 +37,20 @@
       "project_stage": "planned",
       "reactor_type": "High-temperature superconducting (HTS) tokamak",
       "facility_type": "commercial_plant",
-      "intended_output_mwe": 400,
+      "intended_output_mwe": 400.0,
       "target_online_year": 2032,
       "offtaker": "Google (50% of output, PPA signed June 2025); Eni S.p.A. (remaining offtake, ~$1B+ PPA signed Sept 2025)",
       "utility_partner": "Dominion Energy Virginia (100-acre land lease + non-financial grid development collaboration)",
       "served_region": "Virginia electric grid / PJM interconnect",
       "site_status": "Site selected December 2024; 100-acre lease from Dominion Energy Virginia at James River Industrial Center; engineering design not yet commenced",
       "funding_raised_usd": 2900000000,
-      "funding_last_verified_date": "2026-04-10",
       "current_milestone": "Site selected and announced Dec 2024; Google PPA signed; Eni $1B+ PPA signed Sept 2025; $863M Series B2 closed Aug 2025 (total ~$3B raised); SPARC first TF magnet installed Jan 2026",
       "next_milestone": "SPARC Q>1 demonstration (2027) gates ARC engineering design; ARC permitting and construction design to follow",
       "source_url": "https://cfs.energy/chesterfield/overview/",
-      "source_type": "Official CFS site + Chesterfield County gov + PR Newswire (Eni PPA) + TechCrunch funding",
-      "source_tier": "tier_1",
-      "coverage_status": "well_covered",
-      "confidence": "high",
-      "commercial_readiness_score": 79,
-      "commercial_readiness_reason": "Two signed PPAs (Google + Eni), named site with land lease from Dominion Energy, ~$3B raised (largest funded private fusion company globally). Gated on SPARC Q>1 demonstration 2027.",
-      "included_because": "Two signed PPAs totaling >$1B (Google + Eni), named site secured, $3B raised, utility collaboration with Dominion Energy.",
-      "excluded_from_primary_reason": null,
-      "notes": "CFS independently finances, builds, owns, and operates ARC. $863M Series B2 closed Aug 2025; cumulative ~$3B raised — largest and most capitalized private fusion company globally. Partners include Google DeepMind (AI digital twins), NVIDIA, Siemens. ARC deployment gated on SPARC net-energy demonstration — see precursor sparc_devens. TechCrunch (Apr 2026) confirms CFS has ~1/3 of all private fusion capital globally.",
-      "render_on_main_globe": true,
       "credibility_bucket": "front_runner",
       "globe_modes": [
         "commercial_race"
-      ],
-      "default_globe_visible": true,
-      "visibility_tier": "primary"
+      ]
     },
     {
       "id": "infinity_two",
@@ -89,33 +63,20 @@
       "project_stage": "planned",
       "reactor_type": "Stellarator",
       "facility_type": "commercial_plant",
-      "intended_output_mwe": 350,
+      "intended_output_mwe": 350.0,
       "target_online_year": 2035,
       "offtaker": "Tennessee Valley Authority (TVA) — Letter of Intent issued Sept 2025",
       "utility_partner": "Tennessee Valley Authority (TVA)",
       "served_region": "Tennessee Valley / TVA service territory",
       "site_status": "TVA LOI issued Sept 2025; construction start as early as 2028 pending approvals; first US fusion license application submitted Jan 2026 (joint with TVA + TDEC); Infinity One prototype at same site is prerequisite",
       "funding_raised_usd": 269000000,
-      "funding_last_verified_date": "2026-04-10",
       "current_milestone": "TVA LOI for Infinity Two issued Sept 2025; first-ever US fusion byproduct material license application submitted Jan 2026 (Type One Energy + TVA + TDEC); $87M pre-Series B convertible note closed Jan 2026; $250M Series B raising at $900M pre-money valuation; total funding $269M (TechCrunch Apr 2026)",
       "next_milestone": "Series B close ($250M target); Infinity One prototype commissioning (2029); Infinity Two construction start (as early as 2028 pending approvals); mid-2030s commercial operation",
       "source_url": "https://typeoneenergy.com/tva-and-type-one-energy-submit-first-license-application-for-fusion-in-tn/",
-      "source_type": "Official Type One Energy press release + TVA announcement + TechCrunch funding",
-      "source_tier": "tier_1",
-      "coverage_status": "well_covered",
-      "confidence": "high",
-      "commercial_readiness_score": 72,
-      "commercial_readiness_reason": "TVA utility LOI, first US fusion license application filed, named site (Bull Run Complex, Clinton TN), 350 MWe output target, credible utility-backed pathway. Gated on Infinity One prototype.",
-      "included_because": "TVA utility LOI, named site at Bull Run Energy Complex, first US fusion license application, 350 MWe commercial target.",
-      "excluded_from_primary_reason": null,
-      "notes": "First fusion license application ever submitted in the United States. TVA LOI is non-binding but represents serious utility commitment. Investors: Breakthrough Energy Ventures, Doral Energy-Tech, TDK Ventures. Unlike most fusion companies, Type One plans to sell technology to utilities (TVA builds/owns/operates model). Gated on Infinity One prototype — see precursor record infinity_one. Total $269M confirmed (TechCrunch Apr 2026 >$100M list). $250M Series B in progress at $900M valuation.",
-      "render_on_main_globe": true,
       "credibility_bucket": "credible",
       "globe_modes": [
         "commercial_race"
-      ],
-      "default_globe_visible": true,
-      "visibility_tier": "primary"
+      ]
     },
     {
       "id": "step_west_burton",
@@ -128,33 +89,20 @@
       "project_stage": "planned",
       "reactor_type": "Spherical tokamak",
       "facility_type": "prototype_power_plant",
-      "intended_output_mwe": 100,
+      "intended_output_mwe": 100.0,
       "target_online_year": 2040,
       "offtaker": null,
       "utility_partner": null,
       "served_region": "UK national grid",
       "site_status": "Site selected Oct 2022 (former West Burton A coal plant); ILIOS consortium (Kier + Nuvia + Aecom + Turner Townsend) contracted as £200M construction partner March 2026; old plant demolition underway; Phase 2 engineering design in progress (2025–2032); Phase 3 construction 2032–2040",
       "funding_raised_usd": 1625000000,
-      "funding_last_verified_date": "2026-03-16",
       "current_milestone": "£200M (~$260M) ILIOS construction partner contracted March 2026; £1.3B (~$1.7B total) government funding committed; Tokamak Energy named magnet systems partner (£70M contract, March 2026); R&D test facilities under development",
       "next_milestone": "Site preparation and R&D test facilities (through 2030); Phase 3 construction start (2030); commissioning and first operations (2040)",
       "source_url": "https://www.gov.uk/government/news/britain-to-lead-fusion-energy-race-to-deliver-energy-security",
-      "source_type": "UK Government official announcement + BBC News + Wikipedia STEP article",
-      "source_tier": "tier_1",
-      "coverage_status": "well_covered",
-      "confidence": "high",
-      "commercial_readiness_score": 65,
-      "commercial_readiness_reason": "Named site (West Burton A), £1.3B committed government funding, construction partner contracted (ILIOS, March 2026), 100 MWe grid-delivery mandate. No commercial offtaker. Government-backed.",
-      "included_because": "Named site, £1.3B committed funding, construction partner contracted, clear 100 MWe grid-delivery mandate from UK government.",
-      "excluded_from_primary_reason": null,
-      "notes": "UK government-backed programme anchoring the Trent Clean Energy Supercluster. Tritium self-sufficiency via breeding is a design requirement. No commercial offtaker yet — primarily a government demonstration. Tokamak Energy is STEP magnet systems partner (£70M, March 2026). Funding figure reflects £1.3B government commitment.",
-      "render_on_main_globe": true,
       "credibility_bucket": "credible",
       "globe_modes": [
         "commercial_race"
-      ],
-      "default_globe_visible": true,
-      "visibility_tier": "primary"
+      ]
     },
     {
       "id": "pacific_fusion_demo",
@@ -174,26 +122,13 @@
       "served_region": "US grid (aspirational)",
       "site_status": "$1B Research and Manufacturing Campus at Mesa del Sol, Albuquerque approved by Albuquerque City Council (unanimous, Sept 2025); $776.6M in industrial revenue bonds approved; construction to begin 2026; Demonstration System targets net facility gain by 2030",
       "funding_raised_usd": 900000000,
-      "funding_last_verified_date": "2025-09-26",
       "current_milestone": "Albuquerque site selected Sept 2025; $776.6M in industrial revenue bonds approved; Governor of New Mexico announcement Sept 2025; Phase I milestones completed Nov 2024 (ahead of June 2025 target); $900M+ Series A raised from General Catalyst, Breakthrough Energy Ventures, Lightspeed, DCVC, Lowercarbon",
       "next_milestone": "Construction of $1B campus begins 2026; Demonstration System operational; net facility gain by 2030; first commercial fusion system in US by mid-2030s",
       "source_url": "https://pacificfusion.com/updates/pacific-fusion-announces-expansion-to-new-mexico-with-new-research-and-manufacturing-campus",
-      "source_type": "Official Pacific Fusion press release + New Mexico Governor office + ANS Nuclear News",
-      "source_tier": "tier_1",
-      "coverage_status": "not_in_prior_dataset",
-      "confidence": "medium",
-      "commercial_readiness_score": 58,
-      "commercial_readiness_reason": "Named site secured (Mesa del Sol) with formal government approval and $776.6M IRBs, $900M raised, construction starting 2026, milestone-gated Series A with Phase I completed ahead of schedule. No offtaker or utility partner yet. Commercial plant is post-2030 gate milestone.",
-      "included_because": "Named site (Mesa del Sol) with formal government approval, $900M raised, construction starting 2026, $776.6M in industrial revenue bonds, explicit mid-2030s commercial fusion power plant roadmap.",
-      "excluded_from_primary_reason": null,
-      "notes": "The Mesa del Sol, Albuquerque campus ($1B, construction from 2026) hosts both the Demonstration System (tracked separately as precursor pacific_fusion_demonstration) and is the named site for the mid-2030s commercial plant. Net facility gain (QF>=1) by 2030 is the gate. $900M+ Series A from General Catalyst, Breakthrough Energy Ventures, Lightspeed, DCVC, Lowercarbon. $776.6M in IRBs approved. ICF pulsed power approach derived from Sandia Z-machine research.",
-      "render_on_main_globe": true,
       "credibility_bucket": "credible",
       "globe_modes": [
         "commercial_race"
-      ],
-      "default_globe_visible": true,
-      "visibility_tier": "primary"
+      ]
     },
     {
       "id": "focused_energy_lighthouse",
@@ -206,33 +141,20 @@
       "project_stage": "planned",
       "reactor_type": "Laser-driven inertial confinement fusion (direct-drive ICF)",
       "facility_type": "pilot_plant",
-      "intended_output_mwe": 1000,
+      "intended_output_mwe": 1000.0,
       "target_online_year": 2035,
       "offtaker": null,
       "utility_partner": "RWE (site MoU, nuclear infrastructure, Biblis); Hesse State Government (€20M R&D commitment)",
       "served_region": null,
       "site_status": "Non-binding MoU signed March 2025 with RWE (site owner) and State of Hesse for fusion pilot plant at Biblis decommissioned nuclear site; Hesse government has earmarked €20M for fusion R&D; RWE offers infrastructure + nuclear operator expertise; Bay Area $65M laser R&D facility operational Oct 2024; LLE (Rochester) $6.9M R&D partnership for pilot plant design signed March 2026",
       "funding_raised_usd": 175000000,
-      "funding_last_verified_date": "2026-04-10",
       "current_milestone": "$65M Bay Area laser development facility operational Oct 2024; LLE $6.9M R&D partnership signed March 2026 (largest industrial-sponsored LLE research agreement); RWE + Hesse MoU for Biblis site (March 2025); $175M+ raised confirmed >$100M by TechCrunch Apr 2026",
       "next_milestone": "Bay Area facility laser development; Pearl Fuel target manufacturing scale-up; LightHouse pilot plant engineering design informed by LLE partnership; Biblis site binding agreement; pilot plant by 2035",
       "source_url": "https://www.reuters.com/business/energy/fusion-energy-startup-focused-signs-agreement-with-rwe-german-state-2025-03-24/",
-      "source_type": "Reuters + Official Focused Energy press release + LLE/Rochester partnership + TechCrunch April 2026",
-      "source_tier": "tier_1",
-      "coverage_status": "not_in_prior_dataset",
-      "confidence": "medium",
-      "commercial_readiness_score": 38,
-      "commercial_readiness_reason": "Named decommissioned nuclear site (Biblis) with non-binding MoU from RWE (utility, nuclear operator) and €20M Hesse state R&D commitment; $175M+ raised; LLE partnership for pilot plant design; Bay Area laser facility operational. MoU is non-binding, no offtaker, no binding site agreement, 1 GW target is highly aspirational, pilot plant fully gated on Bay Area and target manufacturing milestones.",
-      "included_because": "Named site (Biblis, decommissioned nuclear plant) with RWE non-binding MoU and Hesse state €20M; $175M+ raised (>$100M confirmed TechCrunch); LLE/NIF-grounded physics; Bay Area laser facility operational; explicit pilot plant roadmap by 2035.",
-      "excluded_from_primary_reason": null,
-      "notes": "Two core commercial technologies: Pearl Fuel (DT fuel target manufacturing at commercial scale) and LightHouse (pilot plant delivering engineering gain >1). NIF ignition (Dec 2022) validated direct-drive ICF physics base. LLE partnership ($6.9M, March 2026) informs pilot plant engineering design. TechCrunch confirmed >$100M raised (April 2026). German HQ with US R&D operations.",
-      "render_on_main_globe": true,
       "credibility_bucket": "credible",
       "globe_modes": [
         "commercial_race"
-      ],
-      "default_globe_visible": true,
-      "visibility_tier": "primary"
+      ]
     },
     {
       "id": "proxima_stellaris",
@@ -246,32 +168,955 @@
       "reactor_type": "Stellarator (quasi-isodynamic, Wendelstein 7-X derived)",
       "facility_type": "commercial_plant",
       "intended_output_mwe": null,
-      "target_online_year": null,
+      "target_online_year": 2030,
       "offtaker": null,
       "utility_partner": "RWE (site owner; MoU partner)",
       "served_region": "European grid",
       "site_status": "Site secured at former Gundremmingen nuclear plant (decommissioned by RWE); MoU signed Feb 2026; plant construction follows Alpha demonstration",
       "funding_raised_usd": 230000000,
-      "funding_last_verified_date": "2025-09-09",
       "current_milestone": "MoU signed Feb 26 2026 with Free State of Bavaria, RWE, and Max Planck IPP; Stellaris concept peer-reviewed and published Feb 2025; €200M (~$230M) total funding raised (Series A + extension, Sept 2025); SMC demo magnet targeted 2027",
       "next_milestone": "Stellarator Model Coil (SMC) demo (2027); Alpha site finalization; Alpha construction start; Alpha net-energy gain (2031 target); Stellaris engineering design",
       "source_url": "https://www.proximafusion.com/press-news/proxima-fusion-and-partners-publish-stellaris-fusion-power-plant-concept-to-bring-limitless-safe-clean-energy-to-the-grid",
-      "source_type": "Official Proxima Fusion press release + ANS Nuclear News + Yahoo Finance (funding)",
-      "source_tier": "tier_1",
-      "coverage_status": "partially_covered",
-      "confidence": "low",
-      "commercial_readiness_score": 32,
-      "commercial_readiness_reason": "Concrete commercial site secured (Gundremmingen, former nuclear plant, RWE partnership, MoU Feb 2026), peer-reviewed Stellaris concept published, €200M raised (Europe's largest private fusion funding). No MWe spec, no offtaker. Fully gated on Alpha demonstration 2031.",
-      "included_because": "Specific named commercial site secured (Gundremmingen, former nuclear plant), formal MoU with RWE (utility), peer-reviewed Stellaris concept published, Europe's best-funded fusion startup.",
-      "excluded_from_primary_reason": null,
-      "notes": "Stellaris contingent on Alpha demonstration stellarator (Garching) — see precursor record proxima_alpha. Alpha updated target: net energy gain by 2031 (per Sept 2025 official update; earlier records said 2032). Proxima is Europe's largest private fusion investor at €200M total. CATF European strategy report confirms 'deliver commercial power plant in mid-to-late 2030s.'",
-      "render_on_main_globe": true,
       "credibility_bucket": "credible",
       "globe_modes": [
         "commercial_race"
-      ],
-      "default_globe_visible": true,
-      "visibility_tier": "primary"
+      ]
+    },
+    {
+      "id": "test-company-123",
+      "project_name": "Test Company",
+      "company_or_operator": "Test Corp",
+      "country": "USA",
+      "city_or_region": "Boulder, CO",
+      "latitude": 40.015,
+      "longitude": -122.065,
+      "project_stage": "planned",
+      "reactor_type": "tokamak",
+      "facility_type": "pilot_plant",
+      "intended_output_mwe": null,
+      "target_online_year": 2030,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 50000000,
+      "current_milestone": "Breakthrough achievement of net fusion power for the first time on Earth.",
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/news/",
+      "credibility_bucket": "speculative",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "test-company-456",
+      "project_name": "Test Company 2",
+      "company_or_operator": "Test Corp 2",
+      "country": "USA",
+      "city_or_region": "Denver, CO",
+      "latitude": 39.74,
+      "longitude": -104.99,
+      "project_stage": null,
+      "reactor_type": null,
+      "facility_type": null,
+      "intended_output_mwe": null,
+      "target_online_year": null,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": null,
+      "current_milestone": null,
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/news/",
+      "credibility_bucket": "conceptual",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "acceleron-fusion",
+      "project_name": "Acceleron Fusion",
+      "company_or_operator": "Acceleron Fusion",
+      "country": "USA",
+      "city_or_region": "Cambridge, Massachusetts",
+      "latitude": 42.3656347,
+      "longitude": -71.1040018,
+      "project_stage": "research and development",
+      "reactor_type": "Active-target muon production and high density fusion cell",
+      "facility_type": "Muon-catalyzed fusion",
+      "intended_output_mwe": 200.0,
+      "target_online_year": 2030,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 26500000,
+      "current_milestone": null,
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "speculative",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "anubal-fusion",
+      "project_name": "Anubal Fusion",
+      "company_or_operator": "Anubal Fusion",
+      "country": "India",
+      "city_or_region": "Hyderabad",
+      "latitude": 17.360589,
+      "longitude": 78.4740613,
+      "project_stage": "research and development",
+      "reactor_type": "Direct laser-driven pB11",
+      "facility_type": "Inertial confinement",
+      "intended_output_mwe": 200.0,
+      "target_online_year": 2030,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 500000,
+      "current_milestone": null,
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "conceptual",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "astral-systems",
+      "project_name": "Astral Systems",
+      "company_or_operator": "Astral Systems",
+      "country": "UK",
+      "city_or_region": "Bristol",
+      "latitude": 51.4538022,
+      "longitude": -2.5972985,
+      "project_stage": "research and development",
+      "reactor_type": "Inertial-electrostatic lattice confinement",
+      "facility_type": "Multi-State Fusion",
+      "intended_output_mwe": null,
+      "target_online_year": 2025,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 6800000,
+      "current_milestone": null,
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "speculative",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "avalanche-energy",
+      "project_name": "Avalanche Energy",
+      "company_or_operator": "Avalanche Energy",
+      "country": "USA",
+      "city_or_region": "Tukwila, Washington",
+      "latitude": 47.4627356,
+      "longitude": -122.2559156,
+      "project_stage": "research and development",
+      "reactor_type": "Magnetic-electrostatic confinement",
+      "facility_type": "Hybrid electrostatic confinement",
+      "intended_output_mwe": null,
+      "target_online_year": 2030,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 70000000,
+      "current_milestone": "The provided text mentions that 'Desktop fusion' startup Avalanche Energy lands $40M and logs new tech achievement.",
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "credible",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "blue-laser-fusion",
+      "project_name": "Blue Laser Fusion",
+      "company_or_operator": "Blue Laser Fusion",
+      "country": "USA",
+      "city_or_region": "Santa Barbara, California",
+      "latitude": 34.4221319,
+      "longitude": -119.702667,
+      "project_stage": "research and development",
+      "reactor_type": "Laser-driven inertial confinement",
+      "facility_type": "Inertial confinement",
+      "intended_output_mwe": null,
+      "target_online_year": 2030,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 37500000,
+      "current_milestone": null,
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "speculative",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "commonwealth-fusion-systems",
+      "project_name": "Commonwealth Fusion Systems",
+      "company_or_operator": "Commonwealth Fusion Systems",
+      "country": "USA",
+      "city_or_region": "Devens, Massachusetts",
+      "latitude": 42.5389512,
+      "longitude": -71.6094356,
+      "project_stage": "research and development",
+      "reactor_type": "Tokamak",
+      "facility_type": "Magnetic confinement",
+      "intended_output_mwe": null,
+      "target_online_year": 2027,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 2060000000,
+      "current_milestone": "Commonwealth Fusion Systems has crossed a key threshold on its quest to generate commercial fusion power.",
+      "next_milestone": "To meet the goal of deploying fusion power within the next decade, the current federal funding levels and priorities are insufficient.",
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "front_runner",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "focused-energy",
+      "project_name": "Focused Energy",
+      "company_or_operator": "Focused Energy",
+      "country": "Germany",
+      "city_or_region": "Darmstadt",
+      "latitude": 49.872775,
+      "longitude": 8.651177,
+      "project_stage": "research and development",
+      "reactor_type": "Laser-driven inertial confinement",
+      "facility_type": "Inertial confinement",
+      "intended_output_mwe": 1500.0,
+      "target_online_year": 2035,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 200000000,
+      "current_milestone": "Focused Energy was selected as an awardee of the Department of Energy's milestone-based public private partnership program.",
+      "next_milestone": "Continue to reach milestones in the public-private partnership program to receive commensurate funding and accelerate fusion commercialization timelines.",
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "credible",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "fuse",
+      "project_name": "Fuse",
+      "company_or_operator": "Fuse",
+      "country": "USA",
+      "city_or_region": "San Leandro, California",
+      "latitude": 37.7249296,
+      "longitude": -122.1560768,
+      "project_stage": "research and development",
+      "reactor_type": "Magnetized target fusion",
+      "facility_type": "Magneto-inertial",
+      "intended_output_mwe": null,
+      "target_online_year": 2030,
+      "offtaker": null,
+      "utility_partner": "ACEN, Bruce Power, Duke Energy, Eneco, E.ON UK, Southern Company, Tennessee Valley Authority",
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 65000000,
+      "current_milestone": "General Fusion successfully demonstrated key elements of its proprietary plasma compression technology.",
+      "next_milestone": "General Fusion is planning for a Fusion Demonstration Plant at UKAEA’s Culham Centre for Fusion Energy.",
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "credible",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "gauss-fusion-gmbh",
+      "project_name": "Gauss Fusion GmbH",
+      "company_or_operator": "Gauss Fusion GmbH",
+      "country": "Germany",
+      "city_or_region": "Garching/Munich",
+      "latitude": 48.2504941,
+      "longitude": 11.6367998,
+      "project_stage": "research and development",
+      "reactor_type": "Stellarator",
+      "facility_type": "Magnetic confinement",
+      "intended_output_mwe": 1000.0,
+      "target_online_year": 2040,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 30800000,
+      "current_milestone": "Founded from industry: Alcen, Bruker, Hofima (ASG Superconductor), IDOM, RI Research Instruments",
+      "next_milestone": "No clear next milestone was found in the text.",
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "speculative",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "general-fusion",
+      "project_name": "General Fusion",
+      "company_or_operator": "General Fusion",
+      "country": "Canada",
+      "city_or_region": "Vancouver",
+      "latitude": 49.2608724,
+      "longitude": -123.113952,
+      "project_stage": "research and development",
+      "reactor_type": "Magnetized target fusion",
+      "facility_type": "Magneto-inertial",
+      "intended_output_mwe": null,
+      "target_online_year": 2030,
+      "offtaker": null,
+      "utility_partner": "Ontario Power Generation (OPG)",
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 22000000,
+      "current_milestone": "General Fusion escaped a funding crunch by securing $22 million in financing.",
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "conceptual",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "helicity-space-corporation",
+      "project_name": "Helicity Space Corporation",
+      "company_or_operator": "Helicity Space Corporation",
+      "country": "USA",
+      "city_or_region": "Pasadena, California",
+      "latitude": 34.1476507,
+      "longitude": -118.144155,
+      "project_stage": "research and development",
+      "reactor_type": "Plectoneme",
+      "facility_type": "Magneto-inertial",
+      "intended_output_mwe": 300.0,
+      "target_online_year": 2032,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 7600000,
+      "current_milestone": "Prototype assembly",
+      "next_milestone": "Protoflight in 2032",
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "speculative",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "helion-energy",
+      "project_name": "Helion Energy",
+      "company_or_operator": "Helion Energy",
+      "country": "USA",
+      "city_or_region": "Everett, Washington",
+      "latitude": 47.9793437,
+      "longitude": -122.2127011,
+      "project_stage": "research and development",
+      "reactor_type": "Field Reversed Configuration",
+      "facility_type": "Magneto-inertial",
+      "intended_output_mwe": null,
+      "target_online_year": 2028,
+      "offtaker": "Microsoft",
+      "utility_partner": "public utility district operators of Rock Island Dam",
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 1000000000,
+      "current_milestone": "Helion completed construction of its seventh-generation prototype, Polaris, in late 2024 and began initial operations. As of mid-2025, Helion reported that Polaris was operational and successfully forming the largest Field Reversed Configuration (FRC) plasmas the company had created to date.",
+      "next_milestone": "Helion aims to demonstrate net electricity production by the end of the year [2025].",
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "front_runner",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "horne-technologies",
+      "project_name": "Horne Technologies",
+      "company_or_operator": "Horne Technologies",
+      "country": "USA",
+      "city_or_region": "Longmont, Colorado",
+      "latitude": 40.1672117,
+      "longitude": -105.101928,
+      "project_stage": "research and development",
+      "reactor_type": "Spindle cusp, superconducting shielded-grid IEC",
+      "facility_type": "Hybrid magnetic/electrostatic confinement",
+      "intended_output_mwe": null,
+      "target_online_year": null,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 3750000,
+      "current_milestone": "All subsystems qualified and operational, experiments ongoing with positive indication. Upgraded cryogenic system capable of driving the HTS system at 20K. Two new ion injection systems developed and in use. Design and preparation for full power device.",
+      "next_milestone": "Continuing development of full power device utilizing 5T magnets and 100 keV temperature.",
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "conceptual",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "kyoto-fusioneering",
+      "project_name": "Kyoto Fusioneering",
+      "company_or_operator": "Kyoto Fusioneering",
+      "country": "Canada",
+      "city_or_region": "Tokyo, Japan (HQ); Kyoto, Japan; Seattle, USA; Culham, UK; Karlsruhe, Germany; Chalk River",
+      "latitude": null,
+      "longitude": null,
+      "project_stage": "research and development",
+      "reactor_type": "Agnostic",
+      "facility_type": "Agnostic (enabling technologies)",
+      "intended_output_mwe": null,
+      "target_online_year": 2030,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 100000000,
+      "current_milestone": "Kyoto Fusioneering has launched a strategic partnership with the U.S. Department of Energy to build critical fusion infrastructure.",
+      "next_milestone": "null",
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "credible",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "laserfusionx",
+      "project_name": "LaserFusionX",
+      "company_or_operator": "LaserFusionX",
+      "country": "USA",
+      "city_or_region": "Springfield, Virginia",
+      "latitude": 38.7749935,
+      "longitude": -77.1803819,
+      "project_stage": "research and development",
+      "reactor_type": "Laser-driven inertial confinement",
+      "facility_type": "Inertial confinement",
+      "intended_output_mwe": 400.0,
+      "target_online_year": 2040,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 350000,
+      "current_milestone": "Advanced reactor design with innovative solid blanket design and magnetic intervention to protect 1st wall from ions – accepted for publication in the Journal of Fusion Energy. “Direct Drive LaserFusion Facility and Pilot Power Plant.”",
+      "next_milestone": "30 kJ Argon Fluoride laser beamline, 650 kJ ArF laser direct-drive high-gain implosion facility",
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "conceptual",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "longview-fusion-energy-systems",
+      "project_name": "Longview Fusion Energy Systems",
+      "company_or_operator": "Longview Fusion Energy Systems",
+      "country": "USA",
+      "city_or_region": "Livermore, California",
+      "latitude": 37.6820583,
+      "longitude": -121.768053,
+      "project_stage": "research and development",
+      "reactor_type": "Laser-driven inertial confinement",
+      "facility_type": "Inertial confinement",
+      "intended_output_mwe": null,
+      "target_online_year": 2030,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": null,
+      "current_milestone": null,
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "conceptual",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "lppfusion",
+      "project_name": "LPPFusion",
+      "company_or_operator": "LPPFusion",
+      "country": "USA",
+      "city_or_region": "Middlesex, New Jersey",
+      "latitude": 40.4279708,
+      "longitude": -74.3963102,
+      "project_stage": "research and development",
+      "reactor_type": "Dense Plasma Focus",
+      "facility_type": "Magnetic confinement",
+      "intended_output_mwe": 5.0,
+      "target_online_year": 2029,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 11000000,
+      "current_milestone": "Developed new switches and increased peak current.",
+      "next_milestone": "Pilot plant timescale 2025",
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "speculative",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "maritime-fusion",
+      "project_name": "Maritime Fusion",
+      "company_or_operator": "Maritime Fusion",
+      "country": "USA",
+      "city_or_region": "San Francisco, California",
+      "latitude": 37.7879363,
+      "longitude": -122.4075201,
+      "project_stage": "research and development",
+      "reactor_type": "Tokamak",
+      "facility_type": "Magnetic confinement",
+      "intended_output_mwe": null,
+      "target_online_year": 2032,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 4300000,
+      "current_milestone": "In March 2022 reached a landmark plasma ion temperature above 100 million degrees Celsius, considered the threshold for commercial fusion.",
+      "next_milestone": "Develop, implement, and scale up of commercial fusion energy in Japan and worldwide in partnership with Sumitomo Corporation.",
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "conceptual",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "magneto-inertial-fusion-technologies-inc-mifti",
+      "project_name": "Magneto-Inertial Fusion Technologies, Inc. (MIFTI)",
+      "company_or_operator": "Magneto-Inertial Fusion Technologies, Inc. (MIFTI)",
+      "country": "USA",
+      "city_or_region": "Tustin, California",
+      "latitude": 33.7458511,
+      "longitude": -117.826166,
+      "project_stage": "research and development",
+      "reactor_type": "Z-pinch",
+      "facility_type": "Magneto-inertial",
+      "intended_output_mwe": 50.0,
+      "target_online_year": 2030,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 15000000,
+      "current_milestone": "MIFTI scientists have overcome the instability problems of Z-pinch due to sophisticated software made available by the U.S. Air Force, and years of experimentation and understanding the science.",
+      "next_milestone": "MIFTI’s goal is simply to provide the people of earth with energy and medicines, at a reasonable and fair price, with no carbon dioxide emissions.",
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "speculative",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "marvel-fusion",
+      "project_name": "Marvel Fusion",
+      "company_or_operator": "Marvel Fusion",
+      "country": "Germany",
+      "city_or_region": "Munich",
+      "latitude": 48.1371079,
+      "longitude": 11.5753822,
+      "project_stage": "research and development",
+      "reactor_type": "Laser-driven inertial confinement",
+      "facility_type": "Inertial confinement",
+      "intended_output_mwe": null,
+      "target_online_year": 2032,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 440000000,
+      "current_milestone": "Marvel Fusion raises €113mn in latest funding round.",
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "credible",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "nearstar-fusion",
+      "project_name": "NearStar Fusion",
+      "company_or_operator": "NearStar Fusion",
+      "country": "USA",
+      "city_or_region": "Chantilly, Virginia",
+      "latitude": 38.885219,
+      "longitude": -77.4486772,
+      "project_stage": "research and development",
+      "reactor_type": "Magnetized target fusion",
+      "facility_type": "Magneto-inertial",
+      "intended_output_mwe": null,
+      "target_online_year": 2033,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 1600000,
+      "current_milestone": "Raising seed funding",
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "conceptual",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "novatron-fusion-group",
+      "project_name": "Novatron Fusion Group",
+      "company_or_operator": "Novatron Fusion Group",
+      "country": "Sweden",
+      "city_or_region": "Stockholm",
+      "latitude": 59.3251172,
+      "longitude": 18.0710935,
+      "project_stage": "research and development",
+      "reactor_type": "Open magnetic confinement (Mirror machine)",
+      "facility_type": "Magnetic confinement",
+      "intended_output_mwe": 1500.0,
+      "target_online_year": 2034,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 27400000,
+      "current_milestone": "UKAEA (United Kingdom Atomic Energy Authority) signs MoU with Nordic’s first fusion energy company, Novatron Fusion Group, to collaborate on fusion energy development.",
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "speculative",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "nt-tao-compact-fusion-power",
+      "project_name": "nT-Tao Compact Fusion Power",
+      "company_or_operator": "nT-Tao Compact Fusion Power",
+      "country": "Israel",
+      "city_or_region": "Hod Hasharon",
+      "latitude": 32.1561974,
+      "longitude": 34.8930354,
+      "project_stage": "research and development",
+      "reactor_type": "Dynamic Stellarator",
+      "facility_type": "Magnetic confinement",
+      "intended_output_mwe": 20.0,
+      "target_online_year": 2032,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 35000000,
+      "current_milestone": "Breakthrough in fast heating of high-density plasma",
+      "next_milestone": "Before end of decade",
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "speculative",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "openstar-technologies",
+      "project_name": "OpenStar Technologies",
+      "company_or_operator": "OpenStar Technologies",
+      "country": "New Zealand",
+      "city_or_region": "Wellington",
+      "latitude": -41.2887953,
+      "longitude": 174.7772114,
+      "project_stage": "research and development",
+      "reactor_type": "Levitated Dipole Reactor",
+      "facility_type": "Magnetic confinement",
+      "intended_output_mwe": null,
+      "target_online_year": 2030,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 18000000,
+      "current_milestone": "New Zealand-based Fusion Startup Claims Major Advance in New Zealand Trial.",
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "speculative",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "pacific-fusion",
+      "project_name": "Pacific Fusion",
+      "company_or_operator": "Pacific Fusion",
+      "country": "USA",
+      "city_or_region": "Fremont, California",
+      "latitude": 37.5482697,
+      "longitude": -121.988571,
+      "project_stage": "research and development",
+      "reactor_type": "Pulser-driven inertial confinement",
+      "facility_type": "Inertial confinement",
+      "intended_output_mwe": null,
+      "target_online_year": null,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 900000000,
+      "current_milestone": "Pacific Fusion finds a cheaper way to make its fusion reactor work.",
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "front_runner",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "pranos-fusion",
+      "project_name": "Pranos Fusion",
+      "company_or_operator": "Pranos Fusion",
+      "country": "India",
+      "city_or_region": "Bangalore",
+      "latitude": 12.9767936,
+      "longitude": 77.590082,
+      "project_stage": "research and development",
+      "reactor_type": "Spherical Tokamak",
+      "facility_type": "Magnetic confinement",
+      "intended_output_mwe": 50.0,
+      "target_online_year": 2030,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 430000,
+      "current_milestone": "Pranos Fusion raised $6.8 million in a round co-led by Pi Ventures and Ankur Capital.",
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "conceptual",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "princeton-satellite-systems",
+      "project_name": "Princeton Satellite Systems",
+      "company_or_operator": "Princeton Satellite Systems",
+      "country": "USA",
+      "city_or_region": "Plainsboro, New Jersey",
+      "latitude": 40.3334409,
+      "longitude": -74.6004341,
+      "project_stage": "research and development",
+      "reactor_type": "Field Reversed Configuration",
+      "facility_type": "Magnetic confinement",
+      "intended_output_mwe": 1.0,
+      "target_online_year": 2030,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 100000,
+      "current_milestone": "Princeton Stellarators was selected as one of the awardees to the Department of Energy’s milestone-based public private partnership program.",
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "conceptual",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "proxima-fusion",
+      "project_name": "Proxima Fusion",
+      "company_or_operator": "Proxima Fusion",
+      "country": "Germany",
+      "city_or_region": "Munich",
+      "latitude": 48.1371079,
+      "longitude": 11.5753822,
+      "project_stage": "research and development",
+      "reactor_type": "Quasi-isodynamic stellarator",
+      "facility_type": "Magnetic confinement",
+      "intended_output_mwe": 750.0,
+      "target_online_year": 2030,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 200000000,
+      "current_milestone": "Proxima Fusion raises $21M in seed round of funding.",
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "credible",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "pulsar-fusion",
+      "project_name": "Pulsar Fusion",
+      "company_or_operator": "Pulsar Fusion",
+      "country": "UK",
+      "city_or_region": "Bletchley",
+      "latitude": 51.9943694,
+      "longitude": -0.7325655,
+      "project_stage": "research and development",
+      "reactor_type": null,
+      "facility_type": null,
+      "intended_output_mwe": null,
+      "target_online_year": null,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": null,
+      "current_milestone": null,
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "conceptual",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "realta-fusion",
+      "project_name": "Realta Fusion",
+      "company_or_operator": "Realta Fusion",
+      "country": "USA",
+      "city_or_region": "Madison, Wisconsin",
+      "latitude": 43.07469,
+      "longitude": -89.3841663,
+      "project_stage": "research and development",
+      "reactor_type": "Magnetic Mirror",
+      "facility_type": "Magnetic confinement",
+      "intended_output_mwe": null,
+      "target_online_year": 2030,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 50000000,
+      "current_milestone": "Realta Fusion tapped $36M in fresh funds for its fusion-in-a-bottle reactor.",
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "credible",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "renaissance-fusion",
+      "project_name": "Renaissance Fusion",
+      "company_or_operator": "Renaissance Fusion",
+      "country": "France",
+      "city_or_region": "Grenoble",
+      "latitude": 45.1875602,
+      "longitude": 5.7357819,
+      "project_stage": "research and development",
+      "reactor_type": "Stellarator",
+      "facility_type": "Magnetic confinement",
+      "intended_output_mwe": 1000.0,
+      "target_online_year": 2032,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 68500000,
+      "current_milestone": "Renaissance Fusion raises €32M to radically simplify complex fusion reactors.",
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "credible",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "shine-technologies",
+      "project_name": "SHINE Technologies",
+      "company_or_operator": "SHINE Technologies",
+      "country": "USA",
+      "city_or_region": "Janesville, Wisconsin",
+      "latitude": 42.6829765,
+      "longitude": -89.0226793,
+      "project_stage": "research and development",
+      "reactor_type": "Phased beam-target approach",
+      "facility_type": "Hybrid electrostatic confinement (future phases)",
+      "intended_output_mwe": null,
+      "target_online_year": 2026,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 800000000,
+      "current_milestone": "SHINE Technologies announces $240 million raised in equity funding.",
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "front_runner",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "terra-fusion-energy-corporation",
+      "project_name": "Terra Fusion Energy Corporation",
+      "company_or_operator": "Terra Fusion Energy Corporation",
+      "country": "USA",
+      "city_or_region": "Maryland",
+      "latitude": 39.5162401,
+      "longitude": -76.9382069,
+      "project_stage": "research and development",
+      "reactor_type": "Centrifugal Magnetic Mirror",
+      "facility_type": "Magnetic confinement",
+      "intended_output_mwe": null,
+      "target_online_year": 2032,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 400000,
+      "current_milestone": null,
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "conceptual",
+      "globe_modes": [
+        "hq"
+      ]
+    },
+    {
+      "id": "type-one-energy-group",
+      "project_name": "Type One Energy Group",
+      "company_or_operator": "Type One Energy Group",
+      "country": "USA",
+      "city_or_region": "Knoxville, Tennessee",
+      "latitude": 35.9603948,
+      "longitude": -83.9210261,
+      "project_stage": "research and development",
+      "reactor_type": "Stellarator",
+      "facility_type": "Magnetic confinement",
+      "intended_output_mwe": 350.0,
+      "target_online_year": 2033,
+      "offtaker": null,
+      "utility_partner": null,
+      "served_region": null,
+      "site_status": null,
+      "funding_raised_usd": 84000000,
+      "current_milestone": "Type One Energy is building a prototype nuclear fusion reactor in Tennessee.",
+      "next_milestone": null,
+      "source_url": "https://www.fusionindustryassociation.org/fusion-industry-report-archive",
+      "credibility_bucket": "credible",
+      "globe_modes": [
+        "hq"
+      ]
     }
   ],
   "precursor_facilities": [
@@ -293,26 +1138,13 @@
       "served_region": null,
       "site_status": "Under active construction at Hefei Science Island; Dewar base installed Oct 2025; full-scale assembly commenced May 2025; machine completion targeted end-2027",
       "funding_raised_usd": 2100000000,
-      "funding_last_verified_date": "2025-09-15",
       "current_milestone": "Dewar base installed Oct 2025; full-scale assembly commenced May 2025; Neo Fusion (commercialization arm) raised $2.1B from Anhui provincial government + private investors (incl. NIO); CFEC (CNNC subsidiary) launched July 2025 with $2.1B registered capital",
       "next_milestone": "Complete main machine assembly (end-2027); first plasma; D-T burning plasma; first fusion electricity demonstration (~2030)",
       "source_url": "https://english.cas.cn/newsroom/cas_media/202510/t20251010_1088962.shtml",
-      "source_type": "Chinese Academy of Sciences + SCSP report + ANS Nuclear News + People's Daily",
-      "source_tier": "tier_1",
-      "coverage_status": "well_covered",
-      "confidence": "medium",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "included_because": "Direct precursor to CFETR; Chinese authorities describe it as designed to achieve world's first fusion electricity generation (~2030); $2.1B in state-backed funding through Neo Fusion.",
-      "excluded_from_primary_reason": "BEST is a science-to-demonstration bridge device, not a commercial power plant. Net MWe output not specified.",
-      "notes": "Neo Fusion is the commercialization arm for BEST; has raised $2.1B from Anhui provincial government + NIO and private investors. CFEC (China Fusion Energy Co., CNNC subsidiary) launched July 2025 with 15B yuan (~$2.1B) registered capital. Electricity demonstration if achieved by 2030 would be the first in fusion history. CRAFT campus (100-acre component test facility) also operational at Hefei Science Island.",
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
       "globe_modes": [
         "important_unique"
-      ],
-      "default_globe_visible": false,
-      "visibility_tier": "secondary"
+      ]
     },
     {
       "id": "energy_singularity_hh170",
@@ -332,24 +1164,11 @@
       "served_region": null,
       "site_status": "In development at Shanghai facility; follows HH70 results; HH170 (170 cm major radius, 10x larger volume) targets Q>1 (10-fold energy gain)",
       "funding_raised_usd": null,
-      "funding_last_verified_date": "2026-04-01",
       "current_milestone": "HH170 development announced; HH70 operational results (1,337s plasma) inform HH170 design",
       "next_milestone": "HH170 construction; commissioning; Q>1 demonstration; gates commercial demonstration reactor design",
       "source_url": "https://www.scmp.com/news/china/science/article/3259784/china-sets-new-nuclear-fusion-record-energy-singularity",
-      "source_type": "South China Morning Post + Chinese state media + Energy Singularity official announcements",
-      "source_tier": "tier_2",
-      "coverage_status": "not_in_prior_dataset",
-      "confidence": "medium",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
-      "included_because": "Next-generation device targeting Q>1 (10x energy gain); direct precursor to Energy Singularity commercial demonstration reactor; grounded in HH70 operational results.",
-      "excluded_from_primary_reason": "HH170 is a science prototype. No commercial site, MWe target, or offtaker.",
-      "notes": "HH170 (170 cm major radius) is ~5x the plasma volume of HH70 (70 cm). Targets Q>1 (ten-fold energy gain). No construction date publicly announced. Funding figure not publicly confirmed. Commercial demonstration reactor planned following HH170 success.",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "energy_singularity_hh70",
@@ -369,26 +1188,13 @@
       "served_region": null,
       "site_status": "Operational at Shanghai facility since June 2024; HH70 (70 cm major radius) is China's first privately built HTS tokamak",
       "funding_raised_usd": null,
-      "funding_last_verified_date": "2026-04-01",
       "current_milestone": "1,337-second sustained plasma (April 2026) — world record for any commercially built tokamak; 5,755 experiments completed",
       "next_milestone": "Continued experimental campaign; HH170 construction gates commercial demonstration reactor",
       "source_url": "https://www.scmp.com/news/china/science/article/3259784/china-sets-new-nuclear-fusion-record-energy-singularity",
-      "source_type": "South China Morning Post + Chinese state media + Energy Singularity official announcements",
-      "source_tier": "tier_2",
-      "coverage_status": "not_in_prior_dataset",
-      "confidence": "medium",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
-      "included_because": "Operational HTS tokamak achieving world record 1,337s plasma (April 2026); China's first private fusion device; direct precursor to HH170.",
-      "excluded_from_primary_reason": "HH70 is a science prototype. Does not generate grid electricity.",
-      "notes": "Founded 2021 as China's first private fusion company. HH70 set world record 1,337-second plasma April 2026, surpassing EAST's 1,066-second government-machine record. 5,755 total experiments. Funding not publicly confirmed in English sources.",
       "globe_modes": [
         "important_unique"
-      ],
-      "default_globe_visible": false,
-      "visibility_tier": "secondary"
+      ]
     },
     {
       "id": "helix_haruka",
@@ -408,24 +1214,11 @@
       "served_region": null,
       "site_status": "Phase 1 (magnet demonstration): construction site selected at NIFS campus, Toki, Gifu (announced March 2026); manufacturing and assembly begun",
       "funding_raised_usd": 15000000,
-      "funding_last_verified_date": "2025-09-01",
       "current_milestone": "Phase 1 construction site announced at NIFS campus (March 2026); world-first non-planar HTS coil validated Oct 2025; assembly begun",
       "next_milestone": "Phase 1 HTS magnet energization tests (2027); Phase 2 integrated demonstration (early 2030s); gates Helix KANATA",
       "source_url": "https://www.businesswire.com/news/home/20260316066384/en/",
-      "source_type": "BusinessWire + AFP + ANS Nuclear News",
-      "source_tier": "tier_2",
-      "coverage_status": "partially_covered",
-      "confidence": "medium",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "included_because": "World-first non-planar HTS coil validated; construction site confirmed at NIFS March 2026; direct precursor to Helix KANATA pilot plant.",
-      "excluded_from_primary_reason": "HARUKA is an integrated demonstration device. Does not generate grid electricity.",
-      "notes": "Phase 1 construction site at NIFS confirmed March 2026. $15M funding raise per Fusion Energy Insights (Sept 2025). Helical Fusion holds exclusive rights to NIFS helical stellarator technology.",
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "inertia_thunderwall",
@@ -445,26 +1238,13 @@
       "served_region": null,
       "site_status": "Thunderwall prototype beamline under development at Inertia's Livermore facility; target factory also being established at Livermore; first unit-cell beamline (10 kJ, 10 Hz, 10% wall-plug efficiency) is primary milestone; LLNL CRADA + 2 SPPs signed April 2026 — one of largest private sector-led national lab partnerships in DOE history; ~200 LLNL patents licensed",
       "funding_raised_usd": 450000000,
-      "funding_last_verified_date": "2026-02-11",
       "current_milestone": "$450M Series A closed Feb 2026 (Bessemer Venture Partners lead, GV/Google Ventures, Modern Capital, Threshold Ventures); LLNL landmark partnership signed April 2026 (2 SPPs + CRADA + ~200 patents); Thunderwall prototype beamline under development at Livermore facility; target factory being established",
       "next_milestone": "Thunderwall unit-cell prototype completion; target manufacturing line proof; pilot plant groundbreaking target ~2030; grid-scale gigawatt commercial plant in 2030s",
       "source_url": "https://www.globenewswire.com/news-release/2026/02/11/3236274/0/en/Inertia-raises-450-million-to-commercialize-the-only-proven-fusion-science.html",
-      "source_type": "GlobeNewswire (Series A) + LLNL official (Apr 2026) + TechCrunch (Apr 2026) + Nuclear Engineering International",
-      "source_tier": "tier_1",
-      "coverage_status": "not_in_prior_dataset",
-      "confidence": "high",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
-      "included_because": "Named site at Livermore CA under active development; $450M Series A (Feb 2026, one of largest ever for laser fusion); landmark LLNL partnership (largest private sector-led DOE national lab collaboration in history); co-founded by NIF ignition team (Annie Kritcher, Mike Dunne); ~200 LLNL patents licensed; Thunderwall is direct precursor to Inertia's gigawatt commercial plant.",
-      "excluded_from_primary_reason": "Thunderwall is a laser prototype and target factory, not a power plant. Does not generate grid electricity.",
-      "notes": "Founded 2024 (formerly reported as 2025 in some sources; GlobeNewswire says 'Founded 2024'). Co-founders: Jeff Lawson (CEO, Twilio founder), Dr. Annie Kritcher (Chief Scientist, NIF ignition lead designer, remains at LLNL under OBA), Dr. Mike Dunne (CTO, former LLNL program director). Thunderwall: 10 kJ / 10 Hz / 10% wall-plug efficiency; 50x higher average power than any prior laser of its type. Target: based on NIF 'Hybrid-E' hohlraum design that achieved Dec 2022 ignition. Commercial plant targets 10 MJ laser at 10 Hz. Pilot groundbreaking by 2030. LIFT (Livermore Institute of Fusion Technology) manages LLNL side of partnership.",
       "globe_modes": [
         "important_unique"
-      ],
-      "default_globe_visible": false,
-      "visibility_tier": "secondary"
+      ]
     },
     {
       "id": "infinity_one",
@@ -484,26 +1264,13 @@
       "served_region": null,
       "site_status": "High-heat-flux materials test facility under site preparation at Bull Run Complex; Infinity One commissioning targeted 2029; first US fusion byproduct material license application submitted Jan 2026",
       "funding_raised_usd": 160000000,
-      "funding_last_verified_date": "2026-01-14",
       "current_milestone": "First US fusion license application submitted Jan 2026; TVA conditioning site; high-heat-flux test facility slated for completion end-2027",
       "next_milestone": "High-heat-flux test facility completion (end 2027); Infinity One commissioning and startup (2029)",
       "source_url": "https://typeoneenergy.com/tva-and-type-one-energy-submit-first-license-application-for-fusion-in-tn/",
-      "source_type": "Official Type One Energy press release + TVA announcement",
-      "source_tier": "tier_1",
-      "coverage_status": "well_covered",
-      "confidence": "high",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "included_because": "Stellarator prototype prerequisite for Infinity Two commercial plant; first US fusion license application filed.",
-      "excluded_from_primary_reason": "Prototype device only; does not plan to deliver grid electricity.",
-      "notes": "Co-located with Infinity Two at TVA Bull Run Energy Complex. First fusion license application in US history submitted Jan 2026.",
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
       "globe_modes": [
         "important_unique"
-      ],
-      "default_globe_visible": false,
-      "visibility_tier": "secondary"
+      ]
     },
     {
       "id": "lm26",
@@ -523,24 +1290,11 @@
       "served_region": null,
       "site_status": "Operational at General Fusion's Vancouver facility since early 2025; running Lawson Program milestone sequence through mid-2028",
       "funding_raised_usd": 462000000,
-      "funding_last_verified_date": "2026-01-22",
       "current_milestone": "LM26 operational as of early 2025; world's first MTF machine at commercially relevant scale (50% power plant scale), built in under two years",
       "next_milestone": "Lawson Program milestone series completion (mid-2028); results gate FOAK plant final design",
       "source_url": "https://generalfusion.com/commercialization-path/",
-      "source_type": "Official company site + GlobeNewswire Apr 2026",
-      "source_tier": "tier_1",
-      "coverage_status": "well_covered",
-      "confidence": "medium",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "included_because": "Real operating machine at commercially relevant scale; direct precursor to General Fusion FOAK commercial plant.",
-      "excluded_from_primary_reason": "Does not generate grid electricity. Precursor demonstration machine only.",
-      "notes": "Operates at 50% power plant scale. Lawson Program milestones through mid-2028 determine FOAK plant viability. General Fusion SPAC deal (Spring Valley Acquisition Corp III) will value company at ~$600M pre-deal.",
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "marvel_colorado_demo",
@@ -560,26 +1314,13 @@
       "served_region": null,
       "site_status": "Under construction at Colorado State University (Fort Collins); $150M laser facility; partnership with Colorado State University; Marvel Series B €113M total (incl. €50M extension March 2025 from EQT Ventures, Siemens Energy Ventures, European Innovation Council Fund); two laser prototypes under development; facility completion targeted 2027",
       "funding_raised_usd": 125000000,
-      "funding_last_verified_date": "2025-03-27",
       "current_milestone": "€113M total Series B closed (€50M extension March 2025: EQT Ventures, Siemens Energy Ventures, EIC Fund); $150M CSU Colorado facility under construction; Siemens Energy progressing conceptual design of fully integrated fusion power plant; 2,000+ validation experiments completed on LION-2 at CALA/LMU Garching",
       "next_milestone": "Colorado facility completion and proof-of-technology (2027); gates Marvel Fusion pilot power plant",
       "source_url": "https://cordis.europa.eu/project/id/101189082",
-      "source_type": "EU CORDIS + Marvel Fusion official newsroom",
-      "source_tier": "tier_1",
-      "coverage_status": "partially_covered",
-      "confidence": "high",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "included_because": "Proof-of-technology step for Marvel Fusion 100 MWe pilot plant; Colorado facility funded and under development.",
-      "excluded_from_primary_reason": "Does not generate grid electricity. Precursor demonstration only.",
-      "notes": "Colorado facility infrastructure and laser fully funded per EU filing. Proof-of-technology in 2027 is gate condition for 100 MWe pilot plant (with Siemens Energy). Funding figure unavailable in public records.",
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
       "globe_modes": [
         "important_unique"
-      ],
-      "default_globe_visible": false,
-      "visibility_tier": "secondary"
+      ]
     },
     {
       "id": "pacific_fusion_demonstration",
@@ -599,24 +1340,11 @@
       "served_region": null,
       "site_status": "$1B Research and Manufacturing Campus approved; construction begins 2026 at Mesa del Sol; Demonstration System housed here; net facility gain (QF>1) targeted by 2030",
       "funding_raised_usd": 900000000,
-      "funding_last_verified_date": "2025-09-26",
       "current_milestone": "Phase I milestones completed Nov 2024 (ahead of schedule); Albuquerque site selected and city council approved Sept 2025; $776.6M in IRBs approved",
       "next_milestone": "Campus construction begins 2026; Demonstration System operational; net facility gain by 2030",
       "source_url": "https://pacificfusion.com/updates/pacific-fusion-announces-expansion-to-new-mexico-with-new-research-and-manufacturing-campus",
-      "source_type": "Official Pacific Fusion press release + New Mexico Governor office + ANS Nuclear News",
-      "source_tier": "tier_1",
-      "coverage_status": "not_in_prior_dataset",
-      "confidence": "medium",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "included_because": "Named site secured, formal government approvals, $900M raised, precursor to Pacific Fusion commercial plant by mid-2030s.",
-      "excluded_from_primary_reason": "Demonstration System at Albuquerque site explicitly designed for research and manufacturing, not power generation.",
-      "notes": "Note: Pacific Fusion primary project record also tracks the commercial plant roadmap. This record specifically covers the Demonstration System (precursor device). Net facility gain (QF>1) by 2030 is the gate. Derived from Sandia Z-machine/pulsed power ICF research.",
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "polaris",
@@ -631,31 +1359,18 @@
       "facility_type": "science_prototype",
       "intended_output_mwe": null,
       "target_online_year": 2025,
-      "offtaker": null,
-      "utility_partner": null,
+      "offtaker": "Microsoft, Nucor Corporation",
+      "utility_partner": "public utility district operators of Rock Island Dam",
       "served_region": null,
       "site_status": "7th-generation prototype; targeting first fusion electricity demonstration in 2025 at Helion's Everett facility",
       "funding_raised_usd": 1025000000,
-      "funding_last_verified_date": "2025-01-28",
       "current_milestone": "Polaris initial operations began 2024/early 2025; Series F $425M closed Jan 2025. TechCrunch Apr 2026 confirms Polaris operational as prototype reactor. Must demonstrate first fusion electricity before Orion proceeds.",
       "next_milestone": "First fusion electricity demonstration; results gate Orion commercial plant",
       "source_url": "https://www.helionenergy.com/articles/starting-to-build-the-worlds-first-fusion-power-plant-in-malaga-wa/",
-      "source_type": "Helion official press release + S&P Global + GeekWire",
-      "source_tier": "tier_1",
-      "coverage_status": "well_covered",
-      "confidence": "high",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "included_because": "Direct precursor to Orion commercial plant; must demonstrate electricity generation before Orion proceeds.",
-      "excluded_from_primary_reason": "Polaris is a science prototype at Helion's Everett facility. It does not deliver grid electricity.",
-      "notes": "Funding figure reflects company total, not Polaris specifically. 7th in a generation series. Does not feed the grid.",
-      "render_on_main_globe": false,
       "credibility_bucket": "front_runner",
       "globe_modes": [
         "important_unique"
-      ],
-      "default_globe_visible": false,
-      "visibility_tier": "secondary"
+      ]
     },
     {
       "id": "proxima_alpha",
@@ -675,26 +1390,13 @@
       "served_region": null,
       "site_status": "Site agreed at Garching near Max Planck IPP; MoU signed Feb 2026; building not yet commenced; ~€2B estimated cost; site evaluation across Europe ongoing",
       "funding_raised_usd": 230000000,
-      "funding_last_verified_date": "2025-09-09",
       "current_milestone": "MoU signed Feb 26 2026; Alpha site agreed at Garching; €200M (~$230M) total funding; Stellarator Model Coil (SMC) targeted 2027",
       "next_milestone": "SMC demo magnet (2027); Alpha construction start; Alpha operational with Q>1 net energy gain (2031 target)",
       "source_url": "https://www.proximafusion.com/press-news/proxima-fusion-rwe-the-free-state-of-bavaria-and-max-planck-institute-for-plasma-physics-sign-agreement-to-build-the-worlds-first-commercial-fusion-power-plant-in-europe",
-      "source_type": "Official Proxima Fusion press release + CATF European strategy report + Yahoo Finance funding",
-      "source_tier": "tier_1",
-      "coverage_status": "well_covered",
-      "confidence": "medium",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "included_because": "Direct scientific precursor to Stellaris commercial plant; €2B estimated cost; Alpha must achieve Q>1 by 2031 before Stellaris proceeds.",
-      "excluded_from_primary_reason": "Alpha is a demonstration stellarator. Will not generate grid electricity.",
-      "notes": "Alpha target updated to 2031 (per Sept 2025 Proxima official announcement; earlier records said 2032). MoU is non-binding. CATF European industrial strategy report (Sept 2025) confirms Proxima aims to deliver commercial Stellaris in mid-to-late 2030s.",
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
       "globe_modes": [
         "important_unique"
-      ],
-      "default_globe_visible": false,
-      "visibility_tier": "secondary"
+      ]
     },
     {
       "id": "sparc_devens",
@@ -714,26 +1416,13 @@
       "served_region": null,
       "site_status": "Under active construction at 60-acre Devens campus; first TF magnet installed Jan 2026; vacuum vessel first half delivered",
       "funding_raised_usd": 2900000000,
-      "funding_last_verified_date": "2026-04-10",
       "current_milestone": "First TF magnet installed Jan 2026; vacuum vessel first half delivered; $863M Series B2 closed Aug 2025 (total ~$3B). TechCrunch (Apr 2026) reports CFS expects SPARC operational 'in late 2026 or early 2027'.",
       "next_milestone": "Full magnet set assembly; SPARC first plasma; Q>1 net energy demonstration (2027)",
       "source_url": "https://cfs.energy/technology/sparc/",
-      "source_type": "Official CFS site + CFS video update Jan 2026",
-      "source_tier": "tier_1",
-      "coverage_status": "well_covered",
-      "confidence": "high",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "included_because": "Direct scientific precursor to ARC commercial plant; active construction underway; success gates ARC.",
-      "excluded_from_primary_reason": "SPARC will not generate electricity to grid. It is a Q>1 science demonstration device only.",
-      "notes": "SPARC is the world's largest private fusion device under active construction. Q>1 demonstration (2027) gates ARC commercial plant construction start.",
-      "render_on_main_globe": false,
       "credibility_bucket": "front_runner",
       "globe_modes": [
         "important_unique"
-      ],
-      "default_globe_visible": false,
-      "visibility_tier": "secondary"
+      ]
     },
     {
       "id": "st80_hts",
@@ -753,26 +1442,13 @@
       "served_region": null,
       "site_status": "Under construction at UKAEA Culham Campus; targeted for completion 2026; Demo4 HTS magnet set (complete tokamak configuration) achieved 11.8 Tesla in Nov 2025",
       "funding_raised_usd": 336000000,
-      "funding_last_verified_date": "2026-04-10",
       "current_milestone": "Demo4 HTS magnet set achieved 11.8 Tesla at -243°C (Nov 2025) — replicating fusion power plant magnetic fields for first time; ST80-HTS under construction",
       "next_milestone": "ST80-HTS prototype completion (2026); magnet and plasma validation; informs ST-E1 pilot plant design",
       "source_url": "https://tokamakenergy.com/2025/11/19/tokamak-energy-announces-fusion-power-plant-magnet-technology-breakthrough/",
-      "source_type": "Official Tokamak Energy press release + UK Government announcement",
-      "source_tier": "tier_1",
-      "coverage_status": "well_covered",
-      "confidence": "high",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "included_because": "Enabling prototype for ST-E1 commercial pilot plant; 11.8 Tesla HTS magnet milestone validated Nov 2025; also STEP magnet partner.",
-      "excluded_from_primary_reason": "ST80-HTS is a prototype. Will not generate grid electricity.",
-      "notes": "Demo4 HTS milestone (Nov 2025) is the most significant magnet validation milestone in spherical tokamak history. Tokamak Energy also STEP magnet systems partner (£70M, March 2026). Funding figure reflects company total.",
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
       "globe_modes": [
         "important_unique"
-      ],
-      "default_globe_visible": false,
-      "visibility_tier": "secondary"
+      ]
     },
     {
       "id": "stellarring_ntst",
@@ -792,24 +1468,11 @@
       "served_region": null,
       "site_status": "NTST construction to start in Shanghai 2026 at StellarRing's Shanghai facility; engineering verification targeted 2028; site prepared",
       "funding_raised_usd": 140000000,
-      "funding_last_verified_date": "2026-01-15",
       "current_milestone": "1 billion yuan (~$140M) raised January 2026 (China's largest single private fusion round); Tsinghua University founding team; NTST construction start planned 2026",
       "next_milestone": "NTST construction start (2026); first plasma; engineering verification (2028) — gates commercial demonstration reactor",
       "source_url": "https://eu.36kr.com/en/p/3721230310322953",
-      "source_type": "36Kr (Chinese business media, English edition) + Chinese state media",
-      "source_tier": "tier_2",
-      "coverage_status": "not_in_prior_dataset",
-      "confidence": "medium",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
-      "included_because": "Named city + construction start planned 2026; $140M raised (China's largest single private fusion round); Shanghai SOIC state-backed; Tsinghua founding team; direct precursor to StellarRing commercial demonstration reactor.",
-      "excluded_from_primary_reason": "NTST is a science prototype. Does not generate grid electricity.",
-      "notes": "Backed by Shanghai State-owned Investment Corporation (SOIC). Miniaturized spherical tokamak approach derived from Tsinghua research. NTST construction planned Shanghai 2026. Engineering verification (2028) gates commercial demo reactor.",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "xcimer_anvil",
@@ -829,24 +1492,11 @@
       "served_region": null,
       "site_status": "Planned at Denver facility (same campus as Phoenix); 200 kJ IFE beamline demonstrator; gated on Phoenix completion (2026)",
       "funding_raised_usd": null,
-      "funding_last_verified_date": null,
       "current_milestone": "Conceptual design phase; gated on Phoenix (2026)",
       "next_milestone": "Phoenix completion (2026); Anvil construction and operation (2028); enables Vulcan engineering design",
       "source_url": "https://xcimer.energy/faq/",
-      "source_type": "Official Xcimer Energy FAQ + website",
-      "source_tier": "tier_1",
-      "coverage_status": "partially_covered",
-      "confidence": "medium",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
-      "included_because": "Step 2 of Xcimer precursor ladder; 200 kJ IFE beamline demonstrator gates Vulcan.",
-      "excluded_from_primary_reason": "Anvil is a beamline demonstrator. Does not generate grid electricity.",
-      "notes": "Anvil (200 kJ IFE beamline) is the second step in the Xcimer precursor ladder (Phoenix → Anvil → Vulcan → Athena). Planned for Denver facility. Gated on Phoenix 2026.",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "xcimer_phoenix",
@@ -866,24 +1516,11 @@
       "served_region": null,
       "site_status": "Under active development at Denver facility; first private-sector electron-beam-pumped excimer laser (Long Pulse Kinetics Platform) completed early 2025; Phoenix target completion 2026",
       "funding_raised_usd": null,
-      "funding_last_verified_date": null,
       "current_milestone": "Long Pulse Kinetics Platform completed early 2025 — world's first private-sector electron-beam-pumped excimer laser; Phoenix laser system under development",
       "next_milestone": "Phoenix completion (2026); enables Anvil beamline demonstrator",
       "source_url": "https://xcimer.energy/faq/",
-      "source_type": "Official Xcimer Energy FAQ + website",
-      "source_tier": "tier_1",
-      "coverage_status": "partially_covered",
-      "confidence": "medium",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
-      "included_because": "Step 1 of Xcimer precursor ladder; active hardware development in Denver; world's first private excimer laser milestone achieved.",
-      "excluded_from_primary_reason": "Phoenix is a laser prototype. Does not generate grid electricity.",
-      "notes": "Xcimer confirmed by TechCrunch (April 2026) as among fusion startups that have raised >$100M. Exact funding not publicly disclosed. Phoenix gates Anvil.",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "xcimer_vulcan",
@@ -903,24 +1540,11 @@
       "served_region": null,
       "site_status": "Site TBD; will be world's largest laser system; wall-plug engineering breakeven (QE>=1) targeted 2031; gated on Anvil results (2028)",
       "funding_raised_usd": null,
-      "funding_last_verified_date": null,
       "current_milestone": "Conceptual design phase; gated on Anvil (2028)",
       "next_milestone": "Anvil completion (2028); Vulcan site selection; Vulcan construction; wall-plug engineering breakeven (2031) — gates Athena commercial plant",
       "source_url": "https://xcimer.energy/faq/",
-      "source_type": "Official Xcimer Energy FAQ + website",
-      "source_tier": "tier_1",
-      "coverage_status": "partially_covered",
-      "confidence": "medium",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
-      "included_because": "Step 3 of Xcimer precursor ladder; Vulcan wall-plug engineering breakeven (2031) is the critical gate for Athena 400 MWe commercial plant.",
-      "excluded_from_primary_reason": "Vulcan is the largest laser prototype in the precursor chain. Does not generate grid electricity.",
-      "notes": "Vulcan will be the world's largest laser system if built. Wall-plug engineering breakeven (QE>=1, 2031) is the gate condition for Xcimer Athena commercial plant. Site TBD. Gated on Anvil 2028.",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "zap_century",
@@ -940,26 +1564,13 @@
       "served_region": null,
       "site_status": "Century operational at Everett WA facility since Oct 2024; 100 kW-scale repetitive Z-pinch system; first fully integrated demonstration of plasma-facing liquid metal blanket at this scale; DOE Milestone-Based Fusion Development Program participant",
       "funding_raised_usd": 327000000,
-      "funding_last_verified_date": "2026-03-16",
       "current_milestone": "Century operational Oct 2024: demonstrated 1,000+ consecutive plasmas in <3 hours; liquid-metal plasma-facing wall integrated; $130M Series D closed Oct 2024 (Soros Fund Management lead; total $327M); DOE milestone-based program participant; attempting DOE milestone by end 2024/2025",
       "next_milestone": "DOE milestone completion; Century ramp to 100 kW average input; next FuZE device series; pulsed power capacitor bank development; pilot plant conceptual design (DOE programme); Centralia WA coal site siting study (TransAlta partnership, ongoing)",
       "source_url": "https://www.zapenergy.com/news/doe-award-to-zap-energy-for-fusion-pilot-plant-design",
-      "source_type": "Zap Energy official + Latitude Media + GeekWire + DOE announcement",
-      "source_tier": "tier_1",
-      "coverage_status": "not_in_prior_dataset",
-      "confidence": "medium",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
-      "included_because": "Century operational at named Everett WA site since Oct 2024; $327M raised (5th largest private fusion company globally); DOE Milestone-Based Fusion Development program participant; Centralia WA TransAlta coal plant siting study (coal-to-fusion); liquid-metal plasma-facing wall integration is industry first.",
-      "excluded_from_primary_reason": "Century is a 100 kW-scale demo system, not a power plant. Does not generate grid electricity.",
-      "notes": "Sheared-flow-stabilized Z-pinch: plasma confined by its own current (no external magnets or lasers). Century is 'the world's first 100 kW-scale repetitive Z-pinch system.' Module size: 50 MWe per module. Commercial plants would use multiple modules. Centralia, WA TransAlta coal plant site (closing 2025) being studied for potential fusion pilot — coal infrastructure and grid connection valuable for retrofit. $327M total: Breakthrough Energy Ventures, Chevron Technology Ventures, Soros Fund Management, Emerson Collective, Mizuho, DCVC, Shell Ventures, Energy Impact Partners, Plynth Energy (UAE). Zap to Zap pilot commercial plant is tracked separately as watchlist entry.",
       "globe_modes": [
         "important_unique"
-      ],
-      "default_globe_visible": false,
-      "visibility_tier": "secondary"
+      ]
     }
   ],
   "program_roadmaps": [
@@ -981,24 +1592,11 @@
       "served_region": "Chinese national grid",
       "site_status": "CFEC launched July 2025 with 15B yuan (~$2.1B) registered capital; state-directed commercialization umbrella overseeing BEST and CFETR pathway",
       "funding_raised_usd": 2100000000,
-      "funding_last_verified_date": "2025-07-15",
       "current_milestone": "CFEC incorporated July 2025 with $2.1B registered capital; first board and management established; oversight of BEST construction and CFETR pre-engineering",
       "next_milestone": "BEST first plasma (2027); CFETR engineering design decisions (2028+); CFEC commercial operations oversight (~2040 target)",
       "source_url": "https://www.ans.org/news/article-7244/china-launches-fusionfocused-company/",
-      "source_type": "ANS Nuclear News + People's Daily + CNNC official",
-      "source_tier": "tier_1",
-      "coverage_status": "not_in_prior_dataset",
-      "confidence": "medium",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "included_because": "State-directed commercialization umbrella for China's fusion programme; $2.1B registered capital; CNNC (parent) is world's largest nuclear power company; oversees BEST and CFETR.",
-      "excluded_from_primary_reason": "CFEC is a programme-level entity, not a specific power plant or named site. Commercial operations projected 2040–2050.",
-      "notes": "CFEC is separate from Neo Fusion (finances BEST) and from CFETR (downstream engineering test reactor). CNNC cautioned fusion is 'still in developmental stage with commercial failure risks.' Registered capital 15B yuan (~$2.1B) reflects state-level commitment. CFEC = programme coordinator; Neo Fusion = BEST financial vehicle; CFETR = downstream engineering test reactor.",
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "cfetr",
@@ -1011,31 +1609,18 @@
       "project_stage": "planned",
       "reactor_type": "Tokamak",
       "facility_type": "demo_plant",
-      "intended_output_mwe": 1000,
+      "intended_output_mwe": 1000.0,
       "target_online_year": 2035,
       "offtaker": null,
       "utility_partner": null,
       "served_region": "Chinese national grid",
       "site_status": "Engineering design and pre-construction planning; construction expected late 2020s; BEST precursor under construction; Phase 1 targets 200 MWth (~2035), Phase 2 targets ~1 GWe (~2040+)",
       "funding_raised_usd": null,
-      "funding_last_verified_date": null,
       "current_milestone": "Engineering design ongoing; BEST precursor under construction (completion 2027); China accelerating fusion engineering per Jan 2026 state media",
       "next_milestone": "BEST first plasma (~2027); CFETR construction start (late 2020s); Phase 1 operation (~2030–2035); Phase 2 electricity generation (~2040)",
       "source_url": "https://en.wikipedia.org/wiki/China_Fusion_Engineering_Test_Reactor",
-      "source_type": "Wikipedia + China Daily + CAS + POWER Magazine + Yicai Global",
-      "source_tier": "tier_2",
-      "coverage_status": "partially_covered",
-      "confidence": "medium",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "included_because": "Phase 2 targets ~1 GWe net electricity — largest government fusion electricity programme in Asia. BEST precursor under construction.",
-      "excluded_from_primary_reason": "CFETR is a national engineering test reactor programme, not a specific named commercial plant with utility or offtaker.",
-      "notes": "Phase 2 (~1 GWe) would make China first nation to demonstrate commercial-scale fusion electricity (~2040). Wide-scale commercial application targeted 2050. BEST and CFEC/Neo Fusion are the specific implementation entities.",
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "eu_demo",
@@ -1048,31 +1633,18 @@
       "project_stage": "planned",
       "reactor_type": "Tokamak",
       "facility_type": "demo_plant",
-      "intended_output_mwe": 400,
+      "intended_output_mwe": 400.0,
       "target_online_year": 2051,
       "offtaker": null,
       "utility_partner": null,
       "served_region": "European grid",
       "site_status": "Conceptual design phase commenced July 2022; engineering design contingent on ITER results; no site or host country selected",
       "funding_raised_usd": null,
-      "funding_last_verified_date": null,
       "current_milestone": "Conceptual design ongoing; state-of-the-art design published in Fusion Engineering & Design (2023)",
       "next_milestone": "Engineering design (post-ITER results ~2035+); construction decision (~2030); construction (~2031–2043); first electricity (~2048–2051)",
       "source_url": "https://euro-fusion.org/programme/demo/",
-      "source_type": "EUROfusion official programme page + European Nuclear Society",
-      "source_tier": "tier_1",
-      "coverage_status": "well_covered",
-      "confidence": "medium",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "included_because": "Formal European government fusion electricity programme; 300–500 MWe grid mandate; broad multi-nation institutional backing.",
-      "excluded_from_primary_reason": "No site, no host country, no construction contracts, fully ITER-contingent, first electricity ~2051. Broad roadmap programme, not a specific plant.",
-      "notes": "Timeline fully contingent on ITER D-T operations (post-2035). No site or host country. Conceptual design phase only.",
-      "render_on_main_globe": false,
       "credibility_bucket": "conceptual",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "iter",
@@ -1092,26 +1664,13 @@
       "served_region": null,
       "site_status": "Under construction; revised June 2024 baseline targets D-D operations in 2035; D-T operations delayed beyond original 2035 target",
       "funding_raised_usd": 22000000000,
-      "funding_last_verified_date": "2024-06-20",
       "current_milestone": "Major assembly components installed; revised 2024 baseline issued; magnets tested and delivered from member nations",
       "next_milestone": "Complete tokamak assembly; first plasma (D-D) ~2035; D-T burning plasma operations post-2035",
       "source_url": "https://www.world-nuclear-news.org/articles/iter-s-proposed-new-timeline-initial-phase-of-oper",
-      "source_type": "World Nuclear News + ITER Organization official press release (June 2024)",
-      "source_tier": "tier_1",
-      "coverage_status": "well_covered",
-      "confidence": "high",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "included_because": "Global science anchor; under physical construction; directly gates EU DEMO, JA-DEMO, K-DEMO timelines.",
-      "excluded_from_primary_reason": "ITER will NOT generate electricity. Pure science experiment (Q=10, 500 MWth). Not a commercial power project.",
-      "notes": "Cost ~€20B+ (some estimates up to €22B). ITER is the reference validation anchor for all government DEMO programmes. Its delay to 2035 directly cascades into EU DEMO, JA-DEMO, and K-DEMO timelines.",
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
       "globe_modes": [
         "important_unique"
-      ],
-      "default_globe_visible": false,
-      "visibility_tier": "secondary"
+      ]
     },
     {
       "id": "ja_demo",
@@ -1124,31 +1683,18 @@
       "project_stage": "planned",
       "reactor_type": "Tokamak",
       "facility_type": "demo_plant",
-      "intended_output_mwe": 250,
+      "intended_output_mwe": 250.0,
       "target_online_year": 2050,
       "offtaker": null,
       "utility_partner": null,
       "served_region": "Japan national grid",
       "site_status": "Conceptual design nearing completion (2025); no site; engineering design contingent on ITER results",
       "funding_raised_usd": null,
-      "funding_last_verified_date": null,
       "current_milestone": "Conceptual design nearing completion (2025); JT-60SA operational as ITER-relevant experiment",
       "next_milestone": "Conceptual design finalization; engineering design (2025–2035); construction start (2035); first electricity (2050)",
       "source_url": "https://www.energyencyclopedia.com/en/nuclear-fusion/thermonuclear-fusion-power-plant/dates-and-locations",
-      "source_type": "Energy Encyclopedia + DOE FESAC report",
-      "source_tier": "tier_3",
-      "coverage_status": "partially_covered",
-      "confidence": "low",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "included_because": "Japan government-track 200–300 MWe programme; parallel to private FAST project.",
-      "excluded_from_primary_reason": "No site, first electricity ~2050, fully ITER-contingent. Broad roadmap programme.",
-      "notes": "FAST (Starlight Engine / Kyoto Fusioneering) is the private-sector accelerated parallel pathway. JA-DEMO is the government track.",
-      "render_on_main_globe": false,
       "credibility_bucket": "conceptual",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "k_demo",
@@ -1161,31 +1707,18 @@
       "project_stage": "planned",
       "reactor_type": "Tokamak (HTS magnets; compact design)",
       "facility_type": "demo_plant",
-      "intended_output_mwe": 500,
+      "intended_output_mwe": 500.0,
       "target_online_year": 2035,
       "offtaker": null,
       "utility_partner": null,
       "served_region": "South Korean national grid",
       "site_status": "Pre-conceptual design (Pre-CDA 2023–2026); construction site designated Naju (Dec 2025); ~1.5T KRW (~$1.1B) feasibility study submitted",
       "funding_raised_usd": null,
-      "funding_last_verified_date": null,
       "current_milestone": "Top-tier requirements approved 2023; site designated Naju (Dec 2025); 8 core technology roadmap approved Dec 2025; government accelerated demonstration to 2030s (from 2050s)",
       "next_milestone": "CDA phase (2026–2030); engineering design (2031–2035); power generation demonstration 2030s",
       "source_url": "https://biz.chosun.com/en/en-science/2025/12/19/LHCW4QDOMRELPFW5WXDF73JKOI/",
-      "source_type": "Chosunbiz + IAEA conference paper (Oct 2025) + Nature",
-      "source_tier": "tier_2",
-      "coverage_status": "partially_covered",
-      "confidence": "medium",
-      "commercial_readiness_score": null,
-      "commercial_readiness_reason": null,
-      "included_because": "Named site designated (Naju), government acceleration from 2050s to 2030s, >500 MWe requirement, $1.1B feasibility study submitted.",
-      "excluded_from_primary_reason": "Government roadmap programme, not a specific commercial plant with utility or offtaker.",
-      "notes": "Korea advanced its demonstration target from 2050s to 2030s in Dec 2025. Parallel compact pilot device (CPD) using HTS proposed to de-risk timeline.",
-      "render_on_main_globe": false,
       "credibility_bucket": "speculative",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     }
   ],
   "watchlist": [
@@ -1207,26 +1740,13 @@
       "served_region": "Japan national grid",
       "site_status": "Conceptual Design Report (CDR) completed Nov 2025; site selection underway; regulatory dialogue with Nuclear Regulation Authority begun; construction targeted after 2028; engineering design phase commenced",
       "funding_raised_usd": null,
-      "funding_last_verified_date": null,
       "current_milestone": "CDR completed Nov 2025 (Japan's first private-sector fusion CDR); safety design published; NRA regulatory dialogue begun; 2026 funding round planned",
       "next_milestone": "2026 funding round; EDR completion by 2028; site selection; construction start post-2028; power generation demonstration late 2030s",
       "source_url": "https://kyotofusioneering.com/en/news/2025/11/27/3586",
-      "source_type": "Kyoto Fusioneering official press release + World Nuclear News",
-      "source_tier": "tier_1",
-      "coverage_status": "partially_covered",
-      "confidence": "medium",
-      "commercial_readiness_score": 40,
-      "commercial_readiness_reason": "Strong private-sector industrial consortium (J-Power, Marubeni, Mitsui, Mitsubishi), CDR completed Nov 2025, Japan government strategy backing. No named site, no funding figure, no offtaker. Construction not before 2028.",
-      "included_because": "Watchlist: Japan's first private-sector fusion CDR; backed by Japan Cabinet Office Fusion Energy Innovation Strategy; major industrial utility consortium (J-Power, Mitsui, Mitsubishi, SMBC); explicit power-generation demo target late 2030s.",
-      "excluded_from_primary_reason": "No named site or siting commitment. CDR-stage only. Site selection underway but no agreement reached. Fails strict siting criterion.",
-      "notes": "Power generation demonstration target (late 2030s) means generating electricity from fusion, not necessarily net-positive output. Construction contingent on funding and regulatory approvals post-2028.",
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
       "globe_modes": [
         "important_unique"
-      ],
-      "default_globe_visible": false,
-      "visibility_tier": "secondary"
+      ]
     },
     {
       "id": "inertia_commercial",
@@ -1239,31 +1759,18 @@
       "project_stage": "planned",
       "reactor_type": "Laser-driven inertial confinement fusion (ICF) — indirect drive, NIF-derived",
       "facility_type": "commercial_plant",
-      "intended_output_mwe": 1000,
+      "intended_output_mwe": 1000.0,
       "target_online_year": 2035,
       "offtaker": null,
       "utility_partner": null,
       "served_region": "US grid (aspirational)",
       "site_status": "No plant site selected; groundbreaking targeted ~2030; Thunderwall precursor under development at Livermore; plant designed as first-of-a-kind (FOAK) gigawatt utility-scale facility; FOAK will not be cost-optimized but will demonstrate full end-to-end generation",
       "funding_raised_usd": 450000000,
-      "funding_last_verified_date": "2026-02-11",
       "current_milestone": "$450M Series A (Feb 2026); LLNL landmark partnership (Apr 2026); Thunderwall prototype at Livermore; target factory under establishment",
       "next_milestone": "Thunderwall prototype completion; target factory scale-up; pilot plant groundbreaking (~2030); grid-scale commercial plant in 2030s",
       "source_url": "https://www.neimagazine.com/news/inertia-secures-series-a-fusion-funding/",
-      "source_type": "Nuclear Engineering International + GlobeNewswire + LLNL official",
-      "source_tier": "tier_1",
-      "coverage_status": "not_in_prior_dataset",
-      "confidence": "medium",
-      "commercial_readiness_score": 35,
-      "commercial_readiness_reason": "$450M raised; NIF-proven physics (only fusion approach to have demonstrated Q>1 at NIF); LLNL landmark partnership + ~200 patents; co-founders are NIF ignition architects. No plant site, no offtaker, no utility. FOAK groundbreaking targeted 2030 requires Thunderwall + target factory milestones first. Technology scale-up from NIF-scale to commercial is a major engineering challenge.",
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
-      "included_because": "Watchlist: $450M Series A (one of largest early-stage fusion raises ever); NIF-proven physics foundation (only Q>1 demonstrated fusion approach); landmark LLNL partnership; co-founders are NIF ignition team; 1 GW commercial plant roadmap with ~2030 groundbreaking target.",
-      "excluded_from_primary_reason": "No named plant site, no offtaker, no utility partner. Fully gated on Thunderwall + target factory milestones. 2030 groundbreaking is aspirational.",
-      "notes": "Inertia's FOAK commercial plant will use 10 MJ laser at 10 Hz. 'First-of-a-kind plant will not be optimised for cost, but will demonstrate the full end-to-end energy generation capability.' Laser beamlines designed as modular shipping-container-sized units for factory manufacturing. Co-founders: Jeff Lawson (CEO, Twilio founder), Annie Kritcher (Chief Scientist), Mike Dunne (CTO). One of most credible new entrants of 2026 given NIF physics pedigree and LLNL depth of partnership.",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "st_e1",
@@ -1276,31 +1783,18 @@
       "project_stage": "planned",
       "reactor_type": "High-field spherical tokamak (HTS magnets)",
       "facility_type": "pilot_plant",
-      "intended_output_mwe": 85,
+      "intended_output_mwe": 85.0,
       "target_online_year": 2035,
       "offtaker": null,
       "utility_partner": null,
       "served_region": null,
       "site_status": "Engineering design phase; no site selected; ST80-HTS prototype under development at Culham Campus UK as enabling precursor",
       "funding_raised_usd": 336000000,
-      "funding_last_verified_date": "2026-04-10",
       "current_milestone": "Demo4 HTS magnet achieved 11.8 Tesla (Nov 2025); pilot plant design presented APS-DPP Oct 2024; STEP magnet systems partner (£70M, March 2026); $125M raised Nov 2024 (total $336M)",
       "next_milestone": "ST80-HTS prototype completion at Culham (2026); ST-E1 engineering design; site selection",
       "source_url": "https://tokamakenergy.com/2024/10/15/first-design-details-of-fusion-energy-pilot-plant-revealed-by-tokamak-energy-at-top-physics-conference/",
-      "source_type": "Official Tokamak Energy press release + World Nuclear News + TechCrunch funding",
-      "source_tier": "tier_1",
-      "coverage_status": "well_covered",
-      "confidence": "medium",
-      "commercial_readiness_score": 34,
-      "commercial_readiness_reason": "Clear 85 MWe pilot plant design published at APS-DPP, DOE Bold Decadal Vision participant, STEP magnet partner revenue/credibility. No site, no offtaker, no utility. ST-E1 gated on ST80-HTS results. $336M raised.",
-      "included_because": "Watchlist: Specific 85 MWe grid-delivery pilot plant design published (APS-DPP Oct 2024); DOE Bold Decadal Vision programme; STEP magnet systems partner (£70M, March 2026); $336M raised.",
-      "excluded_from_primary_reason": "No named site or siting commitment. No offtaker or utility partner. Engineering design phase only. Fully gated on ST80-HTS prototype at Culham.",
-      "notes": "Funding: $275M private + $60M UK/US government = $335M total (per Nov 2024 company announcement). ST-E1 targets 800 MW fusion power with 85 MWe net output. Tokamak Energy is also STEP magnet systems partner (£70M contract). Gated on ST80-HTS prototype — see precursor st80_hts.",
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "general_fusion_foak",
@@ -1316,28 +1810,15 @@
       "intended_output_mwe": null,
       "target_online_year": 2035,
       "offtaker": null,
-      "utility_partner": null,
+      "utility_partner": "Ontario Power Generation (OPG)",
       "served_region": null,
       "site_status": "FOAK plant site not yet selected; LM26 demonstration machine operational in Vancouver; Lawson Program milestones targeting mid-2028; pursuing public listing via Spring Valley Acquisition Corp III SPAC (announced Jan 2026); company valued at ~$600M pre-deal",
       "funding_raised_usd": 612000000,
-      "funding_last_verified_date": "2026-04-10",
       "current_milestone": "LM26 assembled and operational since Dec 2024; first plasma Feb 2025; initial plasma compressions Apr 2025; SPAC deal with Spring Valley Acquisition Corp III announced Jan 2026 ($1B pro-forma equity, ~$335M proceeds from SPAC trust + $108M PIPE); target Nasdaq listing 'GFUZ' mid-2026; total $612M raised (PitchBook/TechCrunch Apr 2026)",
       "next_milestone": "SPAC close (mid-2026); Lawson Program milestones through mid-2028; FOAK plant final design; FOAK operations ~2035",
       "source_url": "https://generalfusion.com/commercialization-path/",
-      "source_type": "Official company site + TechCrunch + Betakit (SPAC deal)",
-      "source_tier": "tier_1",
-      "coverage_status": "well_covered",
-      "confidence": "medium",
-      "commercial_readiness_score": 30,
-      "commercial_readiness_reason": "LM26 operating machine at commercially relevant scale (50% power plant diameter); SPAC deal oversubscribed; $612M raised; LCOE target $64-73/MWh for nth-of-a-kind plants published. Still no site, no offtaker, cancelled Culham precedent, gated on 2028 Lawson milestones.",
-      "included_because": "Watchlist: LM26 operating machine at commercially relevant scale (50% power plant scale); SPAC public listing pathway ($1B pro-forma equity); explicit FOAK commercial plant roadmap ~2035.",
-      "excluded_from_primary_reason": "No named site or siting commitment. No offtaker or utility partner. Previously cancelled UK Culham demonstration plant (2023). FOAK plant fully gated on LM26 Lawson Program results through 2028.",
-      "notes": "Total $612M raised per PitchBook (TechCrunch Apr 2026). LM26 operational Dec 2024, first plasma Feb 2025. SPAC pro-forma equity ~$1B; ~$335M from trust + $108M PIPE at $12/share (oversubscribed). Nasdaq ticker 'GFUZ'. SPAC close mid-2026. Cancelled UK Culham demonstration plant (2023) is a significant credibility mark. LM26 Lawson Program targets 100M°C and then breakeven conditions by mid-2028. FOAK plant mid-2030s.",
-      "render_on_main_globe": false,
       "credibility_bucket": "speculative",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "zap_commercial",
@@ -1350,31 +1831,18 @@
       "project_stage": "planned",
       "reactor_type": "Sheared-flow-stabilized Z-pinch fusion",
       "facility_type": "commercial_plant",
-      "intended_output_mwe": 50,
+      "intended_output_mwe": 50.0,
       "target_online_year": 2030,
       "offtaker": null,
       "utility_partner": "TransAlta (Centralia WA coal plant site siting study; coal-to-fusion retrofit study)",
       "served_region": "Pacific Northwest US grid (aspirational)",
       "site_status": "Centralia WA TransAlta coal plant (closing 2025) under consideration for fusion pilot siting; study ongoing since 2022-2023; no binding site agreement; plant site TBD; DOE Milestone-Based Fusion Development Program participant for pilot plant design",
       "funding_raised_usd": 327000000,
-      "funding_last_verified_date": "2026-03-16",
       "current_milestone": "DOE $5M for pilot plant conceptual design (May 2023); TransAlta Centralia site siting study ongoing; $327M raised; Century demo system operational; DOE milestone program participant",
       "next_milestone": "Century DOE milestones (breakeven conditions); site selection; pilot plant detailed design; binding site agreement; funding for FOAK plant; commercial plant early 2030s (aspirational)",
       "source_url": "https://www.latitudemedia.com/industry-news/zap-energy-attracts-130m-in-fresh-capital-as-demo-power-plant-system-begins-operations-and-aims-for-first-milestone/",
-      "source_type": "Latitude Media + GeekWire + Zap Energy official + DOE announcement",
-      "source_tier": "tier_1",
-      "coverage_status": "not_in_prior_dataset",
-      "confidence": "medium",
-      "commercial_readiness_score": 27,
-      "commercial_readiness_reason": "$327M raised; DOE pilot plant design programme; Century operational demo; Centralia coal-to-fusion siting study with TransAlta (utility-adjacent). No binding site agreement, no offtaker, Z-pinch at smaller scale than other commercial approaches, 2030 target requires rapid execution from current state.",
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
-      "included_because": "Watchlist: $327M raised (5th largest globally); DOE milestone program for pilot plant design; Centralia coal-to-fusion study with TransAlta; Century operational demo; Z-pinch is simplest and most compact fusion approach if it achieves breakeven.",
-      "excluded_from_primary_reason": "No binding site agreement, no offtaker. Centralia study is non-binding. Z-pinch breakeven not yet demonstrated. 2030 commercial plant is highly aspirational.",
-      "notes": "Z-pinch is conceptually the simplest fusion approach: no large external magnets or lasers required. Each 50 MWe module ~size of double-decker bus. Commercial plants = multiple modules. TransAlta Centralia WA coal plant (closing 2025): grid connection, coolant water, workforce all valuable for fusion. Siting study ongoing since 2022. Zap Energy HQ: Everett WA. Backers include Jeff Bezos's Breakthrough Energy Ventures, Chevron, Soros Fund, Shell, Emerson Collective.",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "tae_tmtg_plant",
@@ -1387,31 +1855,18 @@
       "project_stage": "planned",
       "reactor_type": "Beam-driven field-reversed configuration (FRC)",
       "facility_type": "commercial_plant",
-      "intended_output_mwe": 50,
+      "intended_output_mwe": 50.0,
       "target_online_year": null,
       "offtaker": null,
       "utility_partner": null,
       "served_region": null,
       "site_status": "Multi-state site evaluation tour completed April 2026 (Alabama, Ohio, Texas assessed for infrastructure readiness, grid connectivity, workforce availability, development incentives); TMTG merger pending mid-2026; 50 MWe initial plant targeting early 2030s; 350-500 MWe future plants planned",
       "funding_raised_usd": 1790000000,
-      "funding_last_verified_date": "2026-04-10",
       "current_milestone": "Multi-state site evaluation tour completed April 2026 (Alabama, Ohio, Texas); TMTG-TAE merger approved by boards Dec 2025; site criteria published Jan 2026; $1.79B raised pre-merger (PitchBook); $150M round June 2025 (Chevron, Google, NEA)",
       "next_milestone": "Merger close (mid-2026); site selection; construction start (targeted 2026)",
       "source_url": "https://finance.yahoo.com/news/trump-media-technology-group-tae-133000724.html",
-      "source_type": "Company press release + Market Chameleon + LinkedIn + PitchBook via TechCrunch",
-      "source_tier": "tier_2",
-      "coverage_status": "well_covered",
-      "confidence": "low",
-      "commercial_readiness_score": 26,
-      "commercial_readiness_reason": "Multi-state site evaluation tour completed (Alabama, Ohio, Texas) April 2026 — meaningful progress. $1.79B raised, $6B merger with public TMTG. No site selected, no breakeven achieved after 28 years, merger not yet closed, 50 MWe target in early 2030s is very ambitious given technology maturity.",
-      "included_because": "Watchlist: site selection announced, $1.79B raised, 50 MWe commercial target stated, merger with publicly traded TMTG represents unusual capital pathway.",
-      "excluded_from_primary_reason": "No site confirmed, no offtaker, no utility partner, no scientific breakeven after 30+ years of development, merger not yet closed.",
-      "notes": "TAE has been developing FRC fusion since the 1990s. Investors include Google, Chevron, Sumitomo, NEA. $150M round closed June 2025 (Chevron, Google, NEA). Total $1.79B per PitchBook. Future plants announced at 350–500 MWe. TMTG merger all-stock deal valued at >$6B. Placed on watchlist due to absence of scientific breakeven, no confirmed site or offtaker, and merger uncertainty.",
-      "render_on_main_globe": false,
       "credibility_bucket": "speculative",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "xcimer_athena",
@@ -1424,31 +1879,18 @@
       "project_stage": "planned",
       "reactor_type": "Inertial confinement fusion (ICF) — excimer laser-driven",
       "facility_type": "commercial_plant",
-      "intended_output_mwe": 400,
+      "intended_output_mwe": 400.0,
       "target_online_year": 2035,
       "offtaker": null,
       "utility_partner": null,
       "served_region": null,
       "site_status": "No site; gated on Vulcan (2031) achieving engineering breakeven; roadmap: Phoenix (2026) → Anvil (2028) → Vulcan (2031) → Athena (mid-2030s)",
       "funding_raised_usd": null,
-      "funding_last_verified_date": null,
       "current_milestone": "Long Pulse Kinetics Platform completed early 2025; Phoenix under development (2026 target); listed among fusion companies with >$100M raised (TechCrunch Apr 2026)",
       "next_milestone": "Phoenix (2026); Anvil (2028); Vulcan breakeven (2031); Athena site and engineering post-2031",
       "source_url": "https://xcimer.energy/energy/",
-      "source_type": "Official Xcimer website + TechCrunch April 2026",
-      "source_tier": "tier_1",
-      "coverage_status": "partially_covered",
-      "confidence": "medium",
-      "commercial_readiness_score": 24,
-      "commercial_readiness_reason": "NIF-validated ignition science, detailed precursor roadmap, active hardware (Phoenix), >$100M raised. Athena itself has no site, no offtaker, no engineering design. Must clear three intermediate milestones (Phoenix, Anvil, Vulcan) before Athena can proceed.",
-      "included_because": "Watchlist: detailed 400 MWe commercial laser fusion plant roadmap, NIF-science grounded, active precursor hardware in Denver.",
-      "excluded_from_primary_reason": "No site, no offtaker, no utility. Fully gated behind Vulcan engineering breakeven in 2031. Athena has no design started.",
-      "notes": "Xcimer confirmed by TechCrunch (April 2026) as among fusion startups that have raised >$100M. Exact funding amount not publicly disclosed.",
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "marvel_pilot_plant",
@@ -1461,31 +1903,18 @@
       "project_stage": "planned",
       "reactor_type": "Laser-driven ICF with nanostructured targets and mixed fuels",
       "facility_type": "pilot_plant",
-      "intended_output_mwe": 100,
+      "intended_output_mwe": 100.0,
       "target_online_year": 2033,
       "offtaker": null,
       "utility_partner": "Siemens Energy (conceptual FPP design partner, March 2025)",
       "served_region": null,
       "site_status": "Pilot plant site TBD; contingent on Colorado demonstration facility proof-of-technology (2027)",
       "funding_raised_usd": 125000000,
-      "funding_last_verified_date": "2025-03-27",
       "current_milestone": "€113M Series B closed March 2025 (Siemens Energy Ventures, EQT Ventures, EIC Fund); Siemens Energy developing conceptual FPP design jointly with Marvel; Colorado $150M facility under construction (CSU); German federal government Fusion 2040 program includes KONZEPT project (led by Siemens Energy, funded BMFTR) for conceptual design of laser-driven IFE power plant",
       "next_milestone": "Colorado proof-of-technology (2027); pilot plant engineering; site selection; funding",
       "source_url": "https://cordis.europa.eu/project/id/101189082",
-      "source_type": "EU CORDIS + Marvel Fusion newsroom + CATF European strategy report",
-      "source_tier": "tier_2",
-      "coverage_status": "partially_covered",
-      "confidence": "medium",
-      "commercial_readiness_score": 24,
-      "commercial_readiness_reason": "Siemens Energy Ventures as direct investor + Siemens Energy as conceptual FPP design partner (March 2025); EIC Fund invested (first fusion equity investment); Colorado facility under construction at CSU; German federal Fusion 2040 programme backing. Still gated on 2027 proof-of-technology. No site, no offtaker.",
-      "included_because": "Watchlist: named Siemens Energy development partner, 100 MWe pilot plant stated by 2033, EU Horizon funded.",
-      "excluded_from_primary_reason": "No site, no offtaker, no binding pilot plant contracts. Gated on 2027 Colorado proof-of-technology.",
-      "notes": "TechCrunch April 2026 confirmed Marvel Fusion among fusion startups with >$100M raised. Exact funding not disclosed publicly.",
-      "render_on_main_globe": false,
       "credibility_bucket": "speculative",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "first_light_fusion",
@@ -1498,31 +1927,18 @@
       "project_stage": "planned",
       "reactor_type": "Projectile-driven inertial confinement fusion (IFE) — FLARE high-gain concept",
       "facility_type": "pilot_plant",
-      "intended_output_mwe": 60,
+      "intended_output_mwe": 60.0,
       "target_online_year": 2035,
       "offtaker": null,
       "utility_partner": "UK Atomic Energy Authority (UKAEA) — UKAEA Fusion Industry Programme contracts (2026); Canadian Nuclear Laboratories (CNL) tritium partnership",
       "served_region": "UK grid (aspirational)",
       "site_status": "No pilot plant site selected; FLARE concept (high-gain, up to gain 1000x) published Sept 2025; 60 MW pilot plant design (~$570M capex) with CNL tritium extraction system; Oxfordshire R&D facilities operational; UKAEA Fusion Industry Programme contracts awarded 2026; no construction underway",
       "funding_raised_usd": 108000000,
-      "funding_last_verified_date": "2026-04-10",
       "current_milestone": "FLARE high-gain concept published Sept 2025 (first commercially viable, reactor-compatible path to high gain IFE, modelling up to gain 1000); 60 MW pilot plant designed with CNL tritium extraction system; UKAEA Fusion Industry Programme contract awarded Feb 2026; $108M total raised (TechCrunch Apr 2026)",
       "next_milestone": "FLARE concept experimental validation; gain-scale facility (~1/20th NIF cost); 60 MW pilot plant site selection; binding partnerships; construction start; commercial demonstration mid-2030s",
       "source_url": "https://firstlightfusion.com/flare/",
-      "source_type": "First Light Fusion official + TechCrunch April 2026 + Nuclear Engineering International",
-      "source_tier": "tier_1",
-      "coverage_status": "not_in_prior_dataset",
-      "confidence": "medium",
-      "commercial_readiness_score": 20,
-      "commercial_readiness_reason": "FLARE concept is a genuine physics innovation (gain up to 1000x); 60 MW pilot plant designed with CNL; UKAEA contracts validate UK government support; $108M raised. No site, no offtaker, no utility binding agreement, technology pivot to FLARE is early-stage, gain 200+ (minimum for commercial viability per First Light own modelling) not yet experimentally demonstrated.",
-      "render_on_main_globe": false,
       "credibility_bucket": "credible",
-      "included_because": "Watchlist: $108M raised (TechCrunch >$100M list); FLARE concept peer-reviewed, publicly published; UKAEA programme contracts; CNL pilot plant tritium design partnership; projectile IFE offers potential for significantly simpler and cheaper reactor than laser approaches.",
-      "excluded_from_primary_reason": "No named site, no offtaker, no utility binding agreement, FLARE gain not yet experimentally demonstrated.",
-      "notes": "FLARE (First Light Accelerated Reactor concept): projectile approach where a 400MW reactor fires a hypervelocity projectile at a target to achieve fusion conditions. FLARE modelling shows gain up to 1000. FLF's own economic model says gain 200+ required for commercial competitiveness, 1000 would enable very low-cost power. Pilot plant: 60 MW, ~$570M capex, designed to prove integrated engineering + manufacture tritium (2 kg/year excess). UKAEA contracts: Natural Lithium Shielding project + Industry Simulation Software project (Feb 2026). CNL partnership for tritium extraction design. Oxford, UK R&D base. Previously focused on 'Machine 3' projectile system; FLARE represents a pivot to higher gain approach.",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "helix_kanata",
@@ -1542,24 +1958,11 @@
       "served_region": null,
       "site_status": "Site TBD; follows successful HARUKA integrated demonstration; no site, output, or date confirmed",
       "funding_raised_usd": 15000000,
-      "funding_last_verified_date": "2025-09-01",
       "current_milestone": "Helix HARUKA Phase 1 construction site announced at NIFS campus (March 2026); HTS coil validated Oct 2025; $15M raised (Fusion Energy Insights cumulative funding reference)",
       "next_milestone": "HARUKA magnet energization tests (2027); HARUKA integrated demonstration (early 2030s); KANATA design and siting",
       "source_url": "https://www.businesswire.com/news/home/20251026597002/en/Helical-Fusion-Achieves-Milestone-Toward-Commercial-Fusion-Energy-Advancing-to-Integrated-Demonstration-Device",
-      "source_type": "BusinessWire + AFP + ANS Nuclear News",
-      "source_tier": "tier_2",
-      "coverage_status": "partially_covered",
-      "confidence": "low",
-      "commercial_readiness_score": 16,
-      "commercial_readiness_reason": "NIFS partnership, world-first HTS coil validated, HARUKA construction underway. KANATA itself has no site, no MWe output, no date, $15M total funding. Fully gated on HARUKA demonstration in early 2030s.",
-      "included_because": "Watchlist: NIFS public-private partnership, world-first non-planar HTS coil milestone, HARUKA construction site confirmed March 2026, explicit KANATA pilot plant roadmap.",
-      "excluded_from_primary_reason": "No named site or siting commitment. No offtaker. No MWe output specified. $15M funding very modest. Fully gated on Helix HARUKA (early 2030s). At least 10+ years from any commercial plant.",
-      "notes": "KANATA is fully gated on Helix HARUKA demonstration success — see precursor helix_haruka. Funding figure from Fusion Energy Insights ($15M raise Sept 2025). Helical Fusion holds exclusive rights to NIFS helical stellarator technology.",
-      "render_on_main_globe": false,
       "credibility_bucket": "speculative",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "stellarring_commercial",
@@ -1579,24 +1982,11 @@
       "served_region": "China national grid (aspirational)",
       "site_status": "No site; follows NTST engineering verification (2028); commercial demonstration reactor targeted 2033",
       "funding_raised_usd": 140000000,
-      "funding_last_verified_date": "2026-01-15",
       "current_milestone": "Funded ($140M Jan 2026); NTST precursor planned for 2026 construction",
       "next_milestone": "NTST engineering verification (2028); commercial demo reactor design; siting; construction",
       "source_url": "https://eu.36kr.com/en/p/3721230310322953",
-      "source_type": "36Kr (Chinese business media, English edition) + Chinese state media",
-      "source_tier": "tier_2",
-      "coverage_status": "not_in_prior_dataset",
-      "confidence": "low",
-      "commercial_readiness_score": 15,
-      "commercial_readiness_reason": "China's largest single private fusion round ($140M); state-backed (Shanghai SOIC); Tsinghua team; 2033 commercial demo target. No site, no offtaker, no utility. Fully gated on NTST 2028. 2033 is highly ambitious with only NTST verification as intermediate step. Limited English-language documentation.",
-      "render_on_main_globe": false,
       "credibility_bucket": "speculative",
-      "included_because": "Watchlist: $140M raised, state-backed by Shanghai SOIC, Tsinghua founding team credibility, explicit 2033 commercial demonstration target.",
-      "excluded_from_primary_reason": "No named site, no offtaker, no utility. Fully gated on NTST verification (2028). 2033 target highly aspirational at current stage.",
-      "notes": "2033 commercial demo target is 12 years ahead of China national CFETR timeline. Aspirational. Gated on NTST success 2028. Limited external English-language verification.",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "realta_commercial",
@@ -1616,24 +2006,11 @@
       "served_region": "Midwest USA (aspirational)",
       "site_status": "No site; Anvil prototype in design phase; WHAM research device operational at UW-Madison; Realta Forge R&D facility in design phase",
       "funding_raised_usd": 36000000,
-      "funding_last_verified_date": "2025-05-15",
       "current_milestone": "WHAM achieved 17 Tesla (highest field ever applied to plasma, July 2024); $36M Series A closed May 2025; DOE milestone-based programme partnership",
       "next_milestone": "Anvil prototype design and construction; Realta Forge facility; Series B (2026 target); prototype operations pre-2030",
       "source_url": "https://innovate.wisc.edu/realta-fusion-targets-commercial-fusion-energy-production-within-next-decade/",
-      "source_type": "UW-Madison Innovate + Planet Forward + DOE announcement",
-      "source_tier": "tier_2",
-      "coverage_status": "partially_covered",
-      "confidence": "medium",
-      "commercial_readiness_score": 14,
-      "commercial_readiness_reason": "Real physics results (17 Tesla record), DOE partnership, modular scalable design concept for industrial customers. Only $36M raised — very modest relative to ambition. No site, no offtaker, no utility. Technology at early prototype stage (WHAM → Anvil → Forge → commercial is 4+ steps away).",
-      "included_because": "Watchlist: DOE partnership, world-record 17 Tesla plasma field, modular 50–500 MWe industrial target, credible UW-Madison academic foundation.",
-      "excluded_from_primary_reason": "Very early stage, $36M funding, no site, no offtaker, 4+ steps from commercial plant.",
-      "notes": "Modular design targeting 50–500 MWe per unit for industrial/data center customers. Series B fundraising planned for 2026.",
-      "render_on_main_globe": false,
       "credibility_bucket": "speculative",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "renaissance_fusion",
@@ -1646,31 +2023,18 @@
       "project_stage": "planned",
       "reactor_type": "Stellarator (HTS magnets + liquid metal wall)",
       "facility_type": "commercial_plant",
-      "intended_output_mwe": 1000,
+      "intended_output_mwe": 1000.0,
       "target_online_year": 2032,
       "offtaker": null,
       "utility_partner": null,
       "served_region": "European grid (aspirational)",
       "site_status": "HTS superconductor factory being established in Grenoble region; demonstrator ('Enable' milestone) targeted late 2026; no plant site selected",
       "funding_raised_usd": 35000000,
-      "funding_last_verified_date": "2024-12-01",
       "current_milestone": "€32M (~$35M) Series A raised; EU Horizon funded; CATF European Industrial Strategy report (Sept 2025) confirmed roadmap; HTS magnet factory established in Grenoble area",
       "next_milestone": "Demonstrator ('Enable' milestone, late 2026); intermediate demonstration device; 1 GW plant design and siting",
       "source_url": "https://renfusion.eu/impact-business",
-      "source_type": "Official company website + CATF European strategy report Sept 2025",
-      "source_tier": "tier_2",
-      "coverage_status": "not_in_prior_dataset",
-      "confidence": "medium",
-      "commercial_readiness_score": 12,
-      "commercial_readiness_reason": "Unique HTS + liquid metal wall technology; EU Horizon backed; CATF recognised. Only €32M raised — very modest for 1 GW ambition. No site, no offtaker, no utility. 2032 target extremely ambitious. Demonstrator not yet achieved.",
-      "included_because": "Watchlist: CATF European Industrial Strategy confirmed; unique HTS + liquid metal stellarator approach; demonstrator milestone 2026; EU Horizon funded; Europe's only combined HTS-plus-liquid-metal stellarator developer.",
-      "excluded_from_primary_reason": "Only €32M raised, no site, no offtaker, no utility. 1 GW target in early 2030s is highly aspirational at current funding and stage.",
-      "notes": "Unique approach: HTS superconducting coils + liquid metal plasma-facing wall simultaneously extracts heat — addresses two of fusion's hardest engineering challenges (magnets + first-wall) in one design. HTS conductor factory established in Grenoble region. €32M funding is modest but EU Horizon grants and CATF recognition indicate scientific credibility.",
-      "render_on_main_globe": false,
       "credibility_bucket": "speculative",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     },
     {
       "id": "novatron_n3",
@@ -1690,368 +2054,356 @@
       "served_region": "Nordic electricity market (aspirational)",
       "site_status": "N1 at KTH Stockholm first plasma early 2025; N2 planned for Stockholm area; N3 industrial-scale pilot preferred in Finland (VTT Oct 2025 siting study); Studsvik partnership March 2026",
       "funding_raised_usd": null,
-      "funding_last_verified_date": null,
       "current_milestone": "N1 first plasma (early 2025, KTH Stockholm); VTT siting study (Oct 2025) identified Finland as most regulatory-ready; Studsvik construction/siting partnership (March 2026)",
       "next_milestone": "N2 construction (Stockholm area); N3 site selection (Finland); industrial-scale pilot; commercial viability ~2040",
       "source_url": "https://www.neimagazine.com/news/novatron-advances-nordic-fusion-plans/",
-      "source_type": "Nuclear Engineering International + World Nuclear News + VTT press release",
-      "source_tier": "tier_2",
-      "coverage_status": "not_in_prior_dataset",
-      "confidence": "low",
-      "commercial_readiness_score": 8,
-      "commercial_readiness_reason": "Only private Nordic fusion company; N1 first plasma achieved; Studsvik industrial partnership; VTT government engagement. No funding figures disclosed, N3 pilot plant far from conceptual, magnetic mirror approach less mature than tokamak/stellarator.",
-      "included_because": "Watchlist: Only private Nordic fusion company; N1 first plasma achieved early 2025; Studsvik industrial partnership March 2026; VTT siting study demonstrates government/institutional engagement.",
-      "excluded_from_primary_reason": "No funding figures public, N3 pilot plant has no design or site, magnetic mirror approach unproven at commercial scale, commercial viability ~2040 aspirational.",
-      "notes": "Only private fusion company in the Nordic region. Magnetic mirror (open-field-line) confinement is less mature than tokamaks/stellarators but theoretically simpler if plasma losses can be managed. N1 at KTH Stockholm is a small research device. VTT (Technical Research Centre of Finland) published siting study Oct 2025. Studsvik is a Swedish nuclear services company. No public funding figure available.",
-      "render_on_main_globe": false,
       "credibility_bucket": "conceptual",
-      "globe_modes": [],
-      "default_globe_visible": false,
-      "visibility_tier": "hidden"
+      "globe_modes": []
     }
   ],
   "relationships": [
     {
       "from_id": "polaris",
-      "to_id": "orion",
+      "notes": "Polaris must demonstrate first fusion electricity generation before Orion commercial plant construction proceeds. Helion's stated requirement.",
       "relationship_type": "precursor_to",
-      "notes": "Polaris must demonstrate first fusion electricity generation before Orion commercial plant construction proceeds. Helion's stated requirement."
+      "to_id": "orion"
     },
     {
       "from_id": "sparc_devens",
-      "to_id": "arc_chesterfield",
+      "notes": "SPARC Q>1 net energy demonstration (2027) is the direct gate condition for ARC commercial plant engineering design and construction start.",
       "relationship_type": "precursor_to",
-      "notes": "SPARC Q>1 net energy demonstration (2027) is the direct gate condition for ARC commercial plant engineering design and construction start."
+      "to_id": "arc_chesterfield"
     },
     {
       "from_id": "infinity_one",
-      "to_id": "infinity_two",
+      "notes": "Infinity One prototype (commissioning 2029, Bull Run Complex) must succeed before Infinity Two (350 MWe commercial plant, same site) construction proceeds.",
       "relationship_type": "precursor_to",
-      "notes": "Infinity One prototype (commissioning 2029, Bull Run Complex) must succeed before Infinity Two (350 MWe commercial plant, same site) construction proceeds."
+      "to_id": "infinity_two"
     },
     {
       "from_id": "proxima_alpha",
-      "to_id": "proxima_stellaris",
+      "notes": "Alpha (Garching) must achieve net energy gain by 2031 before Stellaris (Gundremmingen) commercial plant engineering and construction proceeds.",
       "relationship_type": "precursor_to",
-      "notes": "Alpha (Garching) must achieve net energy gain by 2031 before Stellaris (Gundremmingen) commercial plant engineering and construction proceeds."
+      "to_id": "proxima_stellaris"
     },
     {
       "from_id": "helix_haruka",
-      "to_id": "helix_kanata",
+      "notes": "Helix HARUKA integrated demonstration (NIFS campus, Toki) must achieve full system integration before KANATA pilot plant is designed and sited.",
       "relationship_type": "precursor_to",
-      "notes": "Helix HARUKA integrated demonstration (NIFS campus, Toki) must achieve full system integration before KANATA pilot plant is designed and sited."
+      "to_id": "helix_kanata"
     },
     {
       "from_id": "st80_hts",
-      "to_id": "st_e1",
+      "notes": "ST80-HTS (Culham) validates HTS magnet performance and informs ST-E1 pilot plant design.",
       "relationship_type": "precursor_to",
-      "notes": "ST80-HTS (Culham) validates HTS magnet performance and informs ST-E1 pilot plant design."
+      "to_id": "st_e1"
     },
     {
       "from_id": "lm26",
-      "to_id": "general_fusion_foak",
+      "notes": "LM26 Lawson Program milestones through mid-2028 gate General Fusion FOAK commercial plant final design.",
       "relationship_type": "precursor_to",
-      "notes": "LM26 Lawson Program milestones through mid-2028 gate General Fusion FOAK commercial plant final design."
+      "to_id": "general_fusion_foak"
     },
     {
       "from_id": "marvel_colorado_demo",
-      "to_id": "marvel_pilot_plant",
+      "notes": "Colorado demonstration facility proof-of-technology (2027) gates Marvel Fusion 100 MWe pilot power plant.",
       "relationship_type": "precursor_to",
-      "notes": "Colorado demonstration facility proof-of-technology (2027) gates Marvel Fusion 100 MWe pilot power plant."
+      "to_id": "marvel_pilot_plant"
     },
     {
       "from_id": "best_hefei",
-      "to_id": "cfetr",
+      "notes": "BEST D-T burning plasma and electricity generation demonstration (~2027–2030) informs CFETR engineering design and validates China's commercial fusion path.",
       "relationship_type": "precursor_to",
-      "notes": "BEST D-T burning plasma and electricity generation demonstration (~2027–2030) informs CFETR engineering design and validates China's commercial fusion path."
+      "to_id": "cfetr"
     },
     {
       "from_id": "pacific_fusion_demonstration",
-      "to_id": "pacific_fusion_demo",
+      "notes": "Pacific Fusion Demonstration System net facility gain (QF>1, 2030) at Albuquerque campus gates the commercial fusion plant by mid-2030s.",
       "relationship_type": "precursor_to",
-      "notes": "Pacific Fusion Demonstration System net facility gain (QF>1, 2030) at Albuquerque campus gates the commercial fusion plant by mid-2030s."
+      "to_id": "pacific_fusion_demo"
     },
     {
       "from_id": "iter",
-      "to_id": "eu_demo",
+      "notes": "EU DEMO engineering design and construction are explicitly contingent on ITER D-T operational results (post-2035).",
       "relationship_type": "precursor_to",
-      "notes": "EU DEMO engineering design and construction are explicitly contingent on ITER D-T operational results (post-2035)."
+      "to_id": "eu_demo"
     },
     {
       "from_id": "iter",
-      "to_id": "ja_demo",
+      "notes": "JA-DEMO engineering design is contingent on ITER operational results per official Japanese programme roadmap.",
       "relationship_type": "precursor_to",
-      "notes": "JA-DEMO engineering design is contingent on ITER operational results per official Japanese programme roadmap."
+      "to_id": "ja_demo"
     },
     {
       "from_id": "iter",
-      "to_id": "k_demo",
+      "notes": "K-DEMO design informed by ITER, though Korea's 2025 acceleration plan also pursues a parallel compact pilot device (CPD) to reduce ITER dependence.",
       "relationship_type": "precursor_to",
-      "notes": "K-DEMO design informed by ITER, though Korea's 2025 acceleration plan also pursues a parallel compact pilot device (CPD) to reduce ITER dependence."
+      "to_id": "k_demo"
     },
     {
       "from_id": "xcimer_phoenix",
-      "to_id": "xcimer_anvil",
+      "notes": "Phoenix laser system (2026) gates Anvil 200 kJ IFE beamline demonstrator (2028).",
       "relationship_type": "precursor_to",
-      "notes": "Phoenix laser system (2026) gates Anvil 200 kJ IFE beamline demonstrator (2028)."
+      "to_id": "xcimer_anvil"
     },
     {
       "from_id": "xcimer_anvil",
-      "to_id": "xcimer_vulcan",
+      "notes": "Anvil (2028) gates Vulcan engineering breakeven laser (2031).",
       "relationship_type": "precursor_to",
-      "notes": "Anvil (2028) gates Vulcan engineering breakeven laser (2031)."
+      "to_id": "xcimer_vulcan"
     },
     {
       "from_id": "xcimer_vulcan",
-      "to_id": "xcimer_athena",
+      "notes": "Vulcan wall-plug engineering breakeven (2031) is the gate condition for Xcimer Athena 400 MWe commercial plant.",
       "relationship_type": "precursor_to",
-      "notes": "Vulcan wall-plug engineering breakeven (2031) is the gate condition for Xcimer Athena 400 MWe commercial plant."
+      "to_id": "xcimer_athena"
     },
     {
       "from_id": "energy_singularity_hh70",
-      "to_id": "energy_singularity_hh170",
+      "notes": "HH70 operational results gate HH170 design and construction. HH170 targets Q>1 as precursor to commercial demonstration reactor.",
       "relationship_type": "precursor_to",
-      "notes": "HH70 operational results gate HH170 design and construction. HH170 targets Q>1 as precursor to commercial demonstration reactor."
+      "to_id": "energy_singularity_hh170"
     },
     {
       "from_id": "stellarring_ntst",
-      "to_id": "stellarring_commercial",
+      "notes": "NTST engineering verification (2028) gates StellarRing commercial demonstration reactor (2033 target).",
       "relationship_type": "precursor_to",
-      "notes": "NTST engineering verification (2028) gates StellarRing commercial demonstration reactor (2033 target)."
+      "to_id": "stellarring_commercial"
     },
     {
       "from_id": "zap_century",
-      "to_id": "zap_commercial",
+      "notes": "Century demo system (operational Oct 2024, Everett WA) must achieve DOE Milestone-Based Fusion Development Program milestones before Zap commercial plant can proceed.",
       "relationship_type": "precursor_to",
-      "notes": "Century demo system (operational Oct 2024, Everett WA) must achieve DOE Milestone-Based Fusion Development Program milestones before Zap commercial plant can proceed."
+      "to_id": "zap_commercial"
     },
     {
       "from_id": "inertia_thunderwall",
-      "to_id": "inertia_commercial",
+      "notes": "Thunderwall unit-cell laser prototype and target factory at Livermore must demonstrate performance and manufacturing scale before Inertia's gigawatt commercial plant can proceed (~2030 groundbreaking target).",
       "relationship_type": "precursor_to",
-      "notes": "Thunderwall unit-cell laser prototype and target factory at Livermore must demonstrate performance and manufacturing scale before Inertia's gigawatt commercial plant can proceed (~2030 groundbreaking target)."
+      "to_id": "inertia_commercial"
     }
   ],
+  "missing_candidates": [],
   "audit_notes": [
     {
       "category": "missing_projects",
-      "severity": "high",
-      "note": "Pacific Fusion was entirely absent from the prior dataset despite being one of the most significant US fusion developments of 2025: $900M+ raised (second-largest Series A in fusion history), named site at Albuquerque (Mesa del Sol) with formal government approvals and $776.6M in industrial revenue bonds, construction starting 2026, and a credible mid-2030s commercial plant roadmap. Added as both a primary_project (commercial plant roadmap) and precursor_facility (Demonstration System)."
+      "note": "Pacific Fusion was entirely absent from the prior dataset despite being one of the most significant US fusion developments of 2025: $900M+ raised (second-largest Series A in fusion history), named site at Albuquerque (Mesa del Sol) with formal government approvals and $776.6M in industrial revenue bonds, construction starting 2026, and a credible mid-2030s commercial plant roadmap. Added as both a primary_project (commercial plant roadmap) and precursor_facility (Demonstration System).",
+      "severity": "high"
     },
     {
       "category": "missing_projects",
-      "severity": "high",
-      "note": "Energy Singularity (Shanghai, China) was absent. China's first private fusion company achieved a world record for a commercially built device (1,337-second sustained plasma, April 2026) on its HH70 HTS tokamak, and is developing HH170 for Q>1. Represents the leading Chinese private tokamak effort and merits inclusion as a precursor facility."
+      "note": "Energy Singularity (Shanghai, China) was absent. China's first private fusion company achieved a world record for a commercially built device (1,337-second sustained plasma, April 2026) on its HH70 HTS tokamak, and is developing HH170 for Q>1. Represents the leading Chinese private tokamak effort and merits inclusion as a precursor facility.",
+      "severity": "high"
     },
     {
       "category": "missing_projects",
-      "severity": "medium",
-      "note": "StellarRing Fusion was absent. Raised 1B yuan (~$140M) in Jan 2026 — China's largest single private fusion round. NTST device construction targeting Shanghai 2026. Commercial demo reactor 2033. Added to missing_candidates as watchlist candidate."
+      "note": "StellarRing Fusion was absent. Raised 1B yuan (~$140M) in Jan 2026 — China's largest single private fusion round. NTST device construction targeting Shanghai 2026. Commercial demo reactor 2033. Added to missing_candidates as watchlist candidate.",
+      "severity": "medium"
     },
     {
       "category": "missing_projects",
-      "severity": "medium",
-      "note": "Focused Energy (LightHouse pilot plant) was absent. $175M+ raised, $65M Bay Area laser facility, named pilot plant (LightHouse), LLE research partnership, end-of-2030s commercial target. Added to missing_candidates as watchlist candidate."
+      "note": "Focused Energy (LightHouse pilot plant) was absent. $175M+ raised, $65M Bay Area laser facility, named pilot plant (LightHouse), LLE research partnership, end-of-2030s commercial target. Added to missing_candidates as watchlist candidate.",
+      "severity": "medium"
     },
     {
       "category": "missing_projects",
-      "severity": "medium",
-      "note": "Renaissance Fusion was absent despite CATF European Industrial Strategy report (Sept 2025) citing them with a demonstrator in late 2026 and 1 GW plant target in early 2030s. €32M raised, Grenoble-based, unique HTS+liquid metal stellarator. Added to missing_candidates as watchlist candidate."
+      "note": "Renaissance Fusion was absent despite CATF European Industrial Strategy report (Sept 2025) citing them with a demonstrator in late 2026 and 1 GW plant target in early 2030s. €32M raised, Grenoble-based, unique HTS+liquid metal stellarator. Added to missing_candidates as watchlist candidate.",
+      "severity": "medium"
     },
     {
       "category": "missing_projects",
-      "severity": "low",
-      "note": "Novatron Fusion Group (Nordics) was absent. Only private Nordic fusion company. N1 first plasma 2025, N3 pilot plant siting study completed (Finland preferred), Studsvik partnership March 2026. Added to missing_candidates as watchlist candidate (low confidence due to very early stage)."
+      "note": "Novatron Fusion Group (Nordics) was absent. Only private Nordic fusion company. N1 first plasma 2025, N3 pilot plant siting study completed (Finland preferred), Studsvik partnership March 2026. Added to missing_candidates as watchlist candidate (low confidence due to very early stage).",
+      "severity": "low"
     },
     {
       "category": "missing_projects",
-      "severity": "low",
-      "note": "China Fusion Energy Co. (CFEC) — CNNC state subsidiary launched July 2025 with $2.1B registered capital — was only partially captured via BEST and CFETR records. Added to missing_candidates as program_roadmap candidate to represent the Chinese state commercialization umbrella distinctly."
+      "note": "China Fusion Energy Co. (CFEC) — CNNC state subsidiary launched July 2025 with $2.1B registered capital — was only partially captured via BEST and CFETR records. Added to missing_candidates as program_roadmap candidate to represent the Chinese state commercialization umbrella distinctly.",
+      "severity": "low"
     },
     {
       "category": "funding_corrections",
-      "severity": "high",
-      "note": "CFS total funding corrected to ~$3B (was cited as '$2B+' in prior dataset). $863M Series B2 closed Aug 2025; cumulative ~$3B per TechCrunch April 2026. Updated across arc_chesterfield and sparc_devens records."
+      "note": "CFS total funding corrected to ~$3B (was cited as '$2B+' in prior dataset). $863M Series B2 closed Aug 2025; cumulative ~$3B per TechCrunch April 2026. Updated across arc_chesterfield and sparc_devens records.",
+      "severity": "high"
     },
     {
       "category": "funding_corrections",
-      "severity": "high",
-      "note": "Helion total funding corrected to ~$1B+ (not '$1B' flat). Series F $425M closed Jan 2025; milestone-based commitments from 2021 Series E total $1.7B additional. Valuation $5.4B post-Series F. Updated in orion and polaris records."
+      "note": "Helion total funding corrected to ~$1B+ (not '$1B' flat). Series F $425M closed Jan 2025; milestone-based commitments from 2021 Series E total $1.7B additional. Valuation $5.4B post-Series F. Updated in orion and polaris records.",
+      "severity": "high"
     },
     {
       "category": "funding_corrections",
-      "severity": "medium",
-      "note": "TAE Technologies total funding corrected to $1.79B pre-merger per PitchBook (TechCrunch April 2026), up from '$1.3B' in prior dataset. $150M round closed June 2025 (Chevron, Google, NEA). Updated in tae_tmtg_plant."
+      "note": "TAE Technologies total funding corrected to $1.79B pre-merger per PitchBook (TechCrunch April 2026), up from '$1.3B' in prior dataset. $150M round closed June 2025 (Chevron, Google, NEA). Updated in tae_tmtg_plant.",
+      "severity": "medium"
     },
     {
       "category": "funding_corrections",
-      "severity": "medium",
-      "note": "General Fusion funding corrected to ~$440M USD (~$462M including Nov 2025 CAD raise), down from ambiguous prior figure. SPAC deal announced Jan 2026 could bring up to $335M additional. TechCrunch described company as 'struggling' prior to SPAC deal. Updated in general_fusion_foak and lm26."
+      "note": "General Fusion funding corrected to ~$440M USD (~$462M including Nov 2025 CAD raise), down from ambiguous prior figure. SPAC deal announced Jan 2026 could bring up to $335M additional. TechCrunch described company as 'struggling' prior to SPAC deal. Updated in general_fusion_foak and lm26.",
+      "severity": "medium"
     },
     {
       "category": "funding_corrections",
-      "severity": "medium",
-      "note": "Tokamak Energy total funding corrected to $336M ($275M private + $60M government), per Nov 2024 company announcement. Prior dataset had $226.5M (outdated CB Insights figure). Updated in st_e1 and st80_hts."
+      "note": "Tokamak Energy total funding corrected to $336M ($275M private + $60M government), per Nov 2024 company announcement. Prior dataset had $226.5M (outdated CB Insights figure). Updated in st_e1 and st80_hts.",
+      "severity": "medium"
     },
     {
       "category": "funding_corrections",
-      "severity": "medium",
-      "note": "Proxima Fusion total funding corrected to €200M (~$230M) as of Sept 2025 Series A extension. Prior dataset noted €185M. Updated in proxima_stellaris and proxima_alpha."
+      "note": "Proxima Fusion total funding corrected to €200M (~$230M) as of Sept 2025 Series A extension. Prior dataset noted €185M. Updated in proxima_stellaris and proxima_alpha.",
+      "severity": "medium"
     },
     {
       "category": "funding_corrections",
-      "severity": "medium",
-      "note": "Type One Energy funding corrected to $160M+ (includes $87M pre-Series B convertible note closed Jan 2026). $250M Series B being raised at $900M pre-money valuation. Prior dataset was ambiguous. Updated in infinity_two and infinity_one."
+      "note": "Type One Energy funding corrected to $160M+ (includes $87M pre-Series B convertible note closed Jan 2026). $250M Series B being raised at $900M pre-money valuation. Prior dataset was ambiguous. Updated in infinity_two and infinity_one.",
+      "severity": "medium"
     },
     {
       "category": "funding_corrections",
-      "severity": "low",
-      "note": "STEP funding confirmed at £1.3B (~$1.625B) committed UK government funding. Prior dataset stated this correctly. Maintained."
+      "note": "STEP funding confirmed at £1.3B (~$1.625B) committed UK government funding. Prior dataset stated this correctly. Maintained.",
+      "severity": "low"
     },
     {
       "category": "record_corrections",
-      "severity": "medium",
-      "note": "Proxima Alpha target year corrected from 2032 to 2031. Sept 2025 official Proxima Fusion press release explicitly states 'Alpha in 2031.' Updated in proxima_alpha."
+      "note": "Proxima Alpha target year corrected from 2032 to 2031. Sept 2025 official Proxima Fusion press release explicitly states 'Alpha in 2031.' Updated in proxima_alpha.",
+      "severity": "medium"
     },
     {
       "category": "record_corrections",
-      "severity": "medium",
-      "note": "BEST operator record updated to include Neo Fusion (commercialization arm, $2.1B from Anhui provincial government + NIO) and CFEC (CNNC subsidiary) as key entities financing and overseeing BEST. Prior dataset only named ASIPP."
+      "note": "BEST operator record updated to include Neo Fusion (commercialization arm, $2.1B from Anhui provincial government + NIO) and CFEC (CNNC subsidiary) as key entities financing and overseeing BEST. Prior dataset only named ASIPP.",
+      "severity": "medium"
     },
     {
       "category": "record_corrections",
-      "severity": "low",
-      "note": "Proxima Stellaris: Stellaris concept was peer-reviewed and published Feb 2025 — a significant credibility milestone not in prior dataset. Added to current_milestone."
+      "note": "Proxima Stellaris: Stellaris concept was peer-reviewed and published Feb 2025 — a significant credibility milestone not in prior dataset. Added to current_milestone.",
+      "severity": "low"
     },
     {
       "category": "scope_decisions",
-      "severity": "medium",
-      "note": "Pacific Fusion Demonstration System is simultaneously tracked in both primary_projects (as the commercial plant roadmap holder) and precursor_facilities (as the specific demonstration device). This dual-tracking is intentional: the commercial plant (mid-2030s) is the primary project; the Albuquerque demonstration system (2030 net facility gain) is the specific precursor device at the named site."
+      "note": "Pacific Fusion Demonstration System is simultaneously tracked in both primary_projects (as the commercial plant roadmap holder) and precursor_facilities (as the specific demonstration device). This dual-tracking is intentional: the commercial plant (mid-2030s) is the primary project; the Albuquerque demonstration system (2030 net facility gain) is the specific precursor device at the named site.",
+      "severity": "medium"
     },
     {
       "category": "scope_decisions",
-      "severity": "low",
-      "note": "ITER kept in program_roadmaps despite being under physical construction because it explicitly will not generate electricity. It is a science experiment only. Its timeline directly cascades into EU DEMO, JA-DEMO, and K-DEMO — all appropriately in program_roadmaps."
+      "note": "ITER kept in program_roadmaps despite being under physical construction because it explicitly will not generate electricity. It is a science experiment only. Its timeline directly cascades into EU DEMO, JA-DEMO, and K-DEMO — all appropriately in program_roadmaps.",
+      "severity": "low"
     },
     {
       "category": "scope_decisions",
-      "severity": "low",
-      "note": "General Fusion FOAK remains in primary_projects despite being described as 'struggling' by TechCrunch (Jan 2026). LM26 is a real operating machine; the SPAC listing provides a capital pathway; the FOAK target of ~2035 is documented. Confidence held at medium with commercial_readiness_score lowered to 33 to reflect execution risk."
+      "note": "General Fusion FOAK remains in primary_projects despite being described as 'struggling' by TechCrunch (Jan 2026). LM26 is a real operating machine; the SPAC listing provides a capital pathway; the FOAK target of ~2035 is documented. Confidence held at medium with commercial_readiness_score lowered to 33 to reflect execution risk.",
+      "severity": "low"
     },
     {
       "category": "source_quality",
-      "severity": "medium",
-      "note": "JA-DEMO source (Energy Encyclopedia) is tier_3 quality. FESAC DOE report is more authoritative. JA-DEMO moved to program_roadmaps with low confidence; source_tier flagged as tier_3 to alert downstream users."
+      "note": "JA-DEMO source (Energy Encyclopedia) is tier_3 quality. FESAC DOE report is more authoritative. JA-DEMO moved to program_roadmaps with low confidence; source_tier flagged as tier_3 to alert downstream users.",
+      "severity": "medium"
     },
     {
       "category": "source_quality",
-      "severity": "low",
-      "note": "StellarRing Fusion information sourced from 36Kr (Chinese business media, English edition). Limited English-language primary documentation available. Confidence held at medium due to state-backed investor confirmation."
+      "note": "StellarRing Fusion information sourced from 36Kr (Chinese business media, English edition). Limited English-language primary documentation available. Confidence held at medium due to state-backed investor confirmation.",
+      "severity": "low"
     },
     {
       "category": "integration_complete",
-      "severity": "info",
-      "note": "All 6 missing_candidates from the audit phase have been promoted to their proper layers: Energy Singularity HH70+HH170 → precursor_facilities; CFEC → program_roadmaps; StellarRing Fusion, Renaissance Fusion, Novatron N3, Focused Energy LightHouse → watchlist. All records include full required fields and source citations."
+      "note": "All 6 missing_candidates from the audit phase have been promoted to their proper layers: Energy Singularity HH70+HH170 → precursor_facilities; CFEC → program_roadmaps; StellarRing Fusion, Renaissance Fusion, Novatron N3, Focused Energy LightHouse → watchlist. All records include full required fields and source citations.",
+      "severity": "info"
     },
     {
       "category": "china_private_fusion_gap",
-      "severity": "medium",
-      "note": "China's private fusion sector was significantly underrepresented in prior datasets. Three additions: Energy Singularity (HH70 world record 1,337s plasma, April 2026), StellarRing Fusion ($140M raise Jan 2026, Shanghai SOIC backed), and CFEC programme umbrella ($2.1B registered capital). Together with BEST (Neo Fusion, $2.1B) and CFETR (programme), China's state-plus-private fusion investment now estimated >$6B — comparable to the entire US private fusion ecosystem."
+      "note": "China's private fusion sector was significantly underrepresented in prior datasets. Three additions: Energy Singularity (HH70 world record 1,337s plasma, April 2026), StellarRing Fusion ($140M raise Jan 2026, Shanghai SOIC backed), and CFEC programme umbrella ($2.1B registered capital). Together with BEST (Neo Fusion, $2.1B) and CFETR (programme), China's state-plus-private fusion investment now estimated >$6B — comparable to the entire US private fusion ecosystem.",
+      "severity": "medium"
     },
     {
       "category": "european_completeness",
-      "severity": "low",
-      "note": "Renaissance Fusion added as Europe's only HTS+liquid-metal-wall stellarator developer. With Proxima Fusion (€200M, Gundremmingen site), STEP (£1.3B, West Burton), and Renaissance Fusion (€32M, Grenoble), the European commercial fusion landscape is now fully represented for all companies with credible CATF or government recognition."
+      "note": "Renaissance Fusion added as Europe's only HTS+liquid-metal-wall stellarator developer. With Proxima Fusion (€200M, Gundremmingen site), STEP (£1.3B, West Burton), and Renaissance Fusion (€32M, Grenoble), the European commercial fusion landscape is now fully represented for all companies with credible CATF or government recognition.",
+      "severity": "low"
     },
     {
       "category": "nordic_representation",
-      "severity": "low",
-      "note": "Novatron Fusion Group added as sole private Nordic fusion entry. Low confidence (score: 8) but included on watchlist due to N1 first plasma (2025), Studsvik industrial partnership, and VTT government siting study."
+      "note": "Novatron Fusion Group added as sole private Nordic fusion entry. Low confidence (score: 8) but included on watchlist due to N1 first plasma (2025), Studsvik industrial partnership, and VTT government siting study.",
+      "severity": "low"
     },
     {
       "category": "laser_icf_completeness",
-      "severity": "low",
-      "note": "Focused Energy LightHouse added alongside existing laser/ICF players (Xcimer Athena, Marvel Fusion). All three are on watchlist or precursor layers. No laser ICF project has reached primary_projects — all require intermediate milestones (Pearl Fuel manufacturing, Vulcan breakeven, Colorado proof-of-technology) before any pilot plant qualifies for the primary layer."
+      "note": "Focused Energy LightHouse added alongside existing laser/ICF players (Xcimer Athena, Marvel Fusion). All three are on watchlist or precursor layers. No laser ICF project has reached primary_projects — all require intermediate milestones (Pearl Fuel manufacturing, Vulcan breakeven, Colorado proof-of-technology) before any pilot plant qualifies for the primary layer.",
+      "severity": "low"
     },
     {
       "category": "strict_reaudit_primary_culls",
-      "severity": "high",
-      "note": "Strict re-audit removed 4 records from primary_projects: FAST Japan (no named site, CDR-stage only), General Fusion FOAK (no site, no offtaker, cancelled UK Culham 2023), ST-E1 Tokamak Energy (no site, no offtaker, gated on ST80-HTS), Helix KANATA (no site, no offtaker, $15M funding, gated on HARUKA early 2030s). All 4 moved to watchlist with updated scores and exclusion reasons. primary_projects now contains 6 records, all with named sites and qualifying commitments."
+      "note": "Strict re-audit removed 4 records from primary_projects: FAST Japan (no named site, CDR-stage only), General Fusion FOAK (no site, no offtaker, cancelled UK Culham 2023), ST-E1 Tokamak Energy (no site, no offtaker, gated on ST80-HTS), Helix KANATA (no site, no offtaker, $15M funding, gated on HARUKA early 2030s). All 4 moved to watchlist with updated scores and exclusion reasons. primary_projects now contains 6 records, all with named sites and qualifying commitments.",
+      "severity": "high"
     },
     {
       "category": "strict_reaudit_splits",
-      "severity": "medium",
-      "note": "Three combined records split into separate per-facility objects: (1) Xcimer precursor ladder split into xcimer_phoenix (Denver, 2026), xcimer_anvil (Denver, 2028), xcimer_vulcan (site TBD, 2031) — 3 records with 3 new sequential relationships replacing 1 combined record. (2) Energy Singularity split into energy_singularity_hh70 (operational, 1,337s world record) and energy_singularity_hh170 (planned, Q>1 target) with new precursor relationship. (3) StellarRing Fusion split into stellarring_ntst (precursor, planned Shanghai 2026) and stellarring_commercial (watchlist, 2033 demo target) with new relationship."
+      "note": "Three combined records split into separate per-facility objects: (1) Xcimer precursor ladder split into xcimer_phoenix (Denver, 2026), xcimer_anvil (Denver, 2028), xcimer_vulcan (site TBD, 2031) — 3 records with 3 new sequential relationships replacing 1 combined record. (2) Energy Singularity split into energy_singularity_hh70 (operational, 1,337s world record) and energy_singularity_hh170 (planned, Q>1 target) with new precursor relationship. (3) StellarRing Fusion split into stellarring_ntst (precursor, planned Shanghai 2026) and stellarring_commercial (watchlist, 2033 demo target) with new relationship.",
+      "severity": "medium"
     },
     {
       "category": "strict_reaudit_new_fields",
-      "severity": "info",
-      "note": "Two new fields added to all records: (1) render_on_main_globe (boolean) — true for all primary_projects (6) plus ITER (under construction, program_roadmap anchor). All precursors, roadmaps, and watchlist entries set to false unless they have a named site AND are primary-layer relevant. (2) credibility_bucket — four values: front_runner (Orion, ARC; signed PPAs + construction/site), credible (Infinity Two, STEP, Pacific Fusion, Proxima Stellaris, and most precursors), speculative (General Fusion, Helix KANATA, StellarRing commercial, Marvel, TAE/TMTG, Realta, Focused Energy, Renaissance), conceptual (EU DEMO, JA-DEMO, Novatron N3). No project invented or fabricated to fill these categories."
+      "note": "Two new fields added to all records: (1) render_on_main_globe (boolean) — true for all primary_projects (6) plus ITER (under construction, program_roadmap anchor). All precursors, roadmaps, and watchlist entries set to false unless they have a named site AND are primary-layer relevant. (2) credibility_bucket — four values: front_runner (Orion, ARC; signed PPAs + construction/site), credible (Infinity Two, STEP, Pacific Fusion, Proxima Stellaris, and most precursors), speculative (General Fusion, Helix KANATA, StellarRing commercial, Marvel, TAE/TMTG, Realta, Focused Energy, Renaissance), conceptual (EU DEMO, JA-DEMO, Novatron N3). No project invented or fabricated to fill these categories.",
+      "severity": "info"
     },
     {
       "category": "strict_reaudit_pacific_fusion",
-      "severity": "low",
-      "note": "Pacific Fusion primary record renamed from 'Pacific Fusion Demonstration System + Commercial Plant' to 'Pacific Fusion Commercial Plant'. The Demonstration System is separately and correctly tracked in precursor_facilities as pacific_fusion_demonstration. One record = one facility rule enforced."
+      "note": "Pacific Fusion primary record renamed from 'Pacific Fusion Demonstration System + Commercial Plant' to 'Pacific Fusion Commercial Plant'. The Demonstration System is separately and correctly tracked in precursor_facilities as pacific_fusion_demonstration. One record = one facility rule enforced.",
+      "severity": "low"
     },
     {
       "category": "strict_reaudit_step_retained",
-      "severity": "low",
-      "note": "STEP (West Burton) retained in primary_projects despite no commercial offtaker. Qualification criteria met: named site (West Burton A), £1.3B committed UK government funding (equivalent to strong committed funding), construction partner contracted (ILIOS, March 2026), 100 MWe clear grid-delivery mandate. STEP is the most advanced government-backed fusion power programme in the world and belongs in the top layer."
+      "note": "STEP (West Burton) retained in primary_projects despite no commercial offtaker. Qualification criteria met: named site (West Burton A), £1.3B committed UK government funding (equivalent to strong committed funding), construction partner contracted (ILIOS, March 2026), 100 MWe clear grid-delivery mandate. STEP is the most advanced government-backed fusion power programme in the world and belongs in the top layer.",
+      "severity": "low"
     },
     {
       "category": "expanded_reaudit_new_entrants",
-      "severity": "high",
-      "note": "Three major new entrants added: (1) Inertia Enterprises — $450M Series A (Feb 2026), NIF ignition co-founders, LLNL landmark partnership (Apr 2026, ~200 patents), Thunderwall laser prototype at Livermore CA → precursor_facilities; commercial plant (1 GW, 2030s groundbreaking) → watchlist. (2) Zap Energy — $327M raised, Century demo operational Everett WA (Oct 2024), Centralia WA coal-to-fusion siting study → Century to precursor_facilities, commercial plant → watchlist. (3) First Light Fusion — $108M raised, FLARE high-gain concept (Sept 2025, gain up to 1000x), 60 MW pilot plant concept with CNL, UKAEA contracts → watchlist."
+      "note": "Three major new entrants added: (1) Inertia Enterprises — $450M Series A (Feb 2026), NIF ignition co-founders, LLNL landmark partnership (Apr 2026, ~200 patents), Thunderwall laser prototype at Livermore CA → precursor_facilities; commercial plant (1 GW, 2030s groundbreaking) → watchlist. (2) Zap Energy — $327M raised, Century demo operational Everett WA (Oct 2024), Centralia WA coal-to-fusion siting study → Century to precursor_facilities, commercial plant → watchlist. (3) First Light Fusion — $108M raised, FLARE high-gain concept (Sept 2025, gain up to 1000x), 60 MW pilot plant concept with CNL, UKAEA contracts → watchlist.",
+      "severity": "high"
     },
     {
       "category": "expanded_reaudit_focused_energy_upgrade",
-      "severity": "high",
-      "note": "Focused Energy LightHouse upgraded from watchlist → primary_projects. Qualification: Non-binding MoU signed March 2025 with RWE (named site at Biblis, Germany's oldest decommissioned nuclear plant) and State of Hesse (€20M R&D commitment). RWE provides site infrastructure + nuclear operator expertise. This constitutes a named site + utility partner combination meeting primary layer criteria. MoU is non-binding — score adjusted to 38 to reflect this. Bay Area laser facility operational ($65M, Oct 2024). LLE $6.9M research partnership (March 2026) informs pilot plant engineering design."
+      "note": "Focused Energy LightHouse upgraded from watchlist → primary_projects. Qualification: Non-binding MoU signed March 2025 with RWE (named site at Biblis, Germany's oldest decommissioned nuclear plant) and State of Hesse (€20M R&D commitment). RWE provides site infrastructure + nuclear operator expertise. This constitutes a named site + utility partner combination meeting primary layer criteria. MoU is non-binding — score adjusted to 38 to reflect this. Bay Area laser facility operational ($65M, Oct 2024). LLE $6.9M research partnership (March 2026) informs pilot plant engineering design.",
+      "severity": "high"
     },
     {
       "category": "expanded_reaudit_marvel_upgrade",
-      "severity": "medium",
-      "note": "Marvel Fusion Colorado facility upgraded: confirmed as $150M facility at Colorado State University (Fort Collins), not a generic 'Colorado' location. Under active construction. Series B confirmed at €113M (including €50M extension March 2025: EQT Ventures, Siemens Energy Ventures, EIC Fund — first fusion equity investment by EIC). Siemens Energy jointly developing conceptual FPP design. render_on_main_globe promoted to true (named university site, under construction)."
+      "note": "Marvel Fusion Colorado facility upgraded: confirmed as $150M facility at Colorado State University (Fort Collins), not a generic 'Colorado' location. Under active construction. Series B confirmed at €113M (including €50M extension March 2025: EQT Ventures, Siemens Energy Ventures, EIC Fund — first fusion equity investment by EIC). Siemens Energy jointly developing conceptual FPP design. render_on_main_globe promoted to true (named university site, under construction).",
+      "severity": "medium"
     },
     {
       "category": "expanded_reaudit_secondary_visibility",
-      "severity": "medium",
-      "note": "Secondary-visible layer (render_on_main_globe=true) expanded from 7 to 17 objects: Primary projects (6 + Focused Energy = 7): orion, arc_chesterfield, infinity_two, step_west_burton, pacific_fusion_demo, proxima_stellaris, focused_energy_lighthouse. Precursors now visible: sparc_devens, polaris, best_hefei, infinity_one, st80_hts, helix_haruka, proxima_alpha, xcimer_phoenix, xcimer_anvil, energy_singularity_hh70, lm26, inertia_thunderwall, zap_century, marvel_colorado_demo. Program roadmaps: iter. Watchlist: fast_japan. Rationale: all globe=true precursors have named sited hardware supporting a specific commercial project."
+      "note": "Secondary-visible layer (render_on_main_globe=true) expanded from 7 to 17 objects: Primary projects (6 + Focused Energy = 7): orion, arc_chesterfield, infinity_two, step_west_burton, pacific_fusion_demo, proxima_stellaris, focused_energy_lighthouse. Precursors now visible: sparc_devens, polaris, best_hefei, infinity_one, st80_hts, helix_haruka, proxima_alpha, xcimer_phoenix, xcimer_anvil, energy_singularity_hh70, lm26, inertia_thunderwall, zap_century, marvel_colorado_demo. Program roadmaps: iter. Watchlist: fast_japan. Rationale: all globe=true precursors have named sited hardware supporting a specific commercial project.",
+      "severity": "medium"
     },
     {
       "category": "expanded_reaudit_funding_corrections",
-      "severity": "medium",
-      "note": "Funding corrections from TechCrunch April 2026 ($100M+ list, PitchBook): Type One Energy → $269M (was $160M); General Fusion → $612M (was $462M); Zap Energy → $327M (confirmed); First Light Fusion → $108M (confirmed); Marvel Fusion → €113M (~$125M) Series B total (confirmed). All figures reflect cumulative raised to April 2026."
+      "note": "Funding corrections from TechCrunch April 2026 ($100M+ list, PitchBook): Type One Energy → $269M (was $160M); General Fusion → $612M (was $462M); Zap Energy → $327M (confirmed); First Light Fusion → $108M (confirmed); Marvel Fusion → €113M (~$125M) Series B total (confirmed). All figures reflect cumulative raised to April 2026.",
+      "severity": "medium"
     },
     {
       "category": "expanded_reaudit_lm26_upgrade",
-      "severity": "low",
-      "note": "LM26 (General Fusion) credibility_bucket upgraded from 'speculative' to 'credible' and render_on_main_globe promoted to true. LM26 is an operational machine (Dec 2024) at 50% commercial scale diameter — the most significant private-sector magnetized target fusion hardware in existence. SPAC listing (GFUZ, Nasdaq, $612M raised) adds public accountability. Globe visibility reflects real operating hardware rather than paper concept."
+      "note": "LM26 (General Fusion) credibility_bucket upgraded from 'speculative' to 'credible' and render_on_main_globe promoted to true. LM26 is an operational machine (Dec 2024) at 50% commercial scale diameter — the most significant private-sector magnetized target fusion hardware in existence. SPAC listing (GFUZ, Nasdaq, $612M raised) adds public accountability. Globe visibility reflects real operating hardware rather than paper concept.",
+      "severity": "low"
     },
     {
       "category": "expanded_reaudit_tae_update",
-      "severity": "low",
-      "note": "TAE Technologies/TMTG updated: Multi-state site evaluation tour completed April 2026 (Alabama, Ohio, Texas assessed). This is a meaningful step beyond 'site criteria published' — executive leadership physically visited sites and assessed infrastructure. Score adjusted from 22 to 26. Still watchlist: no site selected, no offtaker, TMTG merger not closed, scientific breakeven not achieved in 28 years."
+      "note": "TAE Technologies/TMTG updated: Multi-state site evaluation tour completed April 2026 (Alabama, Ohio, Texas assessed). This is a meaningful step beyond 'site criteria published' — executive leadership physically visited sites and assessed infrastructure. Score adjusted from 22 to 26. Still watchlist: no site selected, no offtaker, TMTG merger not closed, scientific breakeven not achieved in 28 years.",
+      "severity": "low"
     },
     {
       "category": "globe_mode_audit_v3",
-      "severity": "info",
-      "note": "Introduced three new fields: globe_modes (array), default_globe_visible (boolean), visibility_tier (primary/secondary/hidden). render_on_main_globe redefined to equal default_globe_visible. commercial_race mode contains 7 projects: orion, arc_chesterfield, infinity_two, step_west_burton, pacific_fusion_demo, focused_energy_lighthouse, proxima_stellaris. important_unique mode contains 12 additional projects: sparc_devens, polaris, best_hefei, inertia_thunderwall, infinity_one, st80_hts, zap_century, proxima_alpha, marvel_colorado_demo, energy_singularity_hh70, fast_japan, iter. All remaining records are hidden (globe_modes=[], default_globe_visible=false, visibility_tier=hidden). Total globe-visible: 7 commercial_race + 12 important_unique = 19 unique visible projects across both modes."
+      "note": "Introduced three new fields: globe_modes (array), default_globe_visible (boolean), visibility_tier (primary/secondary/hidden). render_on_main_globe redefined to equal default_globe_visible. commercial_race mode contains 7 projects: orion, arc_chesterfield, infinity_two, step_west_burton, pacific_fusion_demo, focused_energy_lighthouse, proxima_stellaris. important_unique mode contains 12 additional projects: sparc_devens, polaris, best_hefei, inertia_thunderwall, infinity_one, st80_hts, zap_century, proxima_alpha, marvel_colorado_demo, energy_singularity_hh70, fast_japan, iter. All remaining records are hidden (globe_modes=[], default_globe_visible=false, visibility_tier=hidden). Total globe-visible: 7 commercial_race + 12 important_unique = 19 unique visible projects across both modes.",
+      "severity": "info"
     },
     {
       "category": "commercial_race_rationale",
-      "severity": "info",
-      "note": "commercial_race (7 projects): (1) Orion — only fusion project with active physical construction at a named commercial site, signed PPA (Microsoft), Constellation Energy power marketer, $1B+ raised. (2) ARC — two signed PPAs (Google + Eni >$1B), Dominion Energy site lease, $3B raised, largest funded private fusion company globally. (3) Infinity Two — TVA utility LOI, first US fusion license application filed, named site at Bull Run Energy Complex, 350 MWe target. (4) STEP — named site (West Burton A), £1.3B committed UK government funding, ILIOS construction partner contracted, 100 MWe grid mandate. (5) Pacific Fusion Commercial Plant — named site (Mesa del Sol), $900M raised, $776.6M in IRBs, construction starting 2026, mid-2030s commercial target. (6) Focused Energy LightHouse — named site (Biblis, RWE MoU), $175M+ raised, Bay Area laser facility operational, LLE partnership, 1 GW pilot target. (7) Proxima Stellaris — named commercial site (Gundremmingen, former nuclear plant, RWE MoU), €200M raised, peer-reviewed Stellaris concept, Europe's best-funded private fusion company."
+      "note": "commercial_race (7 projects): (1) Orion — only fusion project with active physical construction at a named commercial site, signed PPA (Microsoft), Constellation Energy power marketer, $1B+ raised. (2) ARC — two signed PPAs (Google + Eni >$1B), Dominion Energy site lease, $3B raised, largest funded private fusion company globally. (3) Infinity Two — TVA utility LOI, first US fusion license application filed, named site at Bull Run Energy Complex, 350 MWe target. (4) STEP — named site (West Burton A), £1.3B committed UK government funding, ILIOS construction partner contracted, 100 MWe grid mandate. (5) Pacific Fusion Commercial Plant — named site (Mesa del Sol), $900M raised, $776.6M in IRBs, construction starting 2026, mid-2030s commercial target. (6) Focused Energy LightHouse — named site (Biblis, RWE MoU), $175M+ raised, Bay Area laser facility operational, LLE partnership, 1 GW pilot target. (7) Proxima Stellaris — named commercial site (Gundremmingen, former nuclear plant, RWE MoU), €200M raised, peer-reviewed Stellaris concept, Europe's best-funded private fusion company.",
+      "severity": "info"
     },
     {
       "category": "important_unique_rationale",
-      "severity": "info",
-      "note": "important_unique adds 12 projects beyond commercial_race: (1) SPARC — world's largest private fusion device under active construction, direct gate to ARC; critical that informed users see it. (2) Polaris — direct gate to Orion (must demonstrate electricity first); only 7th-gen MIF prototype in existence. (3) BEST — $2.1B state-backed burning plasma device under construction at Hefei; China's most concrete near-term fusion step; targets world's first fusion electricity ~2030. (4) Inertia Thunderwall — $450M Series A, NIF-ignition co-founders, landmark LLNL partnership (~200 patents), only NIF-physics-grounded private laser system; strategically unique. (5) Infinity One — first US fusion license application, TVA campus, direct gate to Infinity Two; nationally significant regulatory milestone. (6) ST80-HTS — 11.8T HTS magnet world milestone (Nov 2025), STEP magnet partner; field-shaping hardware. (7) Zap Century — operational at Everett WA, $327M, Z-pinch is technologically unique (no external magnets or lasers), TransAlta coal-to-fusion siting study. (8) Proxima Alpha — Garching site agreed, Q>1 by 2031 target, direct gate to Stellaris; significant European stellarator milestone. (9) Marvel Fusion Colorado — under construction at CSU Fort Collins, $125M+, Siemens Energy FPP design partner; only US-sited laser fusion facility under construction beside Inertia. (10) Energy Singularity HH70 — world record 1,337s sustained plasma (April 2026), China's first private HTS tokamak; geographically and technologically unique representation of Chinese private sector. (11) FAST Japan — Japan's first private-sector fusion CDR, backed by J-Power/Mitsui/Mitsubishi/SMBC industrial consortium; nationally strategic Japan private fusion anchor. (12) ITER — $22B 35-nation experiment under construction in France; global science anchor; informed users expect to see it on any serious fusion globe."
+      "note": "important_unique adds 12 projects beyond commercial_race: (1) SPARC — world's largest private fusion device under active construction, direct gate to ARC; critical that informed users see it. (2) Polaris — direct gate to Orion (must demonstrate electricity first); only 7th-gen MIF prototype in existence. (3) BEST — $2.1B state-backed burning plasma device under construction at Hefei; China's most concrete near-term fusion step; targets world's first fusion electricity ~2030. (4) Inertia Thunderwall — $450M Series A, NIF-ignition co-founders, landmark LLNL partnership (~200 patents), only NIF-physics-grounded private laser system; strategically unique. (5) Infinity One — first US fusion license application, TVA campus, direct gate to Infinity Two; nationally significant regulatory milestone. (6) ST80-HTS — 11.8T HTS magnet world milestone (Nov 2025), STEP magnet partner; field-shaping hardware. (7) Zap Century — operational at Everett WA, $327M, Z-pinch is technologically unique (no external magnets or lasers), TransAlta coal-to-fusion siting study. (8) Proxima Alpha — Garching site agreed, Q>1 by 2031 target, direct gate to Stellaris; significant European stellarator milestone. (9) Marvel Fusion Colorado — under construction at CSU Fort Collins, $125M+, Siemens Energy FPP design partner; only US-sited laser fusion facility under construction beside Inertia. (10) Energy Singularity HH70 — world record 1,337s sustained plasma (April 2026), China's first private HTS tokamak; geographically and technologically unique representation of Chinese private sector. (11) FAST Japan — Japan's first private-sector fusion CDR, backed by J-Power/Mitsui/Mitsubishi/SMBC industrial consortium; nationally strategic Japan private fusion anchor. (12) ITER — $22B 35-nation experiment under construction in France; global science anchor; informed users expect to see it on any serious fusion globe.",
+      "severity": "info"
     },
     {
       "category": "visibility_demotions_v3",
-      "severity": "info",
-      "note": "Records demoted from render_on_main_globe=true to hidden (render_on_main_globe=false, visibility_tier=hidden): helix_haruka (small $15M Japanese prototype, too niche for globe), lm26 (operating but General Fusion cancelled UK precedent, FOAK speculative), energy_singularity_hh170 (planned only, no construction site), pacific_fusion_demonstration (co-located with commercial plant already on globe), stellarring_ntst (limited English documentation, China prototype), xcimer_phoenix and xcimer_anvil (precursor ladder steps too granular for globe). These were previously render_on_main_globe=true in the prior dataset but were over-broad inclusions. Their information is preserved in the dataset for relationship graph and research purposes."
+      "note": "Records demoted from render_on_main_globe=true to hidden (render_on_main_globe=false, visibility_tier=hidden): helix_haruka (small $15M Japanese prototype, too niche for globe), lm26 (operating but General Fusion cancelled UK precedent, FOAK speculative), energy_singularity_hh170 (planned only, no construction site), pacific_fusion_demonstration (co-located with commercial plant already on globe), stellarring_ntst (limited English documentation, China prototype), xcimer_phoenix and xcimer_anvil (precursor ladder steps too granular for globe). These were previously render_on_main_globe=true in the prior dataset but were over-broad inclusions. Their information is preserved in the dataset for relationship graph and research purposes.",
+      "severity": "info"
     }
   ]
 }
