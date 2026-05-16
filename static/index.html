@@ -11,9 +11,12 @@
     <div id="globe"></div>
 
     <div id="mode-toggle" role="tablist" aria-label="Globe view mode">
-      <button type="button" role="tab" data-mode="commercial_race" aria-selected="true">Commercial race</button>
+      <button type="button" role="tab" data-mode="all" aria-selected="true">All</button>
+      <button type="button" role="tab" data-mode="commercial_race" aria-selected="false">Commercial race</button>
       <button type="button" role="tab" data-mode="important_unique" aria-selected="false">Important / unique</button>
     </div>
+
+    <button id="add-company-btn" type="button" aria-label="Add company" title="Add company">+</button>
 
     <aside id="sidebar" hidden role="dialog" aria-labelledby="sidebar-project-name">
       <button id="sidebar-close" type="button" aria-label="Close project details">×</button>
@@ -33,6 +36,104 @@
     </aside>
 
     <div id="toast" hidden></div>
+
+    <div id="enrich-modal" class="modal" hidden>
+      <div class="modal-overlay"></div>
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Close modal">×</button>
+
+        <div id="enrich-input-form" class="modal-form">
+          <h2>Add Company</h2>
+          <input
+            id="enrich-company-input"
+            type="text"
+            placeholder="Company name"
+            autofocus
+          >
+          <button id="enrich-submit-btn" type="button">Enrich with AI</button>
+        </div>
+
+        <div id="enrich-review-form" class="modal-form" hidden>
+          <h2>Review Project Data</h2>
+          <div class="form-grid">
+            <label>
+              <span>Project Name</span>
+              <input type="text" data-field="project_name">
+            </label>
+            <label>
+              <span>Company</span>
+              <input type="text" data-field="company_or_operator">
+            </label>
+            <label>
+              <span>Country</span>
+              <input type="text" data-field="country">
+            </label>
+            <label>
+              <span>City / Region</span>
+              <input type="text" data-field="city_or_region">
+            </label>
+            <label>
+              <span>Latitude</span>
+              <input type="number" step="0.0001" data-field="latitude">
+            </label>
+            <label>
+              <span>Longitude</span>
+              <input type="number" step="0.0001" data-field="longitude">
+            </label>
+            <label>
+              <span>Reactor Type</span>
+              <input type="text" data-field="reactor_type">
+            </label>
+            <label>
+              <span>Facility Type</span>
+              <input type="text" data-field="facility_type">
+            </label>
+            <label>
+              <span>Project Stage</span>
+              <input type="text" data-field="project_stage">
+            </label>
+            <label>
+              <span>Funding Raised (USD)</span>
+              <input type="number" data-field="funding_raised_usd">
+            </label>
+            <label>
+              <span>Target Online Year</span>
+              <input type="number" data-field="target_online_year">
+            </label>
+            <label>
+              <span>Offtaker</span>
+              <input type="text" data-field="offtaker">
+            </label>
+            <label>
+              <span>Utility Partner</span>
+              <input type="text" data-field="utility_partner">
+            </label>
+            <label>
+              <span>Current Milestone</span>
+              <input type="text" data-field="current_milestone">
+            </label>
+            <label>
+              <span>Next Milestone</span>
+              <input type="text" data-field="next_milestone">
+            </label>
+            <label>
+              <span>Source URL</span>
+              <input type="text" data-field="source_url">
+            </label>
+            <label>
+              <span>Credibility Bucket</span>
+              <input type="text" data-field="credibility_bucket">
+            </label>
+          </div>
+          <button id="enrich-save-btn" type="button">Save to Map</button>
+        </div>
+
+        <div id="enrich-loading" class="loading" hidden>
+          <div class="spinner"></div>
+          <p>Enriching with AI...</p>
+        </div>
+      </div>
+    </div>
   </main>
 
   <script src="https://unpkg.com/globe.gl@2.32.3/dist/globe.gl.min.js"></script>
