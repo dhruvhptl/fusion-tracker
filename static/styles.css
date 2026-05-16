@@ -119,6 +119,8 @@ main {
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   z-index: 15;
+  flex-wrap: nowrap;
+  white-space: nowrap;
 }
 #mode-toggle button {
   background: transparent;
@@ -129,6 +131,7 @@ main {
   border-radius: 999px;
   cursor: pointer;
   transition: background 150ms ease, color 150ms ease;
+  flex-shrink: 0;
 }
 #mode-toggle button:hover { color: var(--fg); }
 #mode-toggle button[aria-selected="true"] {
